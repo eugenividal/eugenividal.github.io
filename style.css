@@ -1,6 +1,6 @@
 #container {
 
-witdth: 1200px;
+witdth: 900px;
 
 }
 
@@ -84,7 +84,7 @@ font-size: 14px;
 #leftnav {
 
 float: left;
-width: 200px;
+width: 300px;
 height: 1350px;
 background-color: #ffffff;
 
@@ -93,7 +93,7 @@ background-color: #ffffff;
 #rightnav {
 
 float: right;
-width: 200px;
+width: 300px;
 height: 1350px;
 background-color: #ffffff;
 
