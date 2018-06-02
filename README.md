@@ -1,5 +1,5 @@
 # eugenividal.github.io
-Eugeni's website
+Eugeni Vidal | Postgraduate Researcher
 
 This is the repository for the online portfolio of the module **GEOG5995M Programming for Social Science: Core Skills**. 
 It comprises a multi-page website. In pages one (home) and two (research) there is biographical material explaining who I am and what my PhD research project is about; in page three (projects) details of the Agent-Based Model built in the practicals classes of the module as well as a link to the code; and, in page four (contact) links to my email, and GitHub and LinkedIn accounts.
