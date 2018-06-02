@@ -1,6 +1,6 @@
 #container {
 
-witdth: 900px;
+witdth: 1200px;
 
 }
 
@@ -11,18 +11,6 @@ height: 100px;
 position: relative;
 background-color: #ffffff;
 border-bottom: 0.5px solid #9DA68E;
-
-}
-
-#horizontalnav {
-
-width: 900px;
-height: 30px;
-position: relative;
-background-color: #ffffff;
-border-bottom: 1px solid #9DA68E;
-
-}
 
 .navlinks {
 
@@ -79,6 +67,10 @@ font-weight: none;
 font-family: Verdana;
 font-size: 14px;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 41a3d30c7806ee33964bf6114e9691d909996588
 #body {
 
 width: 900px;
