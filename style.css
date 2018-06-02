@@ -79,26 +79,6 @@ font-weight: none;
 font-family: Verdana;
 font-size: 14px;
 
-}
-
-#leftnav {
-
-float: left;
-width: 200px;
-height: 1350px;
-background-color: #ffffff;
-
-}
-
-#rightnav {
-
-float: right;
-width: 200px;
-height: 1350px;
-background-color: #ffffff;
-
-}
-
 #body {
 
 width: 900px;
