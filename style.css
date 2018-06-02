@@ -12,18 +12,6 @@ position: relative;
 background-color: #ffffff;
 border-bottom: 0.5px solid #9DA68E;
 
-}
-
-#horizontalnav {
-
-width: 900px;
-height: 30px;
-position: relative;
-background-color: #ffffff;
-border-bottom: 1px solid #9DA68E;
-
-}
-
 .navlinks {
 
 position: absolute; top: 4px; left: 150px;
