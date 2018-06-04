@@ -10,7 +10,6 @@ width: 900px;
 height: 100px;
 position: relative;
 background-color: #ffffff;
-border-bottom: 0.5px solid #9DA68E;
 
 }
 
@@ -84,7 +83,11 @@ font-size: 14px;
 #leftnav {
 
 float: left;
+<<<<<<< HEAD
 width: 300px;
+=======
+width: 200px;
+>>>>>>> b45bdc4f9b496f34f4e1cde505c15a377de332f2
 height: 1350px;
 background-color: #ffffff;
 
@@ -93,7 +96,11 @@ background-color: #ffffff;
 #rightnav {
 
 float: right;
+<<<<<<< HEAD
 width: 300px;
+=======
+width: 200px;
+>>>>>>> b45bdc4f9b496f34f4e1cde505c15a377de332f2
 height: 1350px;
 background-color: #ffffff;
 
