@@ -1,6 +1,6 @@
 #container {
 
-witdth: 1100px;
+witdth: 900px;
 
 }
 
@@ -19,7 +19,7 @@ background-color: #ffffff;
 
 width: 1000px;
 height: 30px;
-margin: 10px 0px 0px 150px;
+margin: 20px 0px 0px 150px;
 position: relative;
 background-color: #ffffff;
 border-bottom: 1px solid #9DA68E;
@@ -76,8 +76,17 @@ font-size: 18px;
 #leftnav {
 
 float: left;
-margin: 10px 0px 0px 150px;
+margin: 20px 0px 0px 150px;
 width: 150px;
+height: 1350px;
+background-color: #ffffff;
+
+}
+
+#rightnav {
+
+float: right;
+width: 200px;
 height: 1350px;
 background-color: #ffffff;
 
@@ -127,7 +136,6 @@ font-size: 16px;
 
 }
 
-
 #body li {
 
 margin: 0px 18px 0px 0px;
@@ -142,7 +150,7 @@ font-size: 15px;
 
 
 #footer {
-width: 1100px;
+width: 900px;
 height: 1px;
 clear: both;
 background-color: #9DA68E;
