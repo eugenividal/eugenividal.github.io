@@ -7,10 +7,10 @@ witdth: 900px;
 #header {
 
 width: 900px;
-height: 100px;
-position: relative;
+height: 50px;
+position: center;
 background-color: #ffffff;
-border-bottom: 0.5px solid #9DA68E;
+
 
 }
 
@@ -56,28 +56,18 @@ font-family: Verdana;
 .navlinks li a:hover {
 
 color: #ffffff;
-background-color: #ECE5EB;
+background-color: #0070C0;
 text-decoration: underline;
 
 }
 
 #header p {
 
-color: #7b1a8b;
+color: #0070C0;
 opacity: .75;
 font-weight: none;
 font-family: Verdana;
-font-size: 24px;
-
-}
-
-#header ps {
-
-color: #7b1a8b;
-opacity: .75;
-font-weight: none;
-font-family: Verdana;
-font-size: 14px;
+font-size: 20px;
 
 }
 
@@ -116,7 +106,7 @@ font-size: 15px;
 
 #body h1 {
 
-color: #7b1a8b;
+color: #0070C0;
 opacity: .75;
 font-weight: bold;
 font-family: Verdana;
@@ -126,7 +116,7 @@ font-size: 24px;
 
 #body h2 {
 
-color: #7b1a8b;
+color: #0070C0;
 opacity: .75;
 font-weight: none;
 font-family: Verdana;
@@ -136,7 +126,7 @@ font-size: 20px;
 
 #body h3 {
 
-color: #7b1a8b;
+color: #0070C0;
 opacity: .75;
 font-weight: none;
 font-family: Verdana;
