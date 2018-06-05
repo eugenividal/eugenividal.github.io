@@ -59,9 +59,13 @@ text-decoration: underline;
 }
 
 
-img
-{
- border-color: white;
+#leftnav {
+
+float: left;
+margin: 20px 0px 0px 150px;
+width: 150px;
+background-color: #ffffff;
+
 }
 
 #header p {
@@ -77,12 +81,14 @@ font-size: 18px;
 #body {
 width: 1000px;
 margin: 0px 18px 20px 150px;
+background-color: #ffffff;
 
 }
 
 #body p {
 
 color: #000000;
+margin: 0px 18px 20px 150px;
 font-weight: none;
 font-family: Verdana;
 font-size: 15px;
@@ -93,6 +99,7 @@ font-size: 15px;
 
 color: #0070C0;
 opacity: .75;
+margin: 0px 18px 20px 150px;
 font-weight: bold;
 font-family: Verdana;
 font-size: 24px;
@@ -103,6 +110,7 @@ font-size: 24px;
 
 color: #0070C0;
 opacity: .75;
+margin: 0px 18px 20px 150px;
 font-weight: none;
 font-family: Verdana;
 font-size: 20px;
@@ -113,21 +121,9 @@ font-size: 20px;
 
 color: #0070C0;
 opacity: .75;
+margin: 0px 18px 20px 150px;
 font-weight: none;
 font-family: Verdana;
 font-size: 16px;
 
 }
-
-#body li {
-
-margin: 0px 18px 0px 0px;
-list-style-type: none;
-display: inline;
-color: #000000;
-font-weight: none;
-font-family: Verdana;
-font-size: 15px;
-
-}
-
