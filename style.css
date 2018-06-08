@@ -5,9 +5,9 @@
 
 #header {
 
-width: 960px;
+width: 900px;
 height: 80px;
-margin: 10px 10px 10px 50px;
+margin: 10px 20px 10px 60px;
 position: right;
 background-color: #ffffff;
 
@@ -15,9 +15,9 @@ background-color: #ffffff;
 
 #horizontalnav {
 
-width: 960px;
+width: 900px;
 height: 30px;
-margin: 10px 10px 10px 50px;
+margin: 10px 10px 20px 60px;
 position: relative;
 background-color: #ffffff;
 border-bottom: 1px solid #9DA68E;
@@ -63,7 +63,7 @@ text-decoration: underline;
 
 #leftnav {
 float: left;
-margin: 10px 10px 20px 50px;
+margin: 10px 10px 20px 60px;
 width: 100px;
 background-color: #ffffff;
 
@@ -79,8 +79,8 @@ font-size: 18px;
 }
 
 #body {
-width: 960px;
-margin: 10px 100px 0px 50px;
+width: 900px;
+margin: 10px 100px 0px 60px;
 background-color: #ffffff;
 
 }
@@ -102,7 +102,7 @@ opacity: .75;
 margin: 10px 50px 10px 150px;
 font-weight: bold;
 font-family: Verdana;
-font-size: 24px;
+font-size: 22px;
 
 }
 
@@ -113,12 +113,12 @@ opacity: .75;
 margin: 10px 50px 10px 150px;
 font-weight: none;
 font-family: Verdana;
-font-size: 20px;
+font-size: 18px;
 
 }
 
 #footer {
-width: 960px;
+width: 900px;
 height: 1px;
 clear: both;
 background-color: #ffffff;
