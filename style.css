@@ -1,5 +1,5 @@
 #container {
-	max-witdth: 500px;
+	max-witdth: 450px;
 	margin: auto;
 }
 
@@ -7,7 +7,7 @@
 
 width: 900px;
 height: 80px;
-margin: 10px 20px 10px 30px;
+margin: 10px 30px 10px 30px;
 position: right;
 background-color: #ffffff;
 
@@ -17,7 +17,7 @@ background-color: #ffffff;
 
 width: 900px;
 height: 30px;
-margin: 10px 10px 20px 30px;
+margin: 10px 30px 10px 30px;
 position: relative;
 background-color: #ffffff;
 border-bottom: 1px solid #9DA68E;
@@ -63,7 +63,7 @@ text-decoration: underline;
 
 #leftnav {
 float: left;
-margin: 10px 10px 20px 30px;
+margin: 10px 30px 10px 30px;
 width: 100px;
 background-color: #ffffff;
 
