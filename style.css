@@ -8,7 +8,7 @@ position: center;
 
 width: 900px;
 height: 75px;
-margin: 0px 0px 0px 100px;
+margin: 10px 10px 10px 100px;
 position: right;
 background-color: #ffffff;
 
@@ -38,7 +38,7 @@ margin: auto;
 
 .navlinks li {
 
-margin: 0px 18px 0px 0px;
+margin:10px 0px 0px 10px;
 list-style-type: none;
 display: inline;
 
@@ -66,7 +66,7 @@ text-decoration: underline;
 #leftnav {
 
 float: left;
-margin: 20px 0px 0px 100px;
+margin: 10px 0px 0px 100px;
 width: 150px;
 background-color: #ffffff;
 
@@ -84,7 +84,7 @@ font-size: 18px;
 
 #body {
 width: 900px;
-margin: 0px 18px 20px 100px;
+margin: 10px 150px 0px 150px;
 background-color: #ffffff;
 
 }
@@ -92,7 +92,7 @@ background-color: #ffffff;
 #body p {
 
 color: #000000;
-margin: 20px 18px 20px 150px;
+margin: 10px 150px 0px 150px;
 font-weight: none;
 font-family: Verdana;
 font-size: 14px;
@@ -103,7 +103,7 @@ font-size: 14px;
 
 color: #0070C0;
 opacity: .75;
-margin: 20px 18px 20px 150px;
+margin: 10px 150px 0px 150px;
 font-weight: bold;
 font-family: Verdana;
 font-size: 24px;
@@ -114,7 +114,7 @@ font-size: 24px;
 
 color: #0070C0;
 opacity: .75;
-margin: 20px 18px 20px 150px;
+margin: 10px 150px 0px 150px;
 font-weight: none;
 font-family: Verdana;
 font-size: 20px;
