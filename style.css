@@ -1,9 +1,15 @@
+#container {
+
+witdth: 900px;
+position: center;
+}
+
 #header {
 
 width: 900px;
-height: 70px;
-margin: 10px 0px 0px 100px;
-position: center;
+height: 75px;
+margin: 0px 0px 0px 100px;
+position: right;
 background-color: #ffffff;
 
 }
@@ -12,7 +18,7 @@ background-color: #ffffff;
 
 width: 900px;
 height: 30px;
-margin: 20px 0px 0px 100px;
+margin: 10px 0px 0px 100px;
 position: relative;
 background-color: #ffffff;
 border-bottom: 1px solid #9DA68E;
