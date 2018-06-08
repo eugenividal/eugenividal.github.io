@@ -1,10 +1,8 @@
-
-
 #header {
 
 width: 900px;
 height: 70px;
-margin: 10px 0px 0px 150px;
+margin: 10px 0px 0px 100px;
 position: center;
 background-color: #ffffff;
 
@@ -14,7 +12,7 @@ background-color: #ffffff;
 
 width: 900px;
 height: 30px;
-margin: 20px 0px 0px 150px;
+margin: 20px 0px 0px 100px;
 position: relative;
 background-color: #ffffff;
 border-bottom: 1px solid #9DA68E;
@@ -62,7 +60,7 @@ text-decoration: underline;
 #leftnav {
 
 float: left;
-margin: 20px 0px 0px 150px;
+margin: 20px 0px 0px 100px;
 width: 150px;
 background-color: #ffffff;
 
@@ -80,7 +78,7 @@ font-size: 18px;
 
 #body {
 width: 900px;
-margin: 0px 18px 20px 150px;
+margin: 0px 18px 20px 100px;
 background-color: #ffffff;
 
 }
