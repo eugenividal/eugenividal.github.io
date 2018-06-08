@@ -1,8 +1,6 @@
 #container {
-
-witdth: 900px;
-position: center;
-background-color: #ffffff;
+	max-witdth: 500px;
+	margin: auto;
 }
 
 #header {
