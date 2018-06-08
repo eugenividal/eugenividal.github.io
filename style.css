@@ -2,15 +2,16 @@
 
 witdth: 900px;
 position: center;
+background-color: #444444;
 }
 
 #header {
 
 width: 900px;
-height: 75px;
-margin: 10px 0px 0px 50px;
+height: 80px;
+margin: 10px 10px 10px 220px;
 position: right;
-background-color: #ffffff;
+background-color: #9DA68E;
 
 }
 
@@ -18,7 +19,7 @@ background-color: #ffffff;
 
 width: 900px;
 height: 30px;
-margin: 10px 0px 0px 50px;
+margin: 10px 10px 10px 220px;
 position: relative;
 background-color: #ffffff;
 border-bottom: 1px solid #9DA68E;
@@ -27,7 +28,7 @@ border-bottom: 1px solid #9DA68E;
 
 .navlinks {
 
-position: absolute; top: 4px; left: 200px;
+position: absolute; top: 4px; left: 220px;
 
 }
 
@@ -62,18 +63,15 @@ text-decoration: underline;
 
 }
 
-
 #leftnav {
-
 float: left;
-margin: 10px 0px 0px 50px;
+margin: 10px 10px 20px 230px;
 width: 100px;
 background-color: #ffffff;
 
 }
 
 #header p {
-
 color: #0070C0;
 opacity: .75;
 font-weight: none;
@@ -84,7 +82,7 @@ font-size: 18px;
 
 #body {
 width: 900px;
-margin: 10px 100px 0px 100px;
+margin: 10px 100px 0px 220px;
 background-color: #ffffff;
 
 }
@@ -92,7 +90,7 @@ background-color: #ffffff;
 #body p {
 
 color: #000000;
-margin: 10px 100px 0px 100px;
+margin: 10px 50px 10px 180px;
 font-weight: none;
 font-family: Verdana;
 font-size: 14px;
@@ -103,7 +101,7 @@ font-size: 14px;
 
 color: #0070C0;
 opacity: .75;
-margin: 10px 100px 0px 100px;
+margin: 10px 50px 10px 180px;
 font-weight: bold;
 font-family: Verdana;
 font-size: 24px;
@@ -114,7 +112,7 @@ font-size: 24px;
 
 color: #0070C0;
 opacity: .75;
-margin: 10px 100px 0px 100px;
+margin: 10px 50px 10px 180px;
 font-weight: none;
 font-family: Verdana;
 font-size: 20px;
@@ -125,9 +123,15 @@ font-size: 20px;
 
 color: #0070C0;
 opacity: .75;
-margin: 20px 18px 20px 150px;
+margin: 10px 50px 10px 180px;
 font-weight: none;
 font-family: Verdana;
 font-size: 16px;
 
 }
+
+#footer {
+width: 900px;
+height: 1px;
+clear: both;
+background-color: #555555;
