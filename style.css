@@ -3,7 +3,7 @@
 
 width: 900px;
 height: 80px;
-margin: 10px 30px 10px 30px;
+margin: 10px 0px 10px 30px;
 position: auto;
 background-color: #ffffff;
 
@@ -13,7 +13,7 @@ background-color: #ffffff;
 
 width: 900px;
 height: 30px;
-margin: 10px 30px 10px 30px;
+margin: 10px 0px 10px 30px;
 position: relative;
 background-color: #ffffff;
 border-bottom: 1px solid #9DA68E;
@@ -59,7 +59,7 @@ text-decoration: underline;
 
 #leftnav {
 float: left;
-margin: 10px 30px 10px 30px;
+margin: 10px 0px 10px 30px;
 width: 100px;
 background-color: #ffffff;
 
@@ -76,7 +76,7 @@ font-size: 18px;
 
 #body {
 width: 900px;
-margin: 10px 10px 0px 30px;
+margin: 10px 0px 0px 30px;
 background-color: #ffffff;
 
 }
@@ -84,7 +84,7 @@ background-color: #ffffff;
 #body p {
 
 color: #000000;
-margin: 10px 50px 10px 150px;
+margin: 10px 0px 10px 150px;
 font-weight: none;
 font-family: Verdana;
 font-size: 14px;
@@ -95,7 +95,7 @@ font-size: 14px;
 
 color: #0070C0;
 opacity: .75;
-margin: 10px 50px 10px 150px;
+margin: 10px 0px 10px 150px;
 font-weight: bold;
 font-family: Verdana;
 font-size: 22px;
