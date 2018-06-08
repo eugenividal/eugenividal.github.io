@@ -18,7 +18,7 @@ background-color: #ffffff;
 
 width: 900px;
 height: 30px;
-margin: 10px 0px 0px 100px;
+margin: 0px 0px 0px 100px;
 position: relative;
 background-color: #ffffff;
 border-bottom: 1px solid #9DA68E;
@@ -47,7 +47,7 @@ display: inline;
 .navlinks li a {
 
 color: #000000;
-padding: 5px 12px 7px;
+padding: 5px 20px 7px;
 text-decoration: none;
 font-size: 18px;
 font-family: Verdana;
@@ -67,7 +67,7 @@ text-decoration: underline;
 
 float: left;
 margin: 10px 0px 0px 100px;
-width: 150px;
+width: 200px;
 background-color: #ffffff;
 
 }
