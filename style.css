@@ -5,9 +5,9 @@
 
 #header {
 
-width: 900px;
+width: 960px;
 height: 80px;
-margin: 10px 10px 10px 220px;
+margin: 10px 10px 10px 50px;
 position: right;
 background-color: #ffffff;
 
@@ -15,9 +15,9 @@ background-color: #ffffff;
 
 #horizontalnav {
 
-width: 900px;
+width: 960px;
 height: 30px;
-margin: 10px 10px 10px 220px;
+margin: 10px 10px 10px 50px;
 position: relative;
 background-color: #ffffff;
 border-bottom: 1px solid #9DA68E;
@@ -26,7 +26,7 @@ border-bottom: 1px solid #9DA68E;
 
 .navlinks {
 
-position: absolute; top: 4px; left: 220px;
+position: absolute; top: 4px; left: 250px;
 
 }
 
@@ -63,7 +63,7 @@ text-decoration: underline;
 
 #leftnav {
 float: left;
-margin: 10px 10px 20px 230px;
+margin: 10px 10px 20px 50px;
 width: 100px;
 background-color: #ffffff;
 
@@ -79,8 +79,8 @@ font-size: 18px;
 }
 
 #body {
-width: 900px;
-margin: 10px 100px 0px 220px;
+width: 960px;
+margin: 10px 100px 0px 50px;
 background-color: #ffffff;
 
 }
@@ -88,7 +88,7 @@ background-color: #ffffff;
 #body p {
 
 color: #000000;
-margin: 10px 50px 10px 180px;
+margin: 10px 50px 10px 150px;
 font-weight: none;
 font-family: Verdana;
 font-size: 14px;
@@ -99,7 +99,7 @@ font-size: 14px;
 
 color: #0070C0;
 opacity: .75;
-margin: 10px 50px 10px 180px;
+margin: 10px 50px 10px 150px;
 font-weight: bold;
 font-family: Verdana;
 font-size: 24px;
@@ -110,26 +110,15 @@ font-size: 24px;
 
 color: #0070C0;
 opacity: .75;
-margin: 10px 50px 10px 180px;
+margin: 10px 50px 10px 150px;
 font-weight: none;
 font-family: Verdana;
 font-size: 20px;
 
 }
 
-#body h3 {
-
-color: #0070C0;
-opacity: .75;
-margin: 10px 50px 10px 180px;
-font-weight: none;
-font-family: Verdana;
-font-size: 16px;
-
-}
-
 #footer {
-width: 900px;
+width: 960px;
 height: 1px;
 clear: both;
 background-color: #ffffff;
