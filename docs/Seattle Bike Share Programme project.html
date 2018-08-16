@@ -9,7 +9,7 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="001681614" />
+<meta name="author" content="Eugeni Vidal" />
 
 
 <title>Seattle’s Bike-share Programme: visualising current use and predicting future demand</title>
@@ -230,23 +230,23 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Seattle’s Bike-share Programme: visualising current use and predicting future demand</h1>
-<h4 class="author"><em>001681614</em></h4>
-<h4 class="date"><em>15 August, 2018</em></h4>
+<h4 class="author"><em>Eugeni Vidal</em></h4>
+<h4 class="date"><em>16 August, 2018</em></h4>
 
 </div>
 
 
 <div id="executive-summary" class="section level1">
 <h1>Executive Summary</h1>
-<p>In recent years, the increase of bike-share programmes (BSPs) has been significant, existing currently almost a thousand of them around the globe. These programmes contain technology that generates information particularly useful to answer questions such as what the preferred routes of the users are, what the users’ profile is like or when the service is most used.</p>
+<p>In recent years, the increase of bike-share programmes (BSPs) has been significant around the world, growing from a few in the late 1990s to almost 1,000 at the present time. These programmes contain technology that generates information particularly useful to answer questions such as what the preferred routes of the bike-share users are, what the users’ profile is like or when the service is most used.</p>
 <p>Based on data from the Seattle’s BSP properly prepared, this study aims (1) to gain insight into bike-share cycling in Seattle through a data visualisation analysis; and (2) to build an accurate statistical model to predict bike-share trips.</p>
-<p>The visualisation spatial analysis reveals that the most popular bike-share route in Seattle is along the Waterfront. Non-spatial graphs show that most bike-share trips are made during peak hours and during summer and spring. The bike-share user is generally a male, between 26 and 35 years old and with a commuting purpose. In the fall of 2015, the Seattle’s BSP experienced a significant fall in the number of trips, without having been possible so far, recover the initial figures. On the other hand, the statistical model tells us that from the information available, the most significant predictors of bike-share trips in Seattle are date, hour, type of day, dew point, humidity, sea level pressure, precipitation and a bit less wind.</p>
+<p>The visualisation spatial analysis reveals that the most popular bike-share route in Seattle is along the Waterfront. Non-spatial graphs show that most bike-share trips are made during peak hours and during summer and spring. The bike-share user is generally a male, between 26 and 35 years old and with a commuting purpose. In the fall of 2015, the Seattle’s BSP experienced a significant fall in the number of trips, without having been possible so far, recover the initial figures. On the other hand, the statistical model tells us that the most significant predictors of bike-share trips in Seattle are date, hour, type of day, dew point, humidity, sea level pressure, precipitation and to a lesser extent wind.</p>
 </div>
 <div id="introduction" class="section level1">
 <h1>1. Introduction</h1>
 <div id="context" class="section level2">
 <h2>1.1 Context</h2>
-<p>The bike-share programmes (BSPs) can be defined as “the provision of bicycles to enable short-term rental from one docking station to another”<span class="citation">(Fishman et al., <a href="#ref-fishman_bike_2013">2013</a> p. 148)</span>. In recent years, the increase of these programmes has been significant around the globe, growing from a few in the late 1990s to almost 1,000 at the time of this report <span class="citation">(Fishman, <a href="#ref-fishman_bikeshare:_2016">2016</a> p. 92)</span>. The BSPs contain technology that allows storing information about their users and tracking the movement of the bikes <span class="citation">(Fishman et al., <a href="#ref-fishman_bike_2013">2013</a> p. 149; Fishman, <a href="#ref-fishman_bikeshare:_2016">2016</a> p. 92; Romanillos et al., <a href="#ref-romanillos_big_2016">2016</a> p. 116)</span>. This is particularly useful for city and transport planners in order to improve the service and answer questions such as what the preferred routes of the users are, what the users’ profile is like or when the service is most used.</p>
+<p>The bike-share programmes (BSPs) can be defined as “the provision of bicycles to enable short-term rental from one docking station to another”<span class="citation">(Fishman et al., <a href="#ref-fishman_bike_2013">2013</a> p. 148)</span>. In recent years, the increase of these programmes has been significant around the world, growing from a few in the late 1990s to almost 1,000 at the present time <span class="citation">(Fishman, <a href="#ref-fishman_bikeshare:_2016">2016</a> p. 92)</span>. The BSPs contain technology that allows storing information about their users and tracking the movement of the bikes <span class="citation">(Fishman et al., <a href="#ref-fishman_bike_2013">2013</a> p. 149; Fishman, <a href="#ref-fishman_bikeshare:_2016">2016</a> p. 92; Romanillos et al., <a href="#ref-romanillos_big_2016">2016</a> p. 116)</span>. This is particularly useful for city and transport planners in order to improve the service and better understand cycling in their city.</p>
 </div>
 <div id="aims" class="section level2">
 <h2>1.2 Aims</h2>
@@ -255,7 +255,7 @@ div.tocify {
 <li><p>to gain insight into the use of the Seattle’s BSP through data visualisation; and</p></li>
 <li><p>to build a statistical model to predict the number of bike-share trips per hour.</p></li>
 </ul>
-<p>The project has been undertaken using <strong>R</strong> (programming language) and <strong>rmarkdown</strong> notebook interface. This will allow the reader to see in a single document all the process done, including the code used in each step, making the whole project more enjoyable and understandable.</p>
+<p>This project has been undertaken using <strong>R</strong> (programming language) and <strong>rmarkdown</strong> notebook interface. This will allow the reader to see in a single document all the process done, including the code used in each step, making the whole project more enjoyable and understandable.</p>
 </div>
 <div id="plan" class="section level2">
 <h2>1.3 Plan</h2>
@@ -1200,7 +1200,7 @@ mdsV_RMSE &lt;- round(sqrt(mean(((exp(mdsV$pred_l_count)-1)-(exp(mdsV$l_count)-1
 mdsV_MAE &lt;- round(mean(abs((exp(mdsV$pred_l_count)-1)-(exp(mdsV$l_count)-1))))
 c(mdsV_corr^2, mdsV_RMSE, mdsV_MAE)</code></pre>
 <pre><code>## [1]  0.7056 12.0000  8.0000</code></pre>
-<p>The corr^2 is slightly higher in the train set than in the validation set, something that we could expect. However, in both cases, the RMSE and the MAE is the same, 12 and 8 respectively. This means that the error in our prediction of trips per hour is around 12 and maybe as little as 8. With this, we can conclude that we have managed to build an accurate model to predict bike-share trips per hour in the city of Seattle.</p>
+<p>The corr^2 is slightly higher in the train set than in the validation set. This is something that we could expect. However, in both cases, the RMSE and the MAE is the same, 12 and 8 respectively. This means that the error in our prediction of trips per hour is around 12 and maybe as little as 8. With this, we can conclude that we have managed to build an accurate model to predict bike-share trips for the city of Seattle.</p>
 </div>
 </div>
 </div>
@@ -1218,7 +1218,7 @@ c(mdsV_corr^2, mdsV_RMSE, mdsV_MAE)</code></pre>
 </div>
 <div id="conclusions" class="section level1">
 <h1>6. Conclusions</h1>
-<p>This study analyses the use of the Seattle’s BSP through spatial and non-spatial data visualisations and builds a precise statistical model to predict bicycle-share trips.</p>
+<p>This study analyses the use of the Seattle’s BSP through spatial and non-spatial data visualisations and builds an accurate statistical model to predict bicycle-share trips.</p>
 <p>The visualisation analysis reveals that:</p>
 <ul>
 <li><p>The most popular bike-share route in Seattle is in the Waterfront.</p></li>
@@ -1227,7 +1227,7 @@ c(mdsV_corr^2, mdsV_RMSE, mdsV_MAE)</code></pre>
 <li><p>Males use the BSP almost 4 times more than females, and the population between 26 and 35 is predominant.</p></li>
 <li><p>In the fall of 2015, there was a significant decrease in the number of trips, without having been possible so far recover the initial figures.</p></li>
 </ul>
-<p>The interpretation of the model tells us that from the information available, the most significant predictors of bike-share trips in Seattle are date, hour, type of day, dew point, humidity, sea level pressure, precipitation and a bit less wind.</p>
+<p>The interpretation of the model tells us that from the information available, the most significant predictors of bike-share trips in Seattle are date, hour, type of day, dew point, humidity, sea level pressure, precipitation and to a lesser extent wind.</p>
 </div>
 <div id="references" class="section level1 unnumbered">
 <h1>References</h1>
