@@ -9,11 +9,12 @@ position: auto;
 background-color: #ffffff;
 }
 #horizontalnav {
-height: 30px;
+height: 40px;
 position: relative;
 background-color: #ffffff;
-border-bottom: 1px solid #9DA68E;
+border-bottom: 2px #ddd solid;
 }
+
 .navlinks {
 position: absolute; top: 4px; left: 240px;
 }
@@ -76,6 +77,13 @@ font-family: Verdana;
 font-size: 18px;
 }
 #footer {
-height: 1px;
-clear: both;
-background-color: #ffffff;
+	clear: both;
+	margin: 40px 0 35px 0;
+	border-top: 2px #ddd solid;
+}
+#footer p {
+	color: #aaa;
+	margin-top: 10px;
+	font-family: Verdana;
+	font-size: 12px;
+}
