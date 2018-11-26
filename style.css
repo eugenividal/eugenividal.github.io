@@ -4,7 +4,7 @@
 	margin: 0 auto;
 }
 #header {
-height: 80px;
+height: 87px;
 position: auto;
 background-color: #ffffff;
 }
@@ -68,6 +68,15 @@ font-family: Verdana;
 font-size: 26px;
 }
 #body h2 {
+color: #0070C0;
+opacity: .75;
+margin: 10px 20px 0px 150px;
+font-weight: none;
+font-family: Verdana;
+font-size: 20px;
+}
+
+#body h3 {
 color: #0070C0;
 opacity: .75;
 margin: 10px 20px 0px 150px;
