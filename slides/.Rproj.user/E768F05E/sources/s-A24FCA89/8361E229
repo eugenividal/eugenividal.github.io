@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1568478767003.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8361E229",
+    "lastKnownWriteTime" : 1568382235,
+    "last_content_update" : 1568382235,
+    "path" : "~/OneDrive - University of Leeds/MSc DAS/GEOG5995M PSS/Assessments/Assessment 1/eugenividal.github.io/slides/CDAS_presentation_all_cycling.Rmd",
+    "project_path" : "CDAS_presentation_all_cycling.Rmd",
+    "properties" : {
+        "chunk_output_type" : "console"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
