@@ -72,6 +72,12 @@ background-size: cover
 
 # Results
 
+---
+background-image: url('images/Model_diagram.jpg')
+background-position: center
+background-size: cover
+
+---
 
 ```{r echo=FALSE, fig.wout.width='120%'}
 #r::include_graphics('./images/nude_graph.png')
