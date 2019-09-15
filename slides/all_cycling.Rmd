@@ -77,7 +77,7 @@ background-size: cover
 #r::include_graphics('./images/nude_graph.png')
 ```
 
-```{r message=FALSE, include=FALSE, messaecho=FALSE}
+```{r eval=FALSE, message=FALSE, include=FALSE, messaecho=FALSE}
 library(ggplot2)
 library(plotly)
 
