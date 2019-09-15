@@ -5,16 +5,16 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2494671264",
+    "hash" : "3063118458",
     "id" : "8361E229",
-    "lastKnownWriteTime" : 1568545324,
-    "last_content_update" : 1568545324995,
+    "lastKnownWriteTime" : 1568569235,
+    "last_content_update" : 1568569235094,
     "path" : "~/OneDrive - University of Leeds/Research/eugenividal.github.io/slides/all_cycling.Rmd",
     "project_path" : "all_cycling.Rmd",
     "properties" : {
         "chunk_output_type" : "console",
-        "cursorPosition" : "147,0",
-        "scrollLine" : "133"
+        "cursorPosition" : "132,112",
+        "scrollLine" : "123"
     },
     "read_only" : false,
     "read_only_alternatives" : [
