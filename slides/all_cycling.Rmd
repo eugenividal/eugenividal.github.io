@@ -141,6 +141,12 @@ p
 - **More research is needed** into the barriers that lead to these disparities.
 
 ---
+
+background-image: url('images/mamils_Source_Getty.jpg')
+background-size: cover
+
+---
+
 background-image: url('images/04_Strasbourg_01-inline.jpg')
 background-size: cover
 --
