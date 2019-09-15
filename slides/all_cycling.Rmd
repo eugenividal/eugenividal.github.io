@@ -66,7 +66,7 @@ knitr::include_graphics('./images/Model_diagram.jpg')
 ```
 ---
 
-background-image: url('images/RRSv3.jpg')
+background-image: url('images/RRsv2.jpg')
 background-position: center
 background-size: cover
 
@@ -77,8 +77,7 @@ background-size: cover
 #r::include_graphics('./images/nude_graph.png')
 ```
 
-
-```{r eval=FALSE, message=FALSE, include=FALSE, messaecho=FALSE}
+```{r message=FALSE, include=FALSE, messaecho=FALSE}
 library(ggplot2)
 library(plotly)
 
@@ -92,7 +91,7 @@ rrs$activity <- ordered(rrs$activity, levels = c("imd_2Most", "eth_2Non-white", 
 levels(rrs$activity)
 
 # Change na,es
-levels(rrs$activity) <-  c( "most deprived (vs. least)", "non-white (vs. white)",  "age 55+ (vs.age 16-54)", "female (vs.male)")
+levels(rrs$activity) <-  c( "Most deprived (vs. least)", "Non-white (vs. white)",  "Age 55+ (vs.age 16-54)", "Female (vs.male)")
 
 # Elements like pointrange and position_dodge only work when the outcome
 #   is mapped to y, need to go through with OR set as y then flip at the
@@ -100,12 +99,12 @@ levels(rrs$activity) <-  c( "most deprived (vs. least)", "non-white (vs. white)"
 
 p <- ggplot(rrs, aes( x = activity, y = or)) +
         geom_pointrange(color = "#F7005E", aes(ymin = low, ymax = hi),
-                       size = 0.75) +
-        geom_hline(yintercept = 1, linetype = "dotted", size = 0.75) +
-        scale_y_log10(breaks = c(0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1),
+                       size = 3) +
+        geom_hline(yintercept = 1, linetype = "dotted", size = 1.5) +
+        scale_y_log10(breaks = c(0.2, 0.4, 0.6, 0.8, 1),
                       minor_breaks = NULL) +
         labs(y = "Probability Ratios (log scale)", x = "") +
-        coord_flip(ylim = c(0.4, 1)) +
+        coord_flip(ylim = c(0.2, 1)) +
         theme_minimal() 
 
 #p <- p + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
@@ -117,10 +116,10 @@ p <- p + theme(legend.title = element_blank())
 #p <-  update_labels(p, list(colour="Type of cycling", size=12))
 
 p <- p + theme(axis.text.x = element_text(  
-                           size=14),
+                           size=24),
           axis.text.y = element_text( 
-                           size=14),
-        axis.title=element_text(size=12,face="bold"))
+                           size=24),
+        axis.title=element_text(size=20,face="bold"))
 #p <- p + theme(legend.title = element_text(size = 12),
 #          legend.text = element_text(size = 12))
 

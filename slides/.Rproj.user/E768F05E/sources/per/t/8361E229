@@ -5,14 +5,16 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "603761650",
+    "hash" : "2304298212",
     "id" : "8361E229",
-    "lastKnownWriteTime" : 1568480320,
-    "last_content_update" : 1568480320182,
-    "path" : "~/OneDrive - University of Leeds/MSc DAS/GEOG5995M PSS/Assessments/Assessment 1/eugenividal.github.io/slides/all_cycling.Rmd",
+    "lastKnownWriteTime" : 1568484919,
+    "last_content_update" : 1568484919,
+    "path" : "~/OneDrive - University of Leeds/Research/eugenividal.github.io/slides/all_cycling.Rmd",
     "project_path" : "all_cycling.Rmd",
     "properties" : {
-        "chunk_output_type" : "console"
+        "chunk_output_type" : "console",
+        "cursorPosition" : "0,0",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [
