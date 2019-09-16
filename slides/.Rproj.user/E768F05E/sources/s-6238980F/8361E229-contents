@@ -66,19 +66,19 @@ knitr::include_graphics('./images/Model_diagram.jpg')
 ```
 ---
 
-background-image: url('images/RRSv3.jpg')
+background-image: url('images/RRs.jpg')
 background-position: center
 background-size: cover
 
 # Results
 
 
-```{r echo=FALSE, fig.wout.width='120%'}
+
+```{r fig.wout.width='120%', include=FALSE}
 #r::include_graphics('./images/nude_graph.png')
 ```
 
-
-```{r eval=FALSE, message=FALSE, include=FALSE, messaecho=FALSE}
+```{r eval=FALSE, message=FALSE, warning=FALSE, include=FALSE, messaecho=FALSE, paged.print=FALSE}
 library(ggplot2)
 library(plotly)
 
@@ -86,26 +86,31 @@ rrs = readRDS(file = "all.rds")
 
 #dodger = position_dodge(width = 0.3)
 
-# Change order y
-rrs$activity <- ordered(rrs$activity, levels = c("imd_2Most", "eth_2Non-white",  "age_255+", "gend_3Female"))
+rrs <- rrs %>% 
+  rename(group = activity, pr = or)
 
-levels(rrs$activity)
+# Change order y
+rrs$group <- ordered(rrs$group, levels = c("imd_2Most", "eth_2Non-white",  "age_255+", "gend_3Female"))
+
+levels(rrs$group)
 
 # Change na,es
-levels(rrs$activity) <-  c( "most deprived (vs. least)", "non-white (vs. white)",  "age 55+ (vs.age 16-54)", "female (vs.male)")
+levels(rrs$group) <-  c( "Most deprived (vs. least)", "Non-white (vs. white)",  "Age 55+ (vs.age 16-54)", "Female (vs.male)")
+```
 
+```{r eval=FALSE, include=FALSE}
 # Elements like pointrange and position_dodge only work when the outcome
 #   is mapped to y, need to go through with OR set as y then flip at the
 #   end
 
-p <- ggplot(rrs, aes( x = activity, y = or)) +
+p <- ggplot(rrs, aes( x = group, y = pr)) +
         geom_pointrange(color = "#F7005E", aes(ymin = low, ymax = hi),
-                       size = 0.75) +
-        geom_hline(yintercept = 1, linetype = "dotted", size = 0.75) +
-        scale_y_log10(breaks = c(0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1),
+                       size = 2) +
+        geom_hline(yintercept = 1, linetype = "dotted", size = 1.5) +
+        scale_y_log10(breaks = c(0.4, 0.6, 0.8, 1),
                       minor_breaks = NULL) +
         labs(y = "Probability Ratios (log scale)", x = "") +
-        coord_flip(ylim = c(0.4, 1)) +
+        coord_flip(ylim = c(0.2, 1)) +
         theme_minimal() 
 
 #p <- p + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
@@ -117,12 +122,14 @@ p <- p + theme(legend.title = element_blank())
 #p <-  update_labels(p, list(colour="Type of cycling", size=12))
 
 p <- p + theme(axis.text.x = element_text(  
-                           size=14),
+                           size=20),
           axis.text.y = element_text( 
-                           size=14),
-        axis.title=element_text(size=12,face="bold"))
+                           size=20),
+        axis.title=element_text(size=18,face="bold"))
 #p <- p + theme(legend.title = element_text(size = 12),
 #          legend.text = element_text(size = 12))
+
+#p <- ggplotly(p)
 
 p
 
@@ -132,7 +139,7 @@ p
 
 # Discussion
 
-- The **inequalities in cycling participation in England are substantial**, particularly in terms of gender, age and ethnicity.
+- The **inequalities in cycling participation in England are substantial**, particularly in terms of age, gender and ethnicity.
 
 --
 
@@ -143,6 +150,7 @@ p
 - **More research is needed** into the barriers that lead to these disparities.
 
 ---
+
 background-image: url('images/04_Strasbourg_01-inline.jpg')
 background-size: cover
 --
