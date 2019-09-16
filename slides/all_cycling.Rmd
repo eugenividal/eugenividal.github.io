@@ -41,7 +41,7 @@ class: left, top
 
 background-image: url('images/mamils_Source_Getty.jpg')
 background-size: cover
----
+--
 background-image: url('images/mamils_Source_Getty_dark.jpg')
 background-size: cover
 class: inverse, center, middle
@@ -153,7 +153,7 @@ p
 
 background-image: url('images/04_Strasbourg_01-inline.jpg')
 background-size: cover
----
+--
 
 background-image: url('images/04_Strasbourg_01-inline_dark.jpg')
 background-size: cover
@@ -178,4 +178,3 @@ all_cycling <- paste0("file://", normalizePath("all_cycling.html"))
 ```{r include=FALSE}
 webshot(all_cycling, "all_cycling.pdf")
 ```
-
