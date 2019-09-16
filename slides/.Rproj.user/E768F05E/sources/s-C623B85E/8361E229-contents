@@ -162,19 +162,19 @@ class: inverse, center, middle,
 # Thanks!
 For more information visit https://eugenividal.github.io.
 
-```{r include=FALSE}
+```{r eval=FALSE, include=FALSE}
 #install.packages("webshot")
 library(webshot)
 ```
 
-```{r include=FALSE}
+```{r eval=FALSE, include=FALSE}
 install_phantomjs()
 ```
 
-```{r include=FALSE}
+```{r eval=FALSE, include=FALSE}
 all_cycling <- paste0("file://", normalizePath("all_cycling.html"))
 ```
 
-```{r include=FALSE}
+```{r eval=FALSE, include=FALSE}
 webshot(all_cycling, "all_cycling.pdf")
 ```
