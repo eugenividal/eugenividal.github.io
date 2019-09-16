@@ -52,7 +52,7 @@ class: inverse, center, middle
 
 # Method
 
-- **Data**: [Active Lives Survey 2015-2018.](https://www.sportengland.org/research/active-lives-survey/)
+- **Data**: [Active Lives Survey 2015-2018](https://www.sportengland.org/research/active-lives-survey/) (sample of ~500,000 adults).
 
 ```{r echo=FALSE, out.width='20%'}
 knitr::include_graphics('./images/Sport-England-Logo.png')
