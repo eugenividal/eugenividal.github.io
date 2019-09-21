@@ -139,7 +139,7 @@ p
 
 # Conclusion
 
-- Substantial **inequalities in cycling participation in England** are found in relation to age, gender and ethnicity.
+- Substantial **inequalities in cycling participation in England** are found in relation to gender, age and ethnicity.
 
 --
 
@@ -158,19 +158,19 @@ class: inverse, center, middle,
 # Thanks!
 For more information visit https://eugenividal.github.io.
 
-```{r eval=FALSE, include=FALSE}
+```{r include=FALSE}
 #install.packages("webshot")
 library(webshot)
 ```
 
-```{r eval=FALSE, include=FALSE}
+```{r include=FALSE}
 install_phantomjs()
 ```
 
-```{r eval=FALSE, include=FALSE}
+```{r include=FALSE}
 all_cycling <- paste0("file://", normalizePath("all_cycling.html"))
 ```
 
-```{r eval=FALSE, include=FALSE}
+```{r include=FALSE}
 webshot(all_cycling, "all_cycling.pdf")
 ```
