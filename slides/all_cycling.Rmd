@@ -164,13 +164,13 @@ library(webshot)
 ```
 
 ```{r include=FALSE}
-install_phantomjs()
+# install_phantomjs()
 ```
 
 ```{r include=FALSE}
-all_cycling <- paste0("file://", normalizePath("all_cycling.html"))
+# all_cycling <- paste0("file://", normalizePath("all_cycling.html"))
 ```
 
 ```{r include=FALSE}
-webshot(all_cycling, "all_cycling.pdf")
+# webshot(all_cycling, "all_cycling.pdf")
 ```
