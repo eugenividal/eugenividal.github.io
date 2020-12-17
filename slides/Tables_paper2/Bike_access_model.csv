@@ -1,0 +1,39 @@
+,Logistic,
+Household income quintile: 1st (lowest),1,1
+Household income quintile: 2nd ,"1.21 (1.05, 1.41) **","1.22 (0.82, 1.80)"
+Household income quintile: 3rd ,"1.37 (1.19, 1.59) ***","1.12 (0.75, 1.66)"
+Household income quintile: 4th ,"1.39 (1.20, 1.60) ***","1.35 (0.92, 1.99) "
+Household income quintile: 5th (highest),"1.85 (1.60, 2.14) ***","1.62 (1.10, 2.38) *"
+Educational qualifications: Yes,1,1
+Educational qualifications: No,"0.61 (0.54, 0.70) ***","0.72 (0.52, 1.01) "
+Economic status: Full Time,1,1
+Economic status: Part Time,"1.37 (1.21, 1.55) ***","1.43 (1.05, 1.96) *"
+Economic status: Unemployed,"1.05 (0.75, 1.48)","0.63 (0.24, 1.63)"
+Economic status: Student,"2.54 (2.06, 3.12) ***","1.06 (0.64, 1.75)"
+Economic status: Economically inactive,"0.74 (0.65, 0.85) ***","0.72 (0.48, 1.06) "
+Children in the household: Yes,1,1
+Children in the household: No,"0.76 (0.69, 0.84) ***","1.05 (0.83, 1.33)"
+Single parent family: Yes,1,1
+Single parent family: No,"1.35 (0.97, 1.86) ***","2.26 (0.64, 7.99)"
+Driving licence: Yes,1,1
+Driving licence: No,"0.61 (0.54, 0.70) ***","1.06 (0.77, 1.45) "
+Car access: Yes,1,1
+Car access: No,"0.71 (0.62, 0.81) ","1.98 (1.47, 2.68) ***"
+Area type: Inner London,1,1
+Area type: > 250k,"1.46 (1.18, 1.81) ***","1.02 (0.67, 1.55)"
+Area type: 25k to 250k,"1.26 (1.03, 1.55) *","0.85 (0.57, 1.26) "
+Area type: 10k to 25k,"1.23 (0.97, 1.55) ","0.58 (0.34, 0.97) *"
+Area type: 3k to 10k,"1.16 (0.90, 1.49) ","0.57 (0.32, 1.02) "
+Area type: Built-up areas,"0.80 (0.66, 0.98) *","0.41 (0.27, 0.62) ***"
+Area type: Rural,"1.78 (1.43, 2.21) ***","0.44 (0.27, 0.71) ***"
+Age: 16-29,1,1
+Age: 30-64,"1.43 (1.28, 1.60) ***","1.17 (0.90, 1.54)"
+Age: >64,"0.81 (0.68, 0.97) *","0.67 (0.41, 1.10) "
+Sex: Male,1,1
+Sex: Female,"0.60 (0.68, 0.97) ***","0.37 (0.29, 0.47) ***"
+Ethnicity: White,1,1
+Ethnicity: Non-white,"0.32 (0.28, 0.37) ***","0.34 (0.21, 0.53) ***"
+Mobility difficulties: Yes,1,1
+Mobility difficulties: No,"1.99 (1.63, 2.43) ***","3.06 (1.47, 6.38) **"
+n,11581,11581
+Pseudo R-squared (Nagelkerke),0.22,0.09

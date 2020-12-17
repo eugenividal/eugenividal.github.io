@@ -1,0 +1,39 @@
+,Logistic,Truncated negbin,Gamma
+Area type: Inner London,1,1,1
+Area type: > 250k,"1.20 (0.72, 2.01)","1.06 (0.71, 1.58)","1.16 (0.69, 1.95)"
+Area type: 25k to 250k,"0.85 (0.52, 1.39)","1.08 (0.74, 1.57)","0.77 (0.47, 1.26)"
+Area type: 10k to 25k,"0.53 (0.28, 1.01) ","1.16 (0.70, 1.93)","1.31 (0.68, 2.52)"
+Area type: 3k to 10k,"1.13 (0.63, 2.02)","1.05 (0.67, 1.66)","1.29 (0.71, 2.35)"
+Area type: Built-up areas,"0.68 (0.41, 1.11)","1.15 (0.79, 1.68)","1.35 (0.82, 2.23)"
+Area type: Rural,"0.56 (0.32, 0.97) *","1.15 (0.74, 1.77)","1.19 (0.67, 2.10)"
+Age: 16-29,1,1,1
+Age: 30-64,"1.67 (1.18, 2.36) **","0.96 (0.71, 1.29)","1.28 (0.85, 1.94)"
+Age: >64,"0.80 (0.48, 1.33) ","1.03 (0.69, 1.54)","0.98 (0.56, 1.72)"
+Sex: Male,1,1,1
+Sex: Female,"0.38 (0.30, 0.49) ***","0.84 (0.69, 1.01)","0.58 (0.45, 0.75) ***"
+Ethnicity: White,1,1,1
+Ethnicity: Non-white,"0.20 (0.11, 0.37) ***","1.18 (0.74, 1.90)","0.32 (0.16, 0.62) ***"
+Mobility difficulties: Yes,1,1,1
+Mobility difficulties: No,"1.80 (1.03, 3.17) *","0.76 (0.51, 1.15)","0.93 (0.51, 1.71)"
+Household income quintile: 1st,1,1,1
+Household income quintile: 2nd,"1.31 (0.89, 1.91)","0.94 (0.71, 1.23)","1.32 (0.90, 1.96)"
+Household income quintile: 3rd,"0.90 (0.60, 1.35)","0.72 (0.53, 0.98) *","1.04 (0.68, 1.60)"
+Household income quintile: 4th,"0.92 (0.61, 1.39)","0.66 (0.48, 0.91) *","1.02 (0.66, 1.57)"
+Household income quintile: 5th,"1.48 (1.00, 2.19)","0.83 (0.62, 1.11)","1.54 (1.03, 2.31) *"
+Educational qualifications: Yes,1,1,1
+Educational qualifications: No,"0.52 (0.36, 0.76) ***","0.84 (0.63, 1.14)","0.55 (0.37, 0.83) **"
+Economic status: Full Time,1,1,1
+Economic status: Part Time,"1.67 (1.19, 2.36) **","1.39 (1.07, 1.80) *","0.98 (0.69, 1.41)"
+Economic status: Unemployed,"2.17 (1.01, 4.66) *","1.74 (1.05, 2.89) *","2.54 (1.13, 5.71) *"
+Economic status: Student,"2.71 (1.58, 4.66) ***","0.50 (0.30, 0.83) **","1.26 (0.69, 2.28)"
+Economic status: Economically inactive,"1.30 (0.90, 1.88) ","1.21 (0.92, 1.58)","1.31 (0.91, 1.90)"
+Children in the household: Yes,1,1,1
+Children in the household: No,"1.12 (0.86, 1.45) ","0.87 (0.70, 1.07)","0.89 (0.67, 1.19)"
+Single parent family: Yes,1,1,1
+Single parent family: No,"1.95 (0.60, 6.34)","1.38 (0.53, 3.63)","0.63 (0.18, 2.18)"
+Driving licence: Yes,1,1,1
+Driving licence: No,"0.76 (0.53, 1.10)","1.03 (0.77, 1.38)","1.01 (0.68, 1.50)"
+Car access: Yes,1,1,1
+Car access: No,"1.71 (1.20, 2.40) **","1.35 (1.05, 1.73) *","1.10 (0.78, 1.55)"
+n,13065,332,332
+Pseudo R-squared (Nagelkerke),0.24,0.166,0.214

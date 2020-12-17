@@ -1,0 +1,39 @@
+,Logistic,Truncated negbin,Gamma
+Area type: Inner London,1,1,1
+Area type: > 250k,"0.64 (0.40, 1.04)","0.97 (0.73, 1.29)","1.07 (0.69, 1.67)"
+Area type: 25k to 250k,"0.58 (0.39, 0.90) *","1.29 (0.98, 1.61)","0.88 (0.59, 1.31)"
+Area type: 10k to 25k,"0.41 (0.23, 0.72) **","0.98 (0.69, 1.39)","1.07 (0.62, 1.84)"
+Area type: 3k to 10k,"0.42 (0.23, 0.78) **","0.88 (0.60, 1.31)","0.91 (0.50, 1.65)"
+Area type: Built-up areas,"0.35 (0.22, 0.56) ***","1.00 (0.75, 1.34)","1.01 (0.65, 1.58)"
+Area type: Rural,"0.25 (0.15, 0.42) ***","0.68 (0.49, 0.95) *","0.66 (0.40, 1.80) "
+Age: 16-29,1,1,1
+Age: 30-64,"1.03 (0.75, 1.41)","0.98 (0.80, 1.21)","1.03 (0.74, 1.41)"
+Age: >64,"0.88 (0.53, 1.46) ","1.25 (0.87, 1.79)","0.80 (0.47, 1.38) "
+Sex: Male,1,1,1
+Sex: Female,"0.50 (0.39, 0.65) ***","1.03 (0.88, 1.22)","0.76 (0.59, 0.98) *"
+Ethnicity: White,1,1,1
+Ethnicity: Non-white,"0.54 (0.32, 0.92) *","1.07 (0.76, 1.51)","0.75 (0.43, 1.28)"
+Mobility difficulties: Yes,1,1,1
+Mobility difficulties: No,"2.01 (0.95, 4.23) ","0.75 (0.47, 1.18)","0.79 (0.37, 1.67)"
+Household income quintile: 1st,1,1,1
+Household income quintile: 2nd,"1.23 (0.80, 1.89)","1.15 (0.87, 1.51)","1.20 (0.79, 1.83)"
+Household income quintile: 3rd,"1.07 (0.69, 1.65)","1.04 (0.79, 1.37)","0.89 (0.58, 1.35)"
+Household income quintile: 4th,"1.25 (0.82, 1.91) ","1.11 (0.84, 1.46)","1.46 (0.95, 2.23) "
+Household income quintile: 5th,"1.25 (0.81, 1.91) ","1.08 (0.82, 1.43)","1.34 (0.88, 2.05)"
+Educational qualifications: Yes,1,1,1
+Educational qualifications: No,"0.94 (0.65, 1.37)","1.17 (0.91, 1.51)","1.32 (0.90, 1.93)"
+Economic status: Full Time,1,1,1
+Economic status: Part Time,"1.06 (0.76, 1.49)","0.97 (0.78, 1.21)","0.71 (0.50, 1.01)"
+Economic status: Unemployed,"0.61 (0.21, 1.78)","0.55 (0.25, 1.22)","0.30 (0.10, 0.89) *"
+Economic status: Student,"0.59 (0.33, 1.08)","0.75 (0.51, 1.10)","0.59 (0.33, 1.06) "
+Economic status: Economically inactive,"0.85 (0.57, 1.27) ","0.56 (0.42, 0.74) ***","0.37 (0.25, 0.56) ***"
+Children in the household: Yes,1,1,1
+Children in the household: No,"1.21 (0.94, 1.56)","0.89 (0.75, 1.04)","0.76 (0.59, 0.99) *"
+Single parent family: Yes,1,1,1
+Single parent family: No,"1.37 (0.41, 4.54)","2.04 (0.82, 5.09)","2.62 (0.77, 8.90)"
+Driving licence: Yes,1,1,1
+Driving licence: No,"1.65 (1.14, 2.37) **","0.83 (0.67, 1.04)","0.81 (0.58, 1.13)"
+Car access: Yes,1,1,1
+Car access: No,"2.67 (1.91, 3.74) ***","1.29 (1.06, 1.56) *","1.45 (1.07, 1.96) *"
+Bike access: Yes,1,1,1
+Bike access: No,"0.004 (0.001, 0.01) ***","1.24 (0.56, 2.77)","0.71 (0.20, 2.48)"
