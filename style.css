@@ -10,7 +10,7 @@ border-top: 1px #ddd solid;
 }
 
 #horizontalnav {
-height: 30px;
+height: 40px;
 position: relative;
 background-color: #ffffff;
 }
@@ -33,7 +33,7 @@ font-size: 18px;
 font-family: Verdana;
 }
 .navlinks li a:hover {
-color: #ffffff;
+color: #EBCC2A;
 background-color: #ffffff;
 text-decoration: underline;
 }
