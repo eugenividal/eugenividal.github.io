@@ -5,9 +5,9 @@
 	line-height: 1.2em;
 }
 #header {
-height: 87px;
-position: auto;
-background-color: #ffffff;
+clear: both;
+margin: 20px 0 35px 0;
+border-top: 1px #ddd solid;
 }
 #horizontalnav {
 height: 40px;
