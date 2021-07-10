@@ -25,14 +25,14 @@ list-style-type: none;
 display: inline;
 }
 .navlinks li a {
-color: #000000;
+color: #E1AF00;
 padding: 10px 30px 10px;
 text-decoration: none;
 font-size: 18px;
 font-family: Verdana;
 }
 .navlinks li a:hover {
-color: #000000;
+color: #E1AF00;
 background-color: #ffffff;
 text-decoration: underline;
 }
@@ -57,7 +57,7 @@ color: #000000;
 margin: 10px 20px 0px 150px;
 font-weight: none;
 font-family: Verdana;
-font-size: 16px;
+font-size: 10px;
 }
 #body h1 {
 color: #3B9AB2;
