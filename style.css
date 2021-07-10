@@ -16,7 +16,6 @@ border-bottom: 2px #ddd solid;
 }
 .navlinks {
 position: absolute; top: 4px; left: 80px;
-background-color: #FFFBF3
 }
 .navlinks ul {
 margin: auto;
@@ -51,7 +50,7 @@ font-family: Verdana;
 font-size: 18px;
 }
 #body {
-background-color: #ffffff;
+background-color: #FFFBF3;
 }
 #body p {
 color: #000000;
