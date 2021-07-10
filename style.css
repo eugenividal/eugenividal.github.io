@@ -8,6 +8,9 @@ line-height: 1.2em;
 clear: both;
 border-top: 1px #ddd solid;
 }
+.navlinks {
+position: absolute; top: 4px; left: 80px;
+}
 .navlinks ul {
  margin: auto;
 }
