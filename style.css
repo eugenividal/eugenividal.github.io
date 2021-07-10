@@ -7,7 +7,7 @@
 #header {
 clear: both;
 margin: 20px 0 35px 0;
-border-bottom: 1px #ddd solid;
+border-top: 1px #ddd solid;
 }
 
 #horizontalnav {
@@ -16,7 +16,7 @@ background-color: #E1AF00;
 }
 
 .navlinks {
-position: absolute; top: 4px; left: 40px;
+position: absolute; top: 4px; left: 80px;
 }
 .navlinks ul {
 margin: auto;
