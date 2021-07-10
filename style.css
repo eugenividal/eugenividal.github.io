@@ -11,7 +11,7 @@ background-color: #ffffff;
 #horizontalnav {
 height: 40px;
 position: relative;
-background-color: #FFFBF3;
+background-color: #ffffff;
 border-bottom: 2px #ddd solid;
 }
 .navlinks {
@@ -33,14 +33,14 @@ font-family: Verdana;
 }
 .navlinks li a:hover {
 color: #000000;
-background-color: #FFFBF3;
+background-color: #ffffff;
 text-decoration: underline;
 }
 #leftnav {
 float: left;
 margin: 10px 0px 0px 0px;
 width: 100px;
-background-color: #FFFBF3;
+background-color: #ffffff;
 }
 #header p {
 color: #3B9AB2;
