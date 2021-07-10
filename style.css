@@ -33,7 +33,7 @@ font-size: 18px;
 font-family: Verdana;
 }
 .navlinks li a:hover {
-color: #ffffff;
+color: #3B9AB2;
 background-color: #ffffff;
 text-decoration: underline;
 }
@@ -44,7 +44,7 @@ width: 100px;
 background-color: #ffffff;
 }
 #header p {
-color: #3B9AB2;
+color: #ffffff;
 opacity: .75;
 font-weight: none;
 font-family: Verdana;
