@@ -1,7 +1,7 @@
 {% seo %}
 #wrap {
 	margin: 60px auto;
-	width: 70%;
+	width: 60%;
 	line-height: 1.2em;
 }
 #header {
@@ -87,8 +87,8 @@ font-size: 18px;
 }
 #footer {
 	clear: both;
-	margin: 40px 0 35px 0;
-	border-top: 2px #ddd solid;
+	margin: 20px 0 35px 0;
+	border-top: 1px #ddd solid;
 }
 #footer p {
 	color: #aaa;
