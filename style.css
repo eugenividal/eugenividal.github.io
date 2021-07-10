@@ -27,20 +27,20 @@ display: inline;
 }
 .navlinks li a {
 color: #EBCC2A;
-padding: 0px 20px 0px;
+padding: 0px 30px 0px;
 text-decoration: none;
 font-size: 18px;
 font-family: Verdana;
 }
 .navlinks li a:hover {
-color:  #ffffff;
+color: #ffffff;
 background-color: #78B7C5;
+opacity: .25;
 text-decoration: underline;
 }
 #header p {
 color: #3B9AB2;
 margin: 10px 20px 20px 10px;
-opacity: .75;
 font-weight: none;
 font-family: Verdana;
 font-size: 18px;
