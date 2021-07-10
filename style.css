@@ -15,6 +15,9 @@ border-top: 1px #ddd solid;
 .navlinks li {
 list-style-type: none;
 display: inline;
+[COLOR="Red"]padding-right: 30px;[/COLOR]
+}
+	
 }
 .navlinks li a {
 color: #E1AF00;
