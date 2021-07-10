@@ -8,23 +8,6 @@
 clear: both;
 border-top: 1px #ddd solid;
 }
-
-#horizontalnav {
-height: 40px;
-position: relative;
-background-color: #d4f6ff;
-}
-
-.navlinks {
-position: absolute; top: 4px; left: 0px;
-}
-.navlinks ul {
-margin: auto;
-}
-.navlinks li {
-list-style-type: none;
-display: inline;
-}
 .navlinks li a {
 color: #EBCC2A;
 padding: 0px 30px 30px 0px;
