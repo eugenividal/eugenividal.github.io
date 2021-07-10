@@ -27,7 +27,7 @@ display: inline;
 }
 .navlinks li a {
 color: #E1AF00;
-padding: 5px 15px 5px;
+padding: 0px 15px 5px;
 text-decoration: none;
 font-size: 18px;
 font-family: Verdana;
@@ -47,7 +47,7 @@ background-color: #ffffff;
 color: #78B7C5;
 margin: 10px 20px 20px 10px;
 opacity: .75;
-font-weight: bold;
+font-weight: none;
 font-family: Verdana;
 font-size: 18px;
 }
