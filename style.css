@@ -26,14 +26,14 @@ list-style-type: none;
 display: inline;
 }
 .navlinks li a {
-color: #E1AF00;
+color: #ffffff;
 padding: 10px 10px 10px;
 text-decoration: none;
 font-size: 18px;
 font-family: Verdana;
 }
 .navlinks li a:hover {
-color: #ffffff;
+color: #3B9AB2;
 background-color: #ffffff;
 text-decoration: underline;
 }
