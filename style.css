@@ -43,7 +43,7 @@ width: 100px;
 background-color: #FFFBF3;
 }
 #header p {
-color: #0070C0;
+color: #000000;
 opacity: .75;
 font-weight: none;
 font-family: Verdana;
@@ -60,7 +60,7 @@ font-family: Verdana;
 font-size: 15px;
 }
 #body h1 {
-color: #ffffff;
+color: #0070C0;
 opacity: .75;
 margin: 10px 20px 0px 150px;
 font-weight: bold;
