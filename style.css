@@ -33,14 +33,14 @@ font-family: Verdana;
 }
 .navlinks li a:hover {
 color: #ffffff;
-background-color: #0070C0;
+background-color: #ffffff;
 text-decoration: underline;
 }
 #leftnav {
 float: left;
 margin: 10px 0px 0px 0px;
 width: 100px;
-background-color: #FFFBF3;;
+background-color: #ffffff;
 }
 #header p {
 color: #0070C0;
