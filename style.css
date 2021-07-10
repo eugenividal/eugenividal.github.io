@@ -7,17 +7,16 @@
 #header {
 clear: both;
 margin: 20px 0 35px 0;
-border-top: 1px #ddd solid;
+border-bottom: 1px #ddd solid;
 }
 
 #horizontalnav {
-height: 40px;
 position: relative;
-background-color: #ffffff;
+background-color: #E1AF00;
 }
 
 .navlinks {
-position: absolute; top: 4px; left: 80px;
+position: absolute; top: 4px; left: 40px;
 }
 .navlinks ul {
 margin: auto;
@@ -28,7 +27,7 @@ display: inline;
 }
 .navlinks li a {
 color: #E1AF00;
-padding: 10px 30px 10px;
+padding: 10px 10px 10px;
 text-decoration: none;
 font-size: 18px;
 font-family: Verdana;
