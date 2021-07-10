@@ -10,13 +10,13 @@ border-top: 1px #ddd solid;
 }
 
 #horizontalnav {
-height: 20px;
+height: 40px;
 position: relative;
 background-color: #ffffff;
 }
 
 .navlinks {
-position: absolute; top: 4px; left: 80px;
+position: absolute; top: 4px; left: 0px;
 }
 .navlinks ul {
 margin: auto;
@@ -63,7 +63,7 @@ font-size: 16px;
 #body h1 {
 color: #3B9AB2;
 opacity: .75;
-margin: 10px 30px 30px 10px;
+margin: 10px 20px 20px 10px;
 font-weight: bold;
 font-family: Verdana;
 font-size: 26px;
@@ -71,7 +71,7 @@ font-size: 26px;
 #body h2 {
 color: #3B9AB2;
 opacity: .75;
-margin: 10px 30px 30px 10px;
+margin: 10px 20px 20px 10px;
 font-weight: none;
 font-family: Verdana;
 font-size: 20px;
