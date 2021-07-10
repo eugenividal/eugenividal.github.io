@@ -28,7 +28,7 @@ display: inline;
 }
 .navlinks li a {
 color: #EBCC2A;
-padding: 15px 15px 15px 15px;
+padding: 0px 15px 15px 0px;
 font-weight: bold;
 text-decoration: none;
 font-size: 18px;
@@ -37,7 +37,6 @@ font-family: Verdana;
 .navlinks li a:hover {
 color: #ffffff;
 background-color: #ffffff;
-opacity: .25;
 text-decoration: underline;
 }
 #header p {
