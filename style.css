@@ -9,10 +9,10 @@ clear: both;
 border-top: 1px #ddd solid;
 }
 .navlinks {
-position: absolute; top: 4px; left: 80px;
+position: absolute; top: 4px; left: 10px;
 }
 .navlinks ul {
- margin: 10px;
+ margin: auto;
 }
 .navlinks li {
 list-style-type: none;
