@@ -9,7 +9,7 @@ clear: both;
 border-top: 1px #ddd solid;
 }
 .navlinks ul {
-  margin: 0;
+  margin: 10px;
   padding: 0;
 }
 .navlinks li {
