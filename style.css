@@ -1,14 +1,15 @@
 {% seo %}
 #wrap {
-	margin: 60px auto;
-	width: 65%;
-	line-height: 1.2em;
+margin: 60px auto;
+width: 65%;
+line-height: 1.2em;
 }
 #header {
 clear: both;
 border-top: 1px #ddd solid;
 }
 .navlinks li a {
+list-style-type: none;
 color: #EBCC2A;
 padding: 0px 30px 30px 0px;
 text-decoration: none;
