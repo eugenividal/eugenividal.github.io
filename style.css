@@ -32,18 +32,18 @@ font-size: 18px;
 font-family: Verdana;
 }
 .navlinks li a:hover {
-color: #ffffff;
-background-color: #ffffff;
+color: #0070C0;
+background-color: #FFFBF3;
 text-decoration: underline;
 }
 #leftnav {
 float: left;
 margin: 10px 0px 0px 0px;
 width: 100px;
-background-color: #ffffff;
+background-color: #FFFBF3;
 }
 #header p {
-color: #ffffff;
+color: #0070C0;
 opacity: .75;
 font-weight: none;
 font-family: Verdana;
