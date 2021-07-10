@@ -12,6 +12,7 @@ border-top: 1px #ddd solid;
 #horizontalnav {
 height: 30px;
 position: relative;
+opacity: .25;
 background-color: #78B7C5;
 }
 
