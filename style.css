@@ -9,12 +9,7 @@ clear: both;
 margin: 20px 0 35px 0;
 border-top: 1px #ddd solid;
 }
-#horizontalnav {
-height: 40px;
-position: relative;
-background-color: #ffffff;
-border-bottom: 2px #ddd solid;
-}
+
 .navlinks {
 position: absolute; top: 4px; left: 80px;
 }
