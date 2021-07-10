@@ -6,12 +6,12 @@
 #header {
 height: 87px;
 position: auto;
-background-color: #ffffff;
+background-color: #FFFBF3;
 }
 #horizontalnav {
 height: 40px;
 position: relative;
-background-color:#ffffff;
+background-color: #FFFBF3;
 border-bottom: 2px #ddd solid;
 }
 .navlinks {
@@ -25,14 +25,14 @@ list-style-type: none;
 display: inline;
 }
 .navlinks li a {
-color: #0070C0;
+color: #000000;
 padding: 10px 30px 10px;
 text-decoration: none;
 font-size: 18px;
 font-family: Verdana;
 }
 .navlinks li a:hover {
-color: #0070C0;
+color: #000000;
 background-color: #FFFBF3;
 text-decoration: underline;
 }
