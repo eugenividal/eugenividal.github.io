@@ -1,17 +1,17 @@
 {% seo %}
 #wrap {
-	width: 960px;
+	width: 1200px;
 	margin: 0 auto;
 }
 #header {
 height: 87px;
 position: auto;
-background-color: #ffffff;
+background-color: #FFFBF3;
 }
 #horizontalnav {
 height: 40px;
 position: relative;
-background-color: #ffffff;
+background-color:#FFFBF3;
 border-bottom: 2px #ddd solid;
 }
 .navlinks {
