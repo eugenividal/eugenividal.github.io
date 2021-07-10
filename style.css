@@ -1,17 +1,17 @@
 {% seo %}
 #wrap {
-	width: 1200px;
+	width: 960px;
 	margin: 0 auto;
 }
 #header {
 height: 87px;
 position: auto;
-background-color: #FFFBF3;
+background-color: #ffffff;
 }
 #horizontalnav {
 height: 40px;
 position: relative;
-background-color:#FFFBF3;
+background-color:#ffffff;
 border-bottom: 2px #ddd solid;
 }
 .navlinks {
@@ -25,7 +25,7 @@ list-style-type: none;
 display: inline;
 }
 .navlinks li a {
-color: #000000;
+color: #0070C0;
 padding: 10px 30px 10px;
 text-decoration: none;
 font-size: 18px;
