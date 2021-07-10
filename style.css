@@ -55,7 +55,7 @@ background-color: #ffffff;
 }
 #body p {
 color: #000000;
-margin: 10px 20px 0px 10px;
+margin: 10px 20px 20px 10px;
 font-weight: none;
 font-family: Verdana;
 font-size: 16px;
@@ -63,7 +63,7 @@ font-size: 16px;
 #body h1 {
 color: #3B9AB2;
 opacity: .75;
-margin: 10px 20px 0px 10px;
+margin: 10px 20px 20px 10px;
 font-weight: bold;
 font-family: Verdana;
 font-size: 26px;
@@ -71,7 +71,7 @@ font-size: 26px;
 #body h2 {
 color: #3B9AB2;
 opacity: .75;
-margin: 10px 20px 0px 10px;
+margin: 10px 20px 20px 10px;
 font-weight: none;
 font-family: Verdana;
 font-size: 20px;
@@ -80,7 +80,7 @@ font-size: 20px;
 #body h3 {
 color: #3B9AB2;
 opacity: .75;
-margin: 10px 20px 0px 10px;
+margin: 10px 20px 20px 10px;
 font-weight: none;
 font-family: Verdana;
 font-size: 18px;
