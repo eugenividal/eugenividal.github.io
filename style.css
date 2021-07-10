@@ -11,10 +11,6 @@ border-top: 1px #ddd solid;
 .navlinks ul {
 margin: auto;
 }
-.navlinks li {
-list-style-type: none;
-display: inline;
-}
 .navlinks li a {
 list-style-type: none;
 color: #E1AF00;
