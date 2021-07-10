@@ -9,12 +9,12 @@ clear: both;
 border-top: 1px #ddd solid;
 }
 .navlinks ul {
-  margin: 10px 20px 20px 10px;
+ margin-left:10px;
+ margin-right:30px;
 }
 .navlinks li {
 list-style-type: none;
 display: inline;
-[COLOR="Red"]padding-right: 30px;[/COLOR]
 }
 	
 }
