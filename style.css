@@ -1,7 +1,7 @@
 {% seo %}
 #wrap {
+	margin: 60px auto;
 	width: 70%;
-	margin: 60 auto;
 	line-height: 1.2em;
 }
 #header {
