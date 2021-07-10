@@ -10,7 +10,7 @@ border-top: 1px #ddd solid;
 }
 .navlinks ul {
   margin: 10px;
-  padding: 0;
+  padding: 0px 30px 0px;
 }
 .navlinks li {
 list-style-type: none;
