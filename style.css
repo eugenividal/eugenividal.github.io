@@ -29,8 +29,8 @@ display: inline;
 color: #E1AF00;
 padding: 10px 20px 20px 10px;
 text-decoration: none;
-font-weight: none
-font-size: 18px;
+font-weight: bold;
+font-size: 20px;
 font-family: Verdana;
 }
 .navlinks li a:hover {
