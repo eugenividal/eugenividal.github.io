@@ -10,10 +10,9 @@ border-top: 1px #ddd solid;
 }
 
 #horizontalnav {
-height: 30px;
+height: 20px;
 position: relative;
-opacity: .25;
-background-color: #78B7C5;
+background-color: #ffffff;
 }
 
 .navlinks {
@@ -29,7 +28,6 @@ display: inline;
 .navlinks li a {
 color: #EBCC2A;
 padding: 0px 15px 15px 0px;
-font-weight: bold;
 text-decoration: none;
 font-size: 18px;
 font-family: Verdana;
