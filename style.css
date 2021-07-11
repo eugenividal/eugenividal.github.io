@@ -18,6 +18,7 @@ ul {
 }
 li {
 list-style-type: none;
+margin: 10px 20x 20x 10x;
 display: inline;
 }
 
