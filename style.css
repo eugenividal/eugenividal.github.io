@@ -33,14 +33,9 @@ text-decoration: none;
 text-decoration: underline;
 }
 
-.navlinks li .active a::after {
-  border-bottom: 5px solid #5bc0eb;
-  bottom: -10px;
-  content: " ";
-  left: 0;
-  position: absolute;
+.navlinks li a:active {
+  color: #000000;
   text-decoration: underline;
-  right: 0;
 }
 
 #header p {
