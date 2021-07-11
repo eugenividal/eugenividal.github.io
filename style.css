@@ -10,7 +10,7 @@ border-top: 1px #ddd solid;
 }
 .navlinks ul {
   list-style-type: none;
-  padding: 10px 20px;
+  margin: 10px 20px 10px;
   word-spacing: 30px;
   text-align: left;
   font-weight: none;
@@ -23,7 +23,7 @@ display: inline;
 }
 
 .navlinks li a{
-  color: #F21A00;
+  color: #000000;
   }
 
 a:link {
