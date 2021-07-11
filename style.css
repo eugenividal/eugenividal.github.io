@@ -13,9 +13,10 @@ border-top: 1px #ddd solid;
   padding: 0;
   word-spacing: 70px;
   text-align: center;
-  font-weight: none;
+  font-variant: small-caps
+  font-weight: 600;
   font-family: Verdana;
-  font-size: 18px;
+  font-size: 16px;
 }
 .navlinks li {
 list-style-type: none;
@@ -24,7 +25,13 @@ display: inline;
 
 .navlinks li a{
   color: #000000;
-  }
+}
+
+.navlinks li a:hover {
+color: #ffffff;
+background-color: #0070C0;
+text-decoration: underline;
+}
 
 #header p {
 color: #3B9AB2;
