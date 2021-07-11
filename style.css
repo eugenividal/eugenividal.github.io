@@ -24,19 +24,16 @@ display: inline;
 }
 
 .navlinks li a{
-  color: #000000;
+color: #000000;
 }
 
 .navlinks li a:hover {
-color: #ffffff;
-background-color: #0070C0;
+color: #3B9AB2;
 }
 
 .navlinks li a:active {
 text-decoration: underline;
 }
-
-
 
 #header p {
 color: #3B9AB2;
