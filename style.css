@@ -10,10 +10,10 @@ border-top: 1px #ddd solid;
 }
 .navlinks ul {
   list-style-type: none;
-  padding: 16px 13px;
-  word-spacing: 40px;
+  padding: 10px 10px;
+  word-spacing: 50px;
   text-align: center;
-  font-weight: none;
+  font-weight: bold;
   font-family: Verdana;
   font-size: 18px;
 }
@@ -23,7 +23,7 @@ display: inline;
 }
 
 .navlinks li a{
-  color: #000000;
+  color: #F21A00;
   }
 
 a:link {
