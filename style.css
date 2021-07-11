@@ -10,10 +10,10 @@ border-top: 1px #ddd solid;
 }
 .navlinks ul {
   list-style-type: none;
-  padding: 10px 10px;
+  padding: 5px 5px;
   word-spacing: 50px;
   text-align: center;
-  font-weight: bold;
+  font-weight: none;
   font-family: Verdana;
   font-size: 18px;
 }
@@ -23,7 +23,7 @@ display: inline;
 }
 
 .navlinks li a{
-  color: #F21A00;
+  color: #000000;
   }
 
 a:link {
@@ -51,7 +51,7 @@ a:active {
 }
 
 #header p {
-color: #aaa;
+color: #78B7C5;
 margin: 10px 20px 20px 0px;
 font-weight: none;
 font-family: Verdana;
