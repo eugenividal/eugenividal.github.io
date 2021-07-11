@@ -20,8 +20,6 @@ font-size: 16px;
 .navlinks li {
 list-style-type: none;
 display: inline;
-float: left;
-position: relative;
 }
 
 .navlinks li a{
