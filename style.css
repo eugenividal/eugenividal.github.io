@@ -11,8 +11,7 @@ border-top: 1px #ddd solid;
 ul {
   list-style-type: none;
   margin: auto;
-  padding: 0;
-  word-spacing: 30px;
+  padding: 10x;
   font-family: Verdana;
   font-size: 18px;
   display: flex; 
@@ -32,7 +31,7 @@ a:link {
 }
 
 a:visited {
-  color: #E1AF00;
+  color: #78B7C5;
   background-color: transparent;
   text-decoration: none;
 }
@@ -51,7 +50,7 @@ a:active {
 
 #header p {
 color: #78B7C5;
-margin: 0px 20px 20px 10px;
+margin: 10px 20px 20px 0px;
 font-weight: none;
 font-family: Verdana;
 font-size: 18px;
