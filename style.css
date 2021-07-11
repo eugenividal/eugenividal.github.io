@@ -8,27 +8,10 @@ line-height: 1.2em;
 clear: both;
 border-top: 1px #ddd solid;
 }
-.navlinks {
-position: absolute; top: 4px; left: 50px;
-}
-.navlinks ul {
- margin: 10px;
-}
-.navlinks li {
-list-style-type: none;
-display: inline;
-}
-.navlinks li a {
-color: #E1AF00;
-padding: 10px 20px 10px;
-text-decoration: none;
-font-size: 18px;
-font-family: Verdana;
-}
-.navlinks li a:hover {
-color: #E1AF00;
-background-color: #ffffff;
-text-decoration: underline;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 #header p {
 color: #3B9AB2;
