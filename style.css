@@ -9,14 +9,14 @@ clear: both;
 border-top: 1px #ddd solid;
 }
 .navlinks ul {
-  list-style-type: none;
-  padding: 0;
-  word-spacing: 70px;
-  text-align: center;
-  font-variant: small-caps
-  font-weight: 600;
-  font-family: Verdana;
-  font-size: 16px;
+list-style-type: none;
+padding: 0;
+word-spacing: 70px;
+text-align: center;
+font-variant: small-caps;
+font-weight: 600;
+font-family: Verdana;
+font-size: 16px;
 }
 .navlinks li {
 list-style-type: none;
