@@ -30,8 +30,13 @@ display: inline;
 .navlinks li a:hover {
 color: #ffffff;
 background-color: #0070C0;
+}
+
+.navlinks li a:active {
 text-decoration: underline;
 }
+
+
 
 #header p {
 color: #3B9AB2;
