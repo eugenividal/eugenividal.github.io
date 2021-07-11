@@ -1,8 +1,8 @@
 {% seo %}
 #wrap {
-margin: 20px auto;
+margin: 0px auto;
 width: 70%;
-line-height: 1.2em;
+line-height: 0em;
 }
 #header {
 clear: both;
