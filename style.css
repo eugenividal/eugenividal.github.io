@@ -15,7 +15,6 @@ ul {
   word-spacing: 30px;
   font-family: Verdana;
   font-size: 18px;
-  display: flex; 
   justify-content: center
 }
 li {
@@ -60,14 +59,14 @@ font-size: 18px;
 background-color: #ffffff;
 }
 #body p {
-color: #000000;
+color: #272822;
 margin: 10px 20px 20px 10px;
 font-weight: none;
 font-family: Verdana;
 font-size: 16px;
 }
 #body h1 {
-color: #272822;
+color: #3B9AB2;
 opacity: .75;
 margin: 10px 20px 20px 10px;
 font-weight: bold;
@@ -75,7 +74,7 @@ font-family: Verdana;
 font-size: 26px;
 }
 #body h2 {
-color: #272822;
+color: #3B9AB2;
 opacity: .75;
 margin:10px 20px 20px 10px;
 font-weight: none;
