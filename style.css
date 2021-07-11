@@ -8,17 +8,20 @@ line-height: 1.2em;
 clear: both;
 border-top: 1px #ddd solid;
 }
+
 .navlinks ul {
 padding: 10px;
 word-spacing: 60px;
 text-align: center;
-font-weight: 400;
+font-weight: 500;
 font-family: Verdana;
 font-size: 16px;
 }
 .navlinks li {
 list-style-type: none;
 display: inline;
+float: left;
+position: relative;
 }
 
 .navlinks li a{
@@ -30,8 +33,14 @@ text-decoration: none;
 text-decoration: underline;
 }
 
-.navlinks li a:active {
-text-decoration: underline;
+.navlinks li .active a::after {
+  border-bottom: 5px solid #5bc0eb;
+  bottom: -10px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  text-decoration: underline;
+  right: 0;
 }
 
 #header p {
