@@ -22,6 +22,11 @@ li {
 list-style-type: none;
 display: inline;
 }
+
+li a{
+  color: #F21A00;
+  }
+
 a:link {
   color: #3B9AB2;
   background-color: transparent;
