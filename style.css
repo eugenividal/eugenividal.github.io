@@ -12,25 +12,12 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  word-spacing: 10px	
+	
 }
 li {
 list-style-type: none;
 display: inline;
-}
-
-}
-li a {
-color: #000000;
-padding: 10px 30px 10px;
-text-decoration: none;
-font-size: 18px;
-font-family: Verdana;
-}
-
-li a:hover {
-color: #ffffff;
-background-color: #0070C0;
-text-decoration: underline;
 }
 
 #header p {
