@@ -33,11 +33,6 @@ text-decoration: none;
 text-decoration: underline;
 }
 
-.navlinks li a:active {
-  color: #000000;
-  text-decoration: underline;
-}
-
 #header p {
 color: #3B9AB2;
 margin: 10px 20px 20px 0px;
