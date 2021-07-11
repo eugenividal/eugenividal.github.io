@@ -10,11 +10,12 @@ border-top: 1px #ddd solid;
 }
 ul {
   list-style-type: none;
-  margin: 10px 20x 20x 10x;
+  margin: auto;
   padding: 0;
   word-spacing: 30px;
   font-family: Verdana;
   font-size: 18px;
+  display: flex; 
   justify-content: center
 }
 li {
@@ -50,7 +51,7 @@ a:active {
 
 #header p {
 color: #78B7C5;
-margin: 10px 20px 20px 10px;
+margin: 0px 20px 20px 10px;
 font-weight: none;
 font-family: Verdana;
 font-size: 18px;
@@ -59,7 +60,7 @@ font-size: 18px;
 background-color: #ffffff;
 }
 #body p {
-color: #272822;
+color: #000000;
 margin: 10px 20px 20px 10px;
 font-weight: none;
 font-family: Verdana;
