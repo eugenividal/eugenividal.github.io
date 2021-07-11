@@ -14,12 +14,15 @@ ul {
   padding: 0;
   word-spacing: 30px;
   font-family: Verdana;
-  font-size: 18px; 
+  font-size: 18px;
+  display: flex; 
+  justify-content: center
 }
 li {
 list-style-type: none;
 margin: 10px 20x 20x 10x;
 display: inline;
+	
 }
 
 a:link {
