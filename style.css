@@ -10,7 +10,7 @@ border-top: 1px #ddd solid;
 }
 .navlinks ul {
   list-style-type: none;
-  padding: 5px 5px;
+  padding: 0;
   word-spacing: 70px;
   text-align: center;
   font-weight: none;
