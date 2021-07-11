@@ -1,6 +1,6 @@
 {% seo %}
 #wrap {
-margin: 10px auto;
+margin: 15px auto;
 width: 70%;
 line-height: 1.2em;
 }
@@ -9,7 +9,7 @@ clear: both;
 }
 
 .navlinks ul {
-padding: 5px;
+padding: 0px;
 word-spacing: 70px;
 text-align: center;
 font-weight: 500;
