@@ -23,10 +23,11 @@ display: inline;
 
 .navlinks li a{
 color: #000000;
+text-decoration: none;
 }
 
 .navlinks li a:hover {
-color: #3B9AB2;
+text-decoration: underline;
 }
 
 .navlinks li a:active {
