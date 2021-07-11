@@ -10,12 +10,11 @@ border-top: 1px #ddd solid;
 }
 ul {
   list-style-type: none;
-  margin: auto;
+  margin: 10x 20px 0px;
   padding: 10x;
+  word-spacing: 30px;
   font-family: Verdana;
   font-size: 18px;
-  display: flex; 
-  justify-content: center
 }
 li {
 list-style-type: none;
