@@ -1,0 +1,81 @@
+{% seo %}
+#wrap {
+margin: 15px auto;
+width: 65%;
+line-height: 1.2em;
+}
+#header {
+clear: both;
+}
+
+.navlinks ul {
+padding: 20px;
+word-spacing:80px;
+text-align: center;
+font-weight: 500;
+font-family: Verdana;
+font-size: 16px;
+}
+.navlinks li {
+list-style-type: none;
+display: inline;
+}
+
+.navlinks li a{
+color: #000000;
+text-decoration: none;
+}
+
+.navlinks li a:hover {
+text-decoration: underline;
+}
+
+.navlinks li a.active {
+text-decoration: underline;
+}
+
+#header p {
+color: #aaa;
+margin: 10px 20px 20px 0px;
+font-weight: none;
+font-family: Verdana;
+font-size: 16px;
+}
+#body {
+background-color: #ffffff;
+}
+#body p {
+color: #000000;
+margin: 10px 20px 20px 0px;
+font-weight: none;
+font-family: Verdana;
+font-size: 16px;
+}
+#body h1 {
+color: #3B9AB2;
+opacity: .75;
+margin: 10px 20px 20px 0px;
+font-weight: bold;
+font-family: Verdana;
+font-size: 22px;
+}
+#body h2 {
+color: #3B9AB2;
+opacity: .75;
+margin:10px 20px 20px 0px;
+font-weight: none;
+font-family: Verdana;
+font-size: 16px;
+}
+
+#footer {
+	clear: both;
+	margin: 20px 0 35px 0;
+	border-top: 1px #ddd solid;
+}
+#footer p {
+	color: #aaa;
+	margin-top: 10px;
+	font-family: Verdana;
+	font-size: 10px;
+}
