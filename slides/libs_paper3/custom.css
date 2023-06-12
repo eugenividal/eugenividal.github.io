@@ -1,0 +1,44 @@
+.ref{  
+  font-size: 80%;
+}
+
+.ref2{  
+  font-size: 90%;
+}
+
+
+a:link {
+  color: #3B9AB2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #3B9AB2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3B9AB2;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #3B9AB2;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.blue{
+  color:#3B9AB2
+}
+
+.orange{
+  color:#E1AF00
+}
+
+.orange2{
+  color:#EBCC2A
+}
