@@ -1,4 +1,21 @@
 {% seo %}
+
+p {
+    margin-bottom: 20px; /* Adjust the value as needed */
+    line-height: 1.6; /* Improves readability */
+}
+
+.profile-pic {
+    display: block;
+    margin: 20px auto; /* Centers horizontally */
+    border-radius: 50%; /* Makes it circular (optional) */
+    width: 200px; /* Adjust size */
+    height: 200px; 
+    object-fit: cover; /* Ensures it looks good */
+}
+
+
+
 #wrap {
 margin: 15px auto;
 width: 65%;
