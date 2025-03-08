@@ -1,12 +1,12 @@
 /* Global font family */
 body {
   font-family: 'Roboto', sans-serif;
-  max-width: 1200px;  /* Narrower width */
+  max-width: 900px;  /* Narrower width */
   margin: 0 auto; 
 }
 
 .content {
-    width: 1200px;  /* Fixed width, can be smaller than max-width */
+    width: 900px;  /* Fixed width, can be smaller than max-width */
     margin: 0 auto;  /* Center the content */
 }
 
