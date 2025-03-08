@@ -1,14 +1,15 @@
 /* Global font family */
 body {
   font-family: 'Roboto', sans-serif;
-  margin-left: 40px;
-  margin-right: 40px;
+  max-width: 1200px;  /* Narrower width */
+  margin: 0 auto; 
 }
 
 .content {
-    max-width: 1200px; /* or any value you prefer */
-    margin: 0 auto; /* Centers the content */
+    width: 1200px;  /* Fixed width, can be smaller than max-width */
+    margin: 0 auto;  /* Center the content */
 }
+
 
 
 /* Paragraph styling */
