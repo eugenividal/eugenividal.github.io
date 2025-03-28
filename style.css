@@ -1,6 +1,6 @@
 /* Global font family */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
   max-width: 1200px;  /* Narrower width */
   margin: 0 auto; 
 }
@@ -10,6 +10,15 @@ body {
     margin: 0 auto;  /* Center the content */
 }
 
+h1 {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;  /* Bold */
+}
+
+p {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 300;  /* Light */
+}
 
 
 /* Paragraph styling */
