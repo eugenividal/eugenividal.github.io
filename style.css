@@ -20,7 +20,6 @@ p {
     font-weight: 300;  /* Light */
 }
 
-
 /* Paragraph styling */
 p {
   margin-bottom: 20px;
@@ -67,13 +66,24 @@ p {
   list-style-type: none;
   display: inline;
 }
+
+/* Link Styling - Ensuring Consistency */
+a {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 400;
+    color: #0000EE; /* Standard link blue */
+    text-decoration: underline; /* Ensures underlining */
+}
+
+/* Navigation links - Default black, turn blue on hover/active */
 .navlinks li a {
-  color: #000;
-  text-decoration: none;
+    color: #000; /* Black default */
+    text-decoration: none; /* No underline initially */
 }
 .navlinks li a:hover,
 .navlinks li a.active {
-  text-decoration: underline;
+    color: #0000EE; /* Blue on hover/active */
+    text-decoration: underline;
 }
 
 /* Body styling */
@@ -134,12 +144,5 @@ p {
 /* Optional: Styling for icons when hovered */
 .social-icons:hover {
   filter: grayscale(0%) brightness(100%); /* Restore color on hover */
-}
-
-li a {
-    font-family: 'Roboto Flex', sans-serif;
-    font-weight: 400;
-    color: #0000EE; /* Standard link blue */
-    text-decoration: underline; /* Ensures it's underlined */
 }
 
