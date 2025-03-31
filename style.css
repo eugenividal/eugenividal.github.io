@@ -135,3 +135,11 @@ p {
 .social-icons:hover {
   filter: grayscale(0%) brightness(100%); /* Restore color on hover */
 }
+
+li a {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 400;
+    color: #0000EE; /* Standard link blue */
+    text-decoration: underline; /* Ensures it's underlined */
+}
+
