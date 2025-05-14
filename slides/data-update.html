@@ -338,14 +338,14 @@
 <h2>📊 Data collection status</h2>
 <h3 id="new-officil-data-for-barcelona">New officil data for Barcelona!</h3>
 <ul>
-<li>Roadway and pavements surfaces (AMB): no historical data.</li>
+<li>Roadway and pavements surfaces (AMB): Area level (polygons)—no historical data.</li>
 </ul>
 
 <img data-src="figs/poligons-vorera-i-calçada2.png" style="width:70.0%" class="r-stretch"></section>
 <section id="data-collection-status-1" class="slide level2">
 <h2>📊 Data collection status</h2>
 <ul>
-<li>Cyclable streets and bike lanes (2015): clarifying definitions.</li>
+<li>Cyclable streets and bike lanes (2015): Street level (vector)—definitions being clarified.</li>
 </ul>
 
 <img data-src="data-update_files/figure-revealjs/unnamed-chunk-1-1.png" width="960" class="r-stretch"><h3 id="national-road-historical-datasets-sweden-netherlands">National road historical datasets (Sweden, Netherlands)</h3>
@@ -354,28 +354,31 @@
 <p>Global satellite imagery (since 2016), 3–5 m/pixel, likely unsuitable for detailed pedestrian infrastructure.</p>
 </section>
 <section id="osm-validation-method-sample-stratified-approach" class="slide level2">
-<h2>🚦 OSM Validation Method: Sample Stratified Approach</h2>
+<h2>🚦 OSM validation method: Sample stratified approach</h2>
 <ul>
 <li><p><strong>Study scope</strong>: Validate OSM data (bike lanes, pedestrian streets) in 7 cities (Barcelona, Milan, Warsaw, Ljubljana, Utrecht, Malmö, Paris) for three periods (e.g.&nbsp;2015, 2019, and 2023).</p></li>
+<li><p><strong>Reference dataset</strong>: Google Street View (GSV).</p></li>
 <li><p><strong>Sampling</strong>: ~60 census tracts per city (stratified: central, peripheral, high-density, low-density).</p></li>
-<li><p><strong>Image collection</strong>: Up to 13,000 GSV images via API, randomly selected within the stratified tracts.</p></li>
+<li><p><strong>Image collection</strong>: Up to 13,000 GSV images via API, randomly selected within the stratified tracts (GEMOTT super-computer).</p></li>
 <li><p><strong>Validation (MTurk)</strong>:</p>
 <ul>
 <li><p>5 users classify each image by answering “Yes” or “No” to:✅ Bike Lane, ✅ Pedestrian Area, ✅ Both.</p></li>
-<li><p>At least 3 out of 5 users must agree for the answer to be accepted.</p></li>
+<li><p>Agreement required: At least 3 out of 5 users must agree.</p></li>
+<li><p>Ethical concerns?</p></li>
 </ul></li>
 <li><p><strong>Metrics</strong>:</p>
 <ul>
-<li><p>Accuracy: Correctly mapped features (true positives).</p></li>
-<li><p>Completeness: Real-world features present in OSM.</p></li>
-<li><p>SCI: Spatial Completeness Index (variation in completeness).</p></li>
+<li><p>Accuracy: Proportion of correctly mapped features (true positives).</p></li>
+<li><p>Completeness: Proportion of real-world features present in OSM.</p></li>
+<li><p>SCI (Spatial Completeness Index): Measures variation in completeness.</p></li>
 </ul></li>
+<li><p><strong>Reliability</strong>: Metrics determine which cities, periods, and infrastructure types have reliable data (based on thresholds in prior studies).</p></li>
 </ul>
 </section>
 <section id="osm-validation-method-sample-stratified-approach-1" class="slide level2">
-<h2>🚦 OSM Validation Method: Sample Stratified Approach</h2>
+<h2>🚦 OSM validation method: Sample stratified approach</h2>
 <ul>
-<li><strong>Potential results</strong>:</li>
+<li><strong>Simulated results</strong>:</li>
 </ul>
 <div class="cell">
 <div class="cell-output-display">
@@ -385,10 +388,10 @@
 <th style="text-align: center;" data-quarto-table-cell-role="th">City</th>
 <th style="text-align: center;" data-quarto-table-cell-role="th">Interval</th>
 <th style="text-align: center;" data-quarto-table-cell-role="th">Type</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Accuracy</th>
 <th style="text-align: center;" data-quarto-table-cell-role="th">Completeness</th>
 <th style="text-align: center;" data-quarto-table-cell-role="th">SCI</th>
-<th style="text-align: center;" data-quarto-table-cell-role="th">Accuracy</th>
-<th style="text-align: center;" data-quarto-table-cell-role="th">Decision</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">Reliable</th>
 </tr>
 </thead>
 <tbody>
@@ -396,64 +399,64 @@
 <td style="text-align: center;">Barcelona</td>
 <td style="text-align: center;">2015–2019</td>
 <td style="text-align: center;">Bike Lanes</td>
-<td style="text-align: center;">88% ✅</td>
-<td style="text-align: center;">9% ✅</td>
-<td style="text-align: center;">91% ✅</td>
-<td style="text-align: center; font-weight: bold;">✅ Include</td>
+<td style="text-align: center; background-color: rgba(221, 255, 221, 255) !important;">91% ✅</td>
+<td style="text-align: center; background-color: rgba(221, 255, 221, 255) !important;">88% ✅</td>
+<td style="text-align: center; background-color: rgba(221, 255, 221, 255) !important;">9% ✅</td>
+<td style="text-align: center; font-weight: bold;">✅ Yes</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">Barcelona</td>
 <td style="text-align: center;">2015–2019</td>
 <td style="text-align: center;">Pedestrian</td>
-<td style="text-align: center;">84% ✅</td>
-<td style="text-align: center;">12% ✅</td>
-<td style="text-align: center;">87% ✅</td>
-<td style="text-align: center; font-weight: bold;">✅ Include</td>
+<td style="text-align: center; background-color: rgba(221, 255, 221, 255) !important;">87% ✅</td>
+<td style="text-align: center; background-color: rgba(221, 255, 221, 255) !important;">84% ✅</td>
+<td style="text-align: center; background-color: rgba(221, 255, 221, 255) !important;">12% ✅</td>
+<td style="text-align: center; font-weight: bold;">✅ Yes</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">Paris</td>
 <td style="text-align: center;">2019–2023</td>
 <td style="text-align: center;">Bike Lanes</td>
-<td style="text-align: center;">72% ❌</td>
-<td style="text-align: center;">18% ❌</td>
-<td style="text-align: center;">78% ❌</td>
-<td style="text-align: center; font-weight: bold;">❌ Exclude</td>
+<td style="text-align: center; background-color: rgba(255, 221, 221, 255) !important;">78% ❌</td>
+<td style="text-align: center; background-color: rgba(255, 221, 221, 255) !important;">72% ❌</td>
+<td style="text-align: center; background-color: rgba(255, 221, 221, 255) !important;">18% ❌</td>
+<td style="text-align: center; font-weight: bold;">❌ No</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">Warsaw</td>
 <td style="text-align: center;">2015–2019</td>
 <td style="text-align: center;">Bike Lanes</td>
-<td style="text-align: center;">70% ❌</td>
-<td style="text-align: center;">10% ✅</td>
-<td style="text-align: center;">75% ❌</td>
-<td style="text-align: center; font-weight: bold;">❌ Exclude</td>
+<td style="text-align: center; background-color: rgba(255, 221, 221, 255) !important;">75% ❌</td>
+<td style="text-align: center; background-color: rgba(255, 221, 221, 255) !important;">70% ❌</td>
+<td style="text-align: center; background-color: rgba(255, 221, 221, 255) !important;">10% ✅</td>
+<td style="text-align: center; font-weight: bold;">❌ No</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">Milan</td>
 <td style="text-align: center;">2019–2023</td>
 <td style="text-align: center;">Bike Lanes</td>
-<td style="text-align: center;">90% ✅</td>
-<td style="text-align: center;">11% ✅</td>
-<td style="text-align: center;">89% ✅</td>
-<td style="text-align: center; font-weight: bold;">✅ Include</td>
+<td style="text-align: center; background-color: rgba(221, 255, 221, 255) !important;">89% ✅</td>
+<td style="text-align: center; background-color: rgba(221, 255, 221, 255) !important;">90% ✅</td>
+<td style="text-align: center; background-color: rgba(221, 255, 221, 255) !important;">11% ✅</td>
+<td style="text-align: center; font-weight: bold;">✅ Yes</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">Milan</td>
 <td style="text-align: center;">2019–2023</td>
 <td style="text-align: center;">Pedestrian</td>
-<td style="text-align: center;">60% ❌</td>
-<td style="text-align: center;">19% ❌</td>
-<td style="text-align: center;">65% ❌</td>
-<td style="text-align: center; font-weight: bold;">❌ Exclude</td>
+<td style="text-align: center; background-color: rgba(255, 221, 221, 255) !important;">65% ❌</td>
+<td style="text-align: center; background-color: rgba(255, 221, 221, 255) !important;">60% ❌</td>
+<td style="text-align: center; background-color: rgba(255, 221, 221, 255) !important;">19% ❌</td>
+<td style="text-align: center; font-weight: bold;">❌ No</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">Ljubljana</td>
 <td style="text-align: center;">2019–2023</td>
 <td style="text-align: center;">Bike Lanes</td>
-<td style="text-align: center;">50% ❌</td>
-<td style="text-align: center;">22% ❌</td>
-<td style="text-align: center;">55% ❌</td>
-<td style="text-align: center; font-weight: bold;">❌ Exclude</td>
+<td style="text-align: center; background-color: rgba(255, 221, 221, 255) !important;">55% ❌</td>
+<td style="text-align: center; background-color: rgba(255, 221, 221, 255) !important;">50% ❌</td>
+<td style="text-align: center; background-color: rgba(255, 221, 221, 255) !important;">22% ❌</td>
+<td style="text-align: center; font-weight: bold;">❌ No</td>
 </tr>
 </tbody>
 </table>
@@ -462,7 +465,7 @@
 </div>
 </div>
 <ul>
-<li><p><strong>Total Estimated Cost</strong>:</p>
+<li><p><strong>Estimated Cost</strong>:</p>
 <ul>
 <li><p>MTurk: ~€614 (5 users × €0.01 × 13,000 images).</p></li>
 <li><p>Google Street View API: ~€23 (2 lots of 6,000 images).</p></li>
@@ -471,20 +474,22 @@
 </ul>
 <!-- ![](figs/method-validation-table2.png){width="70%"} -->
 <ul>
-<li><p><strong>Risk</strong>: Finding low data quality (low accuracy, completeness, or high SCI) in most cities.</p></li>
-<li><p><strong>Alternative approach (still to discuss)</strong>:</p>
+<li><strong>Risk</strong>: Finding low data quality in most cases (low accuracy, completeness, or high SCI).</li>
+</ul>
+<h3 id="alternative-approach-idea-still-to-discuss">Alternative approach (idea – still to discuss)</h3>
 <ul>
-<li>Full extrinsic validation in Barcelona (GSV + MTurk) + use intrinsic OSM indicators (contributor count, version count, tag richness) for other cities.</li>
-</ul></li>
+<li><p>Full extrinsic validation in Barcelona (GSV + MTurk).</p></li>
+<li><p>Use intrinsic OSM indicators (contributor count, version count, tag richness) for other cities.</p></li>
 </ul>
 </section>
 <section id="expert-consultation-and-feedback" class="slide level2">
 <h2>👩‍🔬 Expert consultation and feedback</h2>
 <ul>
-<li><p><strong>HeiGIT team (Kirsten)</strong>: OSM data quality is highly variable across cities and time; recommended focusing on high-quality segments and leveraging the Ohsome API for analysis. We might have a meeting with them.</p></li>
-<li><p><strong>Aaron Hipp</strong>: Supported the validation approach; offered OSM US contact; highlighted issues with inconsistent definitions across cities.</p></li>
-<li><p><strong>Robin Lovelace</strong>: Supported the validation approach; had no direct contacts within OSM Europe.</p></li>
+<li><p><strong>HeiGIT team (Kirsten)</strong>: Doubted historical OSM data reliability (esp.&nbsp;pre-2017, pedestrian/cycling), though found comparing it with external data like StreetView interesting and useful.</p></li>
+<li><p><strong>Aaron Hipp</strong>: Supported the validation approach; highlighted issues with inconsistent definitions across cities.</p></li>
+<li><p><strong>Robin Lovelace</strong>: Supported the validation approach; could help with consistent tagging issues, osmextract R package.</p></li>
 <li><p><strong>Ane Rahbek Vierø</strong>: Contacted but has not yet responded.</p></li>
+<li><p><strong>Angelo Guevara</strong>?</p></li>
 </ul>
 <p>✅ General consensus: Experts agree that a research paper on this validation method would be highly valuable.</p>
 </section>
@@ -495,13 +500,13 @@
 <ul>
 <li><p>Continue collecting official data (focus on other cities).</p></li>
 <li><p>Check Planet’s satellite imagery data suitability to test active travel infrastructure</p></li>
-<li><p>Refine the OSM validation method/ set up validation (MTurk) task</p></li>
+<li><p><strong>Refine the OSM validation method/ set up validation (MTurk) task</strong></p></li>
 <li><p>Reply to Kirsten (HeiGIT) with our refined method and perhaps meet with them.</p></li>
 </ul></li>
-<li><p>Conduct a pilot validation first in Barcelona?</p></li>
-<li><p>Paper development:</p>
+<li><p>Paper development (with Zulema):</p>
 <ul>
-<li>Potential title: “<em>Can OpenStreetMap reliably track active travel infrastructure changes? A Multi-City validation in seven european cities</em>”</li>
+<li><p>Potential title: “<em>Can OpenStreetMap reliably track changes in active travel infrastructure? A Multi-City validation in seven European cities</em>”</p>
+<p><a href="https://github.com/GEMOTT/active-travel-infras-changes">https://github.com/GEMOTT/active-travel-infras-changes</a></p></li>
 </ul></li>
 </ul>
 <div class="quarto-auto-generated-content">
