@@ -10,8 +10,8 @@
 <link href="acs-inequalities-slides_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
-  <meta name="author" content="  E. Vidal-Tortosa, P. Campos-Garzón, A. Ruiz-Alarcón, J. Molina-García, P. Chillón">
-  <title>Active school commuting among Spanish youth: Social inequalities, environment, and health implications 🚶‍♀🚴🏿‍♂️️️🏫</title>
+  <meta name="author" content="  E. Vidal-Tortosa, P. Campos-Garzón, A. Ruiz-Alarcón, J. Molina-García, J. Gilliland, P. Chillón">
+  <title>Active commuting to school among Spanish adolescents: social differences &amp; neighbourhood environment 🚶‍♀🚴🏿‍♂</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -29,7 +29,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="acs-inequalities-slides_files/libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="templates/styles.css">
   <link href="acs-inequalities-slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -327,12 +347,12 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Active school commuting among Spanish youth: Social inequalities, environment, and health implications 🚶‍♀🚴🏿‍♂️️️🏫</h1>
+  <h1 class="title">Active commuting to school among Spanish adolescents: social differences &amp; neighbourhood environment 🚶‍♀🚴🏿‍♂</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-<br> E. Vidal-Tortosa, P. Campos-Garzón, A. Ruiz-Alarcón, J. Molina-García, P. Chillón 
+<br> E. Vidal-Tortosa, P. Campos-Garzón, A. Ruiz-Alarcón, J. Molina-García, J. Gilliland, P. Chillón 
 </div>
 </div>
 </div>
@@ -340,42 +360,114 @@
 </section>
 <section id="introduction" class="slide level2">
 <h2>🎯 Introduction</h2>
-<h4 id="rationale">Rationale</h4>
-<p>– Active commuting to and from school (ACS) boost physical activity (PA)—especially for disadvantaged youth—but little is known about their engagement or how environments shape it.</p>
-<h4 id="aims">Aims</h4>
-<p>– To examine the relationship between socioeconomic status (SES), migration background, and both usual mode and weekly frequency of ACS</p>
-<p>– To assess how home-neighbourhood environmental characteristics shape these relationships</p>
-<h4 id="data-methods">Data &amp; Methods</h4>
-<p>Cross-sectional analysis of 366 urban adolescents in Spain, based on data from the PACO study (self-reported commuting questionnaire linked with home-neighbourhood geospatial data).</p>
-<p>Analytical Approach:</p>
-<p>– Descriptive statistics and multilevel regression (individuals nested in schools)</p>
-<p>– Two-step modelling:</p>
-<p>🔹 Step 1: Adjusted for sociodemographic variables</p>
-<p>🔹 Step 2: Added environmental characteristics to explore contextual influences</p>
+<p><br></p>
+<h3 id="rationale">Rationale</h3>
+<ul>
+<li><p>Adolescents from <strong>low socioeconomic status (SES)</strong> &amp; <strong>migrant-background</strong> families → <strong>less physically active</strong> <span class="citation" data-cites="owen_fair_2022 ahmed_global_2021 lorente_factors_2025 boraita_factores_2022">(<a href="#/references" role="doc-biblioref" onclick="">Owen et al. 2022</a>; <a href="#/references" role="doc-biblioref" onclick="">Ahmed et al. 2021</a>; <a href="#/references" role="doc-biblioref" onclick="">Lorente et al. 2025</a>; <a href="#/references" role="doc-biblioref" onclick="">Boraita et al. 2022</a>)</span>.</p></li>
+<li><p><strong>Active commuting to school (ACS)</strong> (walking/cycling) → cheap, accessible, parent-independent → <strong>may reduce gaps</strong></p></li>
+<li><p>In <strong>Southern Europe</strong>, little evidence on <strong>ACS by social group</strong> &amp; <strong>neighbourhood environment</strong></p></li>
+</ul>
+<h3 id="research-questions">Research questions</h3>
+<ul>
+<li><p><strong>RQ1</strong>. Do Spanish low-SES and migrant-background adolescents differ in ACS vs peers?</p></li>
+<li><p><strong>RQ2</strong>. If so, do neighbourhood environments explain or amplify these differences?</p></li>
+</ul>
 </section>
-<section id="results-descriptive-statistics" class="slide level2">
-<h2>📈 Results – Descriptive Statistics</h2>
+<section id="data-methods" class="slide level2">
+<h2>⚙️ Data &amp; Methods</h2>
+<p><br></p>
+<h3 id="design-sample-source">Design, sample &amp; source</h3>
+<ul>
+<li><p>Cross-sectional study</p></li>
+<li><p>366 urban adolescents (13–17y, Spain)</p></li>
+<li><p>PACO project <span class="citation" data-cites="chillon_school-based_2021">(<a href="#/references" role="doc-biblioref" onclick="">Chillón et al. 2021</a>)</span></p></li>
+</ul>
+<h3 id="variables">Variables</h3>
+<ul>
+<li><p><strong>Outcomes</strong>: usual mode (active vs passive); weekly active trips</p></li>
+<li><p><strong>Predictors</strong>: sociodemographics (SES, migration background, age, gender); environmental factors (distance to school, residential density, land-use mix, pedestrian infrastructure, perceived environment)</p></li>
+</ul>
+<h3 id="analysis">Analysis</h3>
+<ul>
+<li><p><strong>Multilevel regression</strong> (students nested in schools)</p>
+<ul>
+<li>Base → sociodemographics</li>
+<li>Full → + environmental</li>
+</ul></li>
+</ul>
+</section>
+<section id="results-descriptives" class="slide level2">
+<h2>📈 Results – Descriptives</h2>
+<p><br></p>
+<p><strong>ACS higher among low-SES and migrant-background adolescents</strong></p>
+<!-- **ACS outcomes by SES & migration background** -->
 
-<img data-src="figs/fig1_small.png" style="width:100.0%" class="r-stretch quarto-figure-center"><p class="caption">Figure 1: Usual mode of commuting to and from school by social groups</p></section>
-<section id="results-regression-models" class="slide level2">
-<h2>🧮 Results – Regression Models</h2>
+<img data-src="acs-inequalities-slides_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
+<section id="results-descriptives-1" class="slide level2">
+<h2>📈 Results – Descriptives</h2>
+<p><br></p>
+<p><strong>Low-SES and migrant-background adolescents live closer to school</strong></p>
+<!-- **Distance to school by SES and migration background** -->
 
-<img data-src="figs/fig3_small.png" style="width:100.0%" class="r-stretch quarto-figure-center"><p class="caption">Figure 2: ORs and 95% CIs for the associations between socioeconomic status and migration background with usual mode of commuting (1 = active, 0 = passive) and weekly frequency of active commuting (n° trips) to and from school. Estimates are adjusted for sociodemographic and environmental covariates</p></section>
-<section id="conclusions" class="slide level2">
-<h2>✅ Conclusions</h2>
-<h4 id="main-findings">Main findings</h4>
-<p>– Disadvantaged groups engaged more in ACS: higher-SES students used active modes less and made fewer trips (both directions); students without migratory background used active modes less from school.</p>
-<p>– Differences disappeared after adjusting for home-neighbourhood environment; home–school distance was the strongest factor.</p>
-<p>– Other environmental features (residential density, land use mix, perceived environment) showed weak/inconsistent links; pedestrian infrastructure not significant.</p>
-<h4 id="interpretation">Interpretation</h4>
-<p>– ACS may help compensate for disparities in structured PA</p>
-<p>– Environmental context helps explain social gradients in ACS</p>
-<h4 id="implications">Implications</h4>
-<p>– Policy should prioritise short home–school distances and safe, supportive conditions for those who rely on ACS, particularly for afternoon travel</p>
-<p>– Equity-focused support for ACS may reduce PA inequalities and promote transport justice and health equity</p>
+<img data-src="acs-inequalities-slides_files/figure-revealjs/unnamed-chunk-7-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">Truncated at 30 km.</p></section>
+<section id="results-multilevel-regression" class="slide level2">
+<h2>📈 Results – Multilevel regression</h2>
+<p><br></p>
+<p><strong>Social ACS differences <em>to</em> school ➡️🏫 mostly explained by distance</strong></p>
+<!-- **Associations with active commuting *to school* ➡️** -->
+
+<img data-src="acs-inequalities-slides_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption"><strong>OR = Odds Ratio</strong> (odds of using active vs passive mode). ➡ OR &lt; 1 = ↓ less likely | OR &gt; 1 = ↑ more likely.<br> <strong>IRR = Incidence Rate Ratio</strong> (number of weekly active trips). ➡ IRR &lt; 1 = ↓ trips | IRR &gt; 1 = ↑ more trips. <br>Models adjusted for age &amp; gender.</p></section>
+<section id="results-multilevel-regression-1" class="slide level2">
+<h2>📈 Results – Multilevel regression</h2>
+<p><br></p>
+<p><strong>Stronger social ACS differences <em>from</em> school ⬅️🏫, also mostly explained by distance</strong></p>
+<!-- **Associations with active commuting *from school* ⬅️** -->
+
+<img data-src="acs-inequalities-slides_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">➡ OR &lt; 1 = ↓ less likely | OR &gt; 1 = ↑ more likely.<br> ➡ IRR &lt; 1 = ↓ trips | IRR &gt; 1 = ↑ more trips. <br>Models adjusted for age &amp; gender.</p></section>
+<section id="discussion-conclusions" class="slide level2">
+<h2>🧠 Discussion &amp; Conclusions</h2>
+<p><br></p>
+<h3 id="key-findings">Key findings</h3>
+<ul>
+<li><p><strong>RQ1</strong>. Do Spanish low-SES and migrant-background adolescents differ in ACS vs peers? → <strong>Yes</strong>. They engage more in ACS, especially <em>from</em> school.</p></li>
+<li><p><strong>RQ2</strong>. Do neighbourhood environments explain or amplify these differences? → <strong>Explain</strong>. Once adjusted for environment, SES and migration differences disappear.</p>
+<div class="takeaway">
+<p>The disparities appear to be less about <em>who adolescents are</em> and more about <em>where they live</em> — with <strong>distance to school</strong> playing the biggest role</p>
+</div></li>
+</ul>
+<h3 id="limitations">Limitations</h3>
+<ul>
+<li>Cross-sectional; modest sample; route/school-site environment not measured</li>
+</ul>
+<h3 id="implications">Implications</h3>
+<ul>
+<li><p><strong>Protective mechanism</strong>: ACS in Spain helps reduce social gaps in PA — but only where schools are close enough to walk.</p></li>
+<li><p><strong>Policy priority</strong>: School siting and neighbourhood planning are crucial to sustain equity in PA.</p></li>
+</ul>
+</section>
+<section id="references" class="slide level2 references smaller scrollable">
+<h2>📚 References</h2>
+<p><br></p>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-ahmed_global_2021" class="csl-entry" role="listitem">
+Ahmed, Shahnawaz, Riaz Uddin, Jenny Ziviani, and Asaduzzaman Khan. 2021. <span>“Global <span>Prevalence</span> of <span>Physical</span> <span>Activity</span>, <span>Sedentary</span> <span>Behaviour</span>, and <span>Sleep</span> of <span>Immigrant</span> <span>Children</span>: A <span>Systematic</span> <span>Review</span>.”</span> <em>Journal of Racial and Ethnic Health Disparities</em> 8 (6): 1364–76. <a href="https://doi.org/10.1007/s40615-020-00898-1">https://doi.org/10.1007/s40615-020-00898-1</a>.
+</div>
+<div id="ref-boraita_factores_2022" class="csl-entry" role="listitem">
+Boraita, Raúl Jiménez, Daniel Arriscado Alsina, Josep María Dalmau Torres, and Esther Gargallo Ibort. 2022. <span>“Factores Asociados a Los Desplazamientos Activos Al Centro Escolar En Adolescentes <span>Factors</span> Associated with Active Commuting to School in Adolescents”</span> 17 (52).
+</div>
+<div id="ref-chillon_school-based_2021" class="csl-entry" role="listitem">
+Chillón, Palma, Patricia Gálvez-Fernández, Francisco Javier Huertas-Delgado, Manuel Herrador-Colmenero, Yaira Barranco-Ruiz, Emilio Villa-González, María Jesús Aranda-Balboa, et al. 2021. <span>“A <span>School</span>-<span>Based</span> <span>Randomized</span> <span>Controlled</span> <span>Trial</span> to <span>Promote</span> <span>Cycling</span> to <span>School</span> in <span>Adolescents</span>: <span>The</span> <span>Paco</span> <span>Study</span>.”</span> <em>International Journal of Environmental Research and Public Health</em> 18 (4): 2066. <a href="https://doi.org/10.3390/ijerph18042066">https://doi.org/10.3390/ijerph18042066</a>.
+</div>
+<div id="ref-lorente_factors_2025" class="csl-entry" role="listitem">
+Lorente, José Ramón Solano, Mario Diaz Cutillas, Sara Luna Rivas, Francisco José Rivera De Los Santos, Aníbal Nieto Diaz, and Olga Monteagudo Piqueras. 2025. <span>“Factors <span>Associated</span> with <span>Physical</span> <span>Activity</span> <span>Engagement</span> <span>Among</span> <span>Adolescents</span> in a <span>Southeastern</span> <span>Region</span> of <span>Spain</span>.”</span> <em>Preventive Medicine Reports</em> 53 (May): 103063. <a href="https://doi.org/10.1016/j.pmedr.2025.103063">https://doi.org/10.1016/j.pmedr.2025.103063</a>.
+</div>
+<div id="ref-owen_fair_2022" class="csl-entry" role="listitem">
+Owen, Katherine B., Tracy Nau, Lindsey J. Reece, William Bellew, Catriona Rose, Adrian Bauman, Nicole K. Halim, and Ben J. Smith. 2022. <span>“Fair <span>Play</span>? <span>Participation</span> <span>Equity</span> in <span>Organised</span> <span>Sport</span> and <span>Physical</span> <span>Activity</span> <span>Among</span> <span>Children</span> and <span>Adolescents</span> in <span>High</span> <span>Income</span> <span>Countries</span>: <span>A</span> <span>Systematic</span> <span>Review</span> and <span>Meta</span>-<span>Analysis</span>.”</span> <em>International Journal of Behavioral Nutrition and Physical Activity</em> 19 (1): 27. <a href="https://doi.org/10.1186/s12966-022-01263-7">https://doi.org/10.1186/s12966-022-01263-7</a>.
 </div>
 </div>
 </section>
@@ -589,6 +681,44 @@
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
