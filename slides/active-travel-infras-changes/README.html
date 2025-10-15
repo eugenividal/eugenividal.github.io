@@ -48,9 +48,8 @@ ul.task-list li input[type="checkbox"] {
 
 <!-- # Can OpenStreetMap Reliably Track Changes in Active Travel Infrastructure? Evidence from Barcelona with GSV Validation -->
 <!-- ## Introduction -->
-<p>🔗 Part of the <a href="https://github.com/GEMOTT/atrapa_database">ATRAPA database project</a><br>
-</p>
-<p>⬅️ <a href="https://github.com/GEMOTT/atrapa_database">Back to project overview</a> ➡️ <a href="https://github.com/GEMOTT/electoral-socioeconomic-data">Next repo related: Electoral and socioeconomic data</a></p>
+<!-- 🔗 Part of the [ATRAPA database project](https://github.com/GEMOTT/atrapa_database)\ -->
+<!-- ⬅️ [Back to project overview](https://github.com/GEMOTT/atrapa_database) ➡️ [Next repo related: Electoral and socioeconomic data](https://github.com/GEMOTT/electoral-socioeconomic-data) -->
 <!-- The relationship between the built environment and travel behaviour has been widely studied, with many studies identifying associations between environmental characteristics and travel patterns [@cerin_neighbourhood_2017; @ding_neighborhood_2011; @zhang_impact_2022]. However, most research relies on cross-sectional data, which cannot establish causality [@mccormack_search_2011; @coevering_multi-period_2015]. In contrast, studies that track changes in both travel behaviour and the built environment—such as longitudinal studies and natural experiments—offer stronger causal insights but remain relatively scarce [@karmeniemi_built_2018; @smith_systematic_2017; @tcymbal_effects_2020]. -->
 <!-- One of the main challenges in expanding this area of research is the limited availability of consistent, time-series data on the built environment. While historical data on travel behaviour is often more accessible—through sources like censuses, surveys, and increasingly, crowdsourced platforms like Strava—comparable records of past urban infrastructure are much harder to obtain. Long-term records of active travel networks, though consistent and accessible historical data remains limited and varies across cities, which hinders broader or international comparisons. An alternative is to reconstruct historical built environment data manually using maps, satellite imagery, and planning records, but this process is highly resource-intensive and typically limited in scale. -->
 <!-- The growing availability of Volunteered Geographic Information (VGI) presents new opportunities to overcome data limitations in built environment research. Among these sources, OpenStreetMap (OSM) stands out for providing open, editable, and historical data on various types of infrastructure, making it a promising tool for analysing urban transformations over time. However, its application in this context requires careful validation due to well-documented limitations in accuracy, completeness, and temporal consistency [@barron_comprehensive_2014]. -->
@@ -62,10 +61,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <ul>
-<li><p>Context: Urban transformations, such as new or upgraded bike lanes, can reshape mobility and health, but studying their effects requires reliable historical data.</p></li>
+<li><p>Context: Urban transformations, such as the construction of new bike lanes, can reshape mobility and health, but studying their effects requires reliable historical data.</p></li>
 <li><p>Problem: Standardised datasets of infrastructure change are rarely available across cities and years.</p></li>
 <li><p>Potential solution: Volunteered Geographic Information, especially OpenStreetMap (OSM), provides open and historical data on infrastructure, offering a promising way to track changes over time. However, the reliability of OSM data for detecting infrastructure change is uncertain and requires systematic validation.</p></li>
-<li><p>Aim: Determine whether OSM reliably reflects new or removed bike lanes in Barcelona using dated Google Street View as ground truth.</p></li>
+<li><p>Aim: Determine whether OSM reliably reflects new or removed bike lanes in Barcelona using dated Google Street View (GSV) as ground truth.</p></li>
 <li><p>Contribution: We benchmark OSM’s change detection (precision, recall, F1) and share a reusable validation workflow that others can apply; we also outline calibration as a next step.</p></li>
 </ul>
 </section>
@@ -75,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="data-sources">Data sources</h3>
 <ul>
 <li><p>OpenStreetMap (OSM): open, collaboratively mapped vector data with tags for cycling infra.</p></li>
-<li><p>Google Street View (GSV): geotagged, time-stamped street-level imagery. (Right now they’re just headings.)</p></li>
+<li><p>Google Street View (GSV): geotagged, time-stamped street-level imagery.</p></li>
 </ul>
 </section>
 <section id="methods" class="level3">
@@ -94,12 +93,12 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="osm-data-extraction-and-preprocessing">OSM data extraction and preprocessing</h4>
 <ul>
 <li><p>Extraction: Download OSM linework for both years (snapshot dates: 2020-01-01 for 2019 and 2024-01-01 for 2023).</p></li>
-<li><p>CI selector:</p>
+<li><p>Cycling infrastructure (CI) selector:</p>
 <ul>
 <li><p>Keep segments with: <code>highway=cycleway</code> • <code>cycleway=*</code> or <code>cycleway:left/right/both=*</code> (lane/track/opposite/separate) • <code>bicycle_road=yes</code> • designated <code>path/footway/track</code> for bicycles.</p></li>
 <li><p>Normalize geometries; metric CRS; min-length filter; tolerance buffer to reduce sliver noise.</p></li>
 </ul></li>
-<li><p>Non-CI (general network): Base roads excluding all CI tags (strict complement).</p></li>
+<li><p>Non-cycling infrastructure (NONCI - general network): Base roads excluding all CI tags.</p></li>
 </ul>
 </section>
 <section id="geometric-differencing" class="level4">
@@ -132,16 +131,16 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="gsv-inspection">GSV inspection</h4>
 <ul>
 <li><p>Tolerance windows. 2019 condition: 2018–2019; 2023 condition: 2023–2024.</p></li>
-<li><p>Procedure. At each sampled point, inspect both windows; if either window is not verifiable, exclude the point from accuracy stats.</p></li>
-<li><p>Variables recorded (per year). presence_[year] (Y/N/NA), notes_[year] (free text).</p></li>
+<li><p>Procedure. At each point, inspect imagery within the tolerance windows. If missing, move a few meters to check nearby coverage; exclude points where either window remains unverifiable.</p></li>
+<li><p>Variables recorded (per year). For each window, record presence_[year] (1 = infrastructure present, 0 = absent, NA = not verifiable) and optional notes for contextual observations (e.g., occlusion, construction, poor visibility).</p></li>
 </ul>
 </section>
 <section id="classification" class="level4">
 <h4 class="anchored" data-anchor-id="classification">Classification</h4>
 <ul>
-<li><p>OSM-flagged ADD. TP if CI absent in 2019 and present in 2023; otherwise FP.</p></li>
+<li><p>OSM-flagged ADD. True Positive (TP) if CI absent in 2019 and present in 2023; otherwise False Positive (FP).</p></li>
 <li><p>OSM-flagged REMOVE. TP if CI present in 2019 and absent in 2023; otherwise FP.</p></li>
-<li><p>NONCI points. Used to detect FN (true changes that OSM did not flag).</p></li>
+<li><p>NONCI points. Used to detect False Negatives (FN - true changes that OSM did not flag).</p></li>
 <li><p>Usable points. Only points with both years verifiable enter precision/recall.</p></li>
 </ul>
 <div class="cell" data-layout-align="center">
@@ -158,9 +157,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="performance-metrics" class="level4">
 <h4 class="anchored" data-anchor-id="performance-metrics">Performance metrics</h4>
 <ul>
-<li><p>Precision = TP / (TP + FP)</p></li>
-<li><p>Recall = TP / (TP + FN)</p></li>
-<li><p>F1 = 2·Precision·Recall / (Precision + Recall)</p></li>
+<li><p>Precision (share of OSM detections that are correct) = TP / (TP + FP)</p></li>
+<li><p>Recall (share of real changes correctly detected by OSM) = TP / (TP + FN)</p></li>
+<li><p>F1 (harmonic mean of precision and recall, overall accuracy) = 2·Precision·Recall / (Precision + Recall)</p></li>
 <li><p>Notes. Precision is computed on OSM-flagged points (ADD/REMOVE); FN comes from NONCI points. Report metrics by class and pooled, with 95% CIs.</p></li>
 </ul>
 <!-- ### Uncertainty & stratification -->
@@ -182,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="osm-derived-change-estimates" class="level3">
 <h3 class="anchored" data-anchor-id="osm-derived-change-estimates">OSM-derived change estimates</h3>
 <p>The OSM-mapped cycling network in Barcelona expanded from 214.9 km in 2019 to 264.0 km in 2023—a net increase of 49.0 km (≈ 23%). Segment-level differencing identified 65.5 km of additions and 23.4 km of removals (Table 1). Although these figures imply a slightly lower net growth (42.1 km), the overall consistency suggests good agreement between yearly totals and change estimates.</p>
-<p>Additions were concentrated in dense, central areas, particularly in D3_C3 (14.9% of added km), D3_C2 (16.5%), and D2_C1 (14.7%)—together accounting for nearly half of all mapped growth (Table 2). Removals were less frequent and more spatially fragmented, occurring mainly in D2_C2 (31.2%), D2_C3 (23.0%), and D2_C1 (19.5%), suggesting higher map churn in intermediate-density tracts.</p>
+<p>Additions were concentrated in dense, central areas, particularly in D3_C3 (14.9% of added km), D3_C2 (16.5%), and D2_C1 (14.7%)—together accounting for nearly half of all mapped growth (Table 2). Removals were less frequent and more spatially fragmented, occurring mainly in D2_C2 (31.2%), D2_C3 (23.0%), and D2_C1 (19.5%), suggesting higher map data volatility (i.e., frequent edits or re-tagging of features, also known as map churn) in intermediate-density tracts.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -484,7 +483,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="interpretation-and-possible-calibration-use" class="level3">
 <h3 class="anchored" data-anchor-id="interpretation-and-possible-calibration-use">Interpretation and possible calibration use</h3>
 <p>We found that OSM captures most new cycling infrastructure in Barcelona but misses or misclassifies some removals. In other words, OSM is very good at detecting where new bike lanes appear, but it sometimes shows minor edits or re-tagging as false additions and does not always record when lanes are removed. This means that OSM data can already be used to study urban change, but the raw figures may slightly overestimate total network growth.</p>
-<p>Calibration could help correct the small biases observed in OSM-derived estimates. Using the validation metrics—precision and recall—we could adjust OSM measurements to better approximate real-world change. For example, if OSM’s precision for additions is 0.77, multiplying the detected additions by this factor would yield a more realistic estimate of true new infrastructure. Because validation was stratified by density and centrality, this calibration could also be applied separately within each stratum, allowing for spatially differentiated correction where OSM accuracy varies across the city. Such calibration would make OSM-based indicators more reliable and comparable for longitudinal analyses of urban transformation.</p>
+<p>Calibration could help correct the small biases observed in OSM-derived estimates. Using the validation metrics precision and recall, we could adjust OSM measurements to better approximate real-world change. For example, if OSM’s precision for additions is 0.77, multiplying the detected additions by this factor would yield a more realistic estimate of true new infrastructure. Because validation was stratified by density and centrality, this calibration could also be applied separately within each stratum, allowing for spatially differentiated correction where OSM accuracy varies across the city. Such calibration would make OSM-based indicators more reliable and comparable for longitudinal analyses of urban transformation.</p>
 <!-- ### Error-adjusted change estimates -->
 <!-- Calibrated totals after applying validation metrics. -->
 <!-- Example table contrasting Raw vs Adjusted at city level (and possibly mean per tract). -->
