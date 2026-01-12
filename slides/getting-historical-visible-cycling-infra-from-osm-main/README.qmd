@@ -1,0 +1,229 @@
+---
+title: "Getting historical OSM cycling infrastructure data"
+format: 
+  html
+---
+
+## What this repository does
+
+This repository provides a reusable workflow to extract, process, and map cycling infrastructure from historical OpenStreetMap (OSM) snapshots for individual cities. It is intended to support research on urban and transport policy interventions, including projects such as ATRAPA, that need consistent, spatially explicit representations of cycling infrastructure at different points in time.
+
+The same input OSM data are processed using two complementary classification approaches:
+1) **osmextract custom**, a conservative, explicit tag-based workflow that prioritises cycling provision as it is directly encoded in OSM
+2) **osmactive**, a rule-based workflow (from the `osmactive` R package) that classifies links into functional cycling-environment types using OSM tags and geometry
+
+Processing is carried out one city at a time using a common set of core scripts. City-specific inputs (study boundary, OSM extract, coordinate reference system, and the snapshot versions to process) are defined in a single setup file. The Quarto report (`.qmd`) is used to render and visualise pre-processed outputs for three worked examples: Barcelona, Paris, and Montréal.
+
+## Overview of workflows
+
+### osmextract custom workflow
+
+This workflow applies a conservative, explicit tag-based rule set following an *osmextract*-style logic. Cycling provision is selected using OSM tags that explicitly encode cycling-relevant infrastructure, rather than inferred suitability or physical design. 
+
+A feature is retained if it is mapped as a dedicated cycleway (`highway=cycleway`); if it carries explicit `cycleway*` values indicating an on-road cycling facility (`cycleway=lane` or `cycleway=track`, including directional variants and `opposite_*` values); if it encodes weaker on-road cycling provision where cyclists share space with motor vehicles, such as mixed-traffic streets or bus–bike and taxi–bike lanes (`cycleway=shared_lane`, `cycleway=share_busway`); or if it is a non-motorised way (`highway=path`, `footway`, or `pedestrian`) where cycling is explicitly permitted, including both shared-use footways and cycle lanes designated on pedestrian space (for example, painted lanes on pavements).
+
+For mapping and diagnostic purposes, retained features are grouped into four approximate, tag-based classes that summarise how cycling provision is represented in OSM: **Separated cycling infrastructure**, **Painted on-road cycle lane**, **Mixed traffic (cars / buses)**, and **Cycling on pedestrian infrastructure**. These classes provide a compact summary of explicit OSM tagging patterns and support visualisation, comparison across cities and time, and diagnostic checks of data consistency. They are stored internally as `strong_ci`, `moderate_ci`, `weak_ci`, and `shared_foot`, and should be interpreted as representations of OSM tagging practices rather than as a strict typology of infrastructure design or on-the-ground conditions.
+
+Because OSM can contain parallel representations of the same physical facility, an additional step is used to identify potential double counting. Painted on-road cycle lanes that run very close to a dedicated cycleway for most of their length are flagged as potential duplicates (parallel to a cycleway). Empirical inspection in Barcelona showed that this pattern was common in earlier snapshots (notably around 2016), where comparison with Google Street View indicated that the parallel on-road representation usually corresponded to the same physical facility rather than a distinct one. This behaviour was much less frequent in more recent data (for example 2024) and was observed only sporadically in the other cities examined.
+
+In the maps, the default cycling network shown corresponds to the **EXCL_NDC** representation, in which segments flagged as potential duplicates are excluded, while the flagged segments themselves can be displayed as a separate overlay to make this assumption explicit and inspectable. In the data, two layers are provided per snapshot: a **TOTAL** layer containing the full set of retained features with potential duplicates explicitly marked, and an **EXCL_NDC** layer in which these flagged segments are excluded.
+
+
+### osmactive (native classes)
+
+Cycling infrastructure is also classified using the *osmactive* R package, which applies a rule-based classification to OSM data to assign each street segment to a cycling-infrastructure class. This classification is defined by the package and is independent of the osmextract custom workflow.
+
+The osmactive approach combines OSM tags describing cycling provision (including `highway`, `cycleway*`, `bicycle`, `foot`, and `segregated`) with geometric rules to distinguish whether cycling is accommodated on the carriageway, on a separate alignment, or on an off-road path. These rules are used to differentiate between on-road cycling lanes, physically separated facilities, shared pedestrian–cycle paths, and streets where cycling occurs in mixed traffic. Geometric characteristics are further used to distinguish between narrow and wide segregated facilities.
+
+The resulting classification assigns each link to one of six infrastructure classes: **Segregated tracks (wide)**, **Segregated tracks (narrow)**, **Off-road paths**, **Shared footways**, **Painted cycle lanes**, and **Mixed-traffic streets**. These classes represent a functional typology of cycling environments derived from OSM tagging and geometry, rather than a description of how cycling infrastructure is represented in OSM.
+
+Package documentation: <https://github.com/nptscot/osmactive/>
+
+## Time handling and snapshots
+
+Historical OSM data are handled as discrete snapshot versions, defined using date-based version codes (for example, `160101`, `240101`). Each snapshot is processed independently, and the workflow builds complete city-level outputs separately for each version specified in `R/00_setup.R`.
+
+For interpretation and quality control, the interactive maps display two processed snapshots of the same city within a single interface, allowing layers to be toggled between years.
+
+::: {.callout-tip collapse=true}
+
+## Quick start (first-time users)
+
+### Build the required city-level outputs
+
+The Quarto report assumes that all required outputs for the three showcase cities already exist on disk. These outputs are created by running the same workflow separately for each city.
+
+Before rendering the report, you need to:
+
+1. select one city in `R/00_setup.R`,
+
+2. run the workflow to generate all outputs for that city,
+
+3. repeat the process for each showcase city:
+
+- Barcelona
+
+- Paris
+
+- Montréal
+
+The scripts are the same for all cities. Only the active city in `R/00_setup.R` changes.
+
+### Select a city (one at a time)
+
+Open `R/00_setup.R`. In the CITY SETTINGS section:
+
+- leave one city block uncommented (active), for example:
+
+```r
+city_name           <- "Barcelona"
+city_tag            <- "barcelona"
+city_boundary_place <- "Barcelona, Spain"
+infra_region <- "Spain"
+crs_work <- 25831
+```
+
+- comment out the other city blocks, for example:
+
+```r
+# city_name           <- "Paris"
+# city_tag            <- "paris"
+# city_boundary_place <- "Paris, France"
+# infra_region <- "Île-de-France"
+# crs_work <- 2154 
+
+# city_name           <- "Montréal"
+# city_tag            <- "montreal"
+# city_boundary_place <- "Montréal, Canada"
+# infra_region <- "Québec"
+# crs_work <- 26918
+```
+
+Only one city must be active at a time.
+
+To compare different years, edit the snapshot versions:
+
+```r
+VERSIONS <- c("160101", "240101")
+
+```
+
+### Run the pipeline
+
+With the city selected, run the workflow scripts in order:
+```{r}
+#| echo: true
+#| message: false
+#| warning: false
+#| paged-print: false
+source("R/00_setup.R")
+source("R/01_get_boundary.R")
+source("R/02_ci_osmextract_custom.R")
+source("R/03_ci_osmactive.R")
+source("R/04_city_maps.R")
+```
+
+
+This will:
+
+1. define the city boundary
+
+2. download and process historical OSM data
+
+3. build cycling infrastructure networks using two alternative workflows
+
+4. define and render interactive maps for that city in the current R session
+
+All outputs are written to `data/<city_tag>/`.
+
+### Repeat for the other showcase cities
+
+Return to `R/00_setup.R`, activate Paris, and rerun the same commands.
+Then activate Montréal and rerun again.
+
+Once Barcelona, Paris, and Montréal have all been processed, the `.qmd` report can be rendered without missing-file errors.
+
+:::
+
+## Repository structure
+
+- `R/00_setup.R`– city settings and snapshot versions
+
+- `R/01_get_boundary.R`– city perimeter
+
+- `R/02_ci_osmextract_custom.R`– osmextract custom (tag-based)
+
+- `R/03_cycling_osmactive.R`– osmactive network
+
+- `R/04_city_maps.R`– interactive maps with two-year toggle
+
+## Interactive maps
+
+For each showcase city, the report displays two interactive maps side by side, one for each workflow:
+
+- **osmextract custom** (tag-based, conservative)  
+- **osmactive** (native classes)
+
+Each map shows two historical snapshots of the same city as toggleable layers, using a consistent spatial extent, styling, and legend. Across the three showcase cities (Barcelona, Paris, and Montréal), this results in six interactive maps in total.
+
+Google Street View links are included at representative locations along each segment to support visual inspection and qualitative validation.
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| paged-print: false
+
+m1 <- map_cycling_leaf_two_years("osmextract_custom", "160101", "240101",                                         city_tag = "barcelona", add_gsv = TRUE)
+
+m2 <- map_cycling_leaf_two_years("osmactive", "160101", "240101",                                                 city_tag = "barcelona", add_gsv = TRUE)
+
+tagList(
+  tags$h3("Barcelona"),
+  tags$div(
+    style = "display:flex; gap:12px; align-items:stretch;",
+    tags$div(style = "flex:1;", tags$h4("osmextract custom"), m1),
+    tags$div(style = "flex:1;", tags$h4("osmactive"),        m2)
+  )
+)
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| paged-print: false
+
+m3 <- map_cycling_leaf_two_years("osmextract_custom", "160101", "240101",                                         city_tag = "paris", add_gsv = TRUE)
+
+m4 <- map_cycling_leaf_two_years("osmactive", "160101", "240101",                                                 city_tag = "paris", add_gsv = TRUE)
+
+tagList(
+  tags$h3("Paris"),
+  tags$div(
+    style = "display:flex; gap:12px; align-items:stretch;",
+    tags$div(style = "flex:1;", tags$h4("osmextract custom"), m3),
+    tags$div(style = "flex:1;", tags$h4("osmactive"),        m4)
+  )
+)
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| paged-print: false
+
+m5 <- map_cycling_leaf_two_years("osmextract_custom", "160101", "240101",                                         city_tag = "montreal", add_gsv = TRUE)
+
+m6 <- map_cycling_leaf_two_years("osmactive", "160101", "240101",                                                 city_tag = "montreal", add_gsv = TRUE)
+
+tagList(
+  tags$h3("Montréal"),
+  tags$div(
+    style = "display:flex; gap:12px; align-items:stretch;",
+    tags$div(style = "flex:1;", tags$h4("osmextract custom"), m5),
+    tags$div(style = "flex:1;", tags$h4("osmactive"),        m6)
+  )
+)
+```
