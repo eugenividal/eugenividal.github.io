@@ -1,0 +1,87 @@
+---
+title: "Milan (2016–2022): active travel transformations (OSM vs official)"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    code_folding: hide
+---
+
+## Overview
+
+Exploratory, visual comparison of active-travel infrastructure changes in Milan (2016–2022) using OpenStreetMap (OSM) and official municipal data.
+
+Goal: support the Milan ATRAPA work by identifying which source (or combination) is most suitable for measuring active travel intervention changes over time.
+
+## Data sources
+
+### OpenStreetMap (OSM)
+
+Historical OSM snapshots (160101, 220101) downloaded with `osmextract::oe_get()` and clipped to the Milan perimeter. OSM categories used in this workflow:
+
+- Cycling infrastructure: `strong_ci` (separated), `moderate_ci` (painted lane), `weak_ci` (mixed traffic), `shared_foot` (shared with pedestrians)
+
+- Pedestrian-priority: `pedestrian_street`, `living_street`
+
+### Official municipal data (Milan)
+
+From the Comune di Milano open data portal ([open access](https://dati.comune.milano.it/organization/da720f96-c055-4abb-bcce-d26eb8cf436a?groups=tran)), cleaned and harmonised for a 2016–2022 comparison:
+
+- Cycling infrastructure (lines): typology (ciclabile sede propria; ciclabile segnaletica; promiscuo pedonali; promiscuo veicoli)
+- Pedestrian areas + ZTL (polygons): classified by `tipo` (AP pedestrian area; ZTL limited traffic zone; AREA_B/AREA_C Area B/C; CR reserved carriageway), with activation date in `val_inizio` when available
+
+
+## What is mapped
+
+- 2016 network
+- Added/removed segments (2016–2022)
+- 2022 network
+- Segment-level inspection via Google Street View (GSV) links
+
+<!-- ## Run the workflow -->
+
+<!-- Scripts used: -->
+<!-- - `R/00_setup.R` -->
+<!-- - `R/01_get_boundary.R` -->
+<!-- - `R/02_osm_data.R` -->
+<!-- - `R/03_official_data.R` -->
+<!-- - `R/04_differences.R` -->
+<!-- - `R/05_maps.R` -->
+
+## Interactive maps
+
+::: {.panel-tabset}
+
+### Cycling infrastructure
+
+```{r}
+#| message: false
+#| warning: false
+#| include: false
+
+source("R/00_setup.R")
+source("R/01_get_boundary.R")
+source("R/02_osm_data.R")
+source("R/03_official_data.R")
+source("R/04_differences.R")
+source("R/05_maps.R")
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+make_six_maps_cycling()
+```
+
+### Pedestrian-priority infrastructure
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+make_six_maps_ped_priority()
+```
+
+:::
