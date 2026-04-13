@@ -23,18 +23,18 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="paper_files/libs/clipboard/clipboard.min.js"></script>
-<script src="paper_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="paper_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="paper_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="paper_files/libs/quarto-html/popper.min.js"></script>
-<script src="paper_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="paper_files/libs/quarto-html/anchor.min.js"></script>
-<link href="paper_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="paper_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="paper_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="paper_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="paper_files/libs/bootstrap/bootstrap-e332e9a4e8325e9973181cc682d82422.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="validation-tool_files/libs/clipboard/clipboard.min.js"></script>
+<script src="validation-tool_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="validation-tool_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="validation-tool_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="validation-tool_files/libs/quarto-html/popper.min.js"></script>
+<script src="validation-tool_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="validation-tool_files/libs/quarto-html/anchor.min.js"></script>
+<link href="validation-tool_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="validation-tool_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="validation-tool_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="validation-tool_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="validation-tool_files/libs/bootstrap/bootstrap-e332e9a4e8325e9973181cc682d82422.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
 </head>
@@ -89,59 +89,84 @@ Sampled segments are shown more prominently.</p></li>
 </li>
 <li>cycleway added</li>
 </ul>
-<p>Assess each segment <strong>independently</strong>, even if multiple rows refer to the same intervention.</p>
 </section>
 <section id="how-to-validate" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-validate">How to validate</h2>
 <ol type="1">
-<li>Open the <strong>Excel workbook</strong></li>
-<li>Click the <strong>GSV link</strong> for a segment</li>
-<li>Inspect the street in GSV</li>
+<li>Open the <strong>Excel workbook</strong><br>
+</li>
+<li>Click the <strong>GSV link</strong> for a segment<br>
+</li>
+<li>Inspect the street in GSV<br>
+</li>
 <li>Use the map only if additional context is needed</li>
 </ol>
-<section id="use-of-imagery" class="level3">
-<h3 class="anchored" data-anchor-id="use-of-imagery">Use of imagery</h3>
-<ul>
-<li>Start with the <strong>most recent imagery</strong></li>
-<li>If needed, compare with <strong>earlier imagery (before the baseline period)</strong></li>
-<li>The goal is to assess whether a <strong>change occurred between the two periods</strong></li>
-</ul>
 </section>
-<section id="reference-periods" class="level3">
-<h3 class="anchored" data-anchor-id="reference-periods">Reference periods</h3>
+<section id="use-of-imagery" class="level2">
+<h2 class="anchored" data-anchor-id="use-of-imagery">Use of imagery</h2>
+<p>For each segment, compare imagery between the <strong>baseline year</strong> and the <strong>follow-up year</strong>.</p>
 <ul>
-<li>Barcelona: ~2019 → ~2023<br>
+<li>The goal is to assess whether a <strong>change occurred between these two years</strong>, including both endpoints.</li>
+<li>Start by locating imagery as close as possible to the <strong>follow-up year</strong>.</li>
+<li>Then compare it with imagery as close as possible to the <strong>baseline year</strong>.</li>
+</ul>
+<p>If no clear change is visible between the baseline and follow-up years:</p>
+<ul>
+<li>check <strong>earlier imagery</strong> (before the baseline year), and<br>
 </li>
-<li>Milan: ~2016 → ~2021</li>
+<li>check <strong>later imagery</strong> (after the follow-up year)</li>
+</ul>
+<p>This helps determine whether:</p>
+<ul>
+<li>no change occurred, or<br>
+</li>
+<li>a change occurred, but <strong>outside the period of interest</strong></li>
 </ul>
 </section>
+<section id="reference-periods" class="level2">
+<h2 class="anchored" data-anchor-id="reference-periods">Reference periods</h2>
+<ul>
+<li><strong>Barcelona:</strong> baseline ~2019, follow-up ~2023<br>
+</li>
+<li><strong>Milan:</strong> baseline ~2016, follow-up ~2021</li>
+</ul>
 </section>
 <section id="what-to-record-excel" class="level2">
 <h2 class="anchored" data-anchor-id="what-to-record-excel">What to record (Excel)</h2>
 <p>For each row:</p>
+<section id="valid_change" class="level3">
+<h3 class="anchored" data-anchor-id="valid_change"><code>valid_change</code></h3>
 <ul>
-<li><code>valid_change</code>
-<ul>
-<li><code>yes</code> = clearly correct<br>
-</li>
-<li><code>no</code> = clearly incorrect</li>
-</ul></li>
-<li><code>unclear</code>
-<ul>
-<li><code>yes</code> = cannot be confidently assessed</li>
-</ul></li>
-<li><code>comments</code>
-<ul>
-<li>optional</li>
-</ul></li>
+<li><code>yes</code> = a change is clearly visible <strong>between the baseline and follow-up years</strong></li>
+<li><code>no</code> = no such change is visible, or the detected change is clearly incorrect</li>
+<li><code>NA</code> = the location cannot be meaningfully assessed in GSV</li>
 </ul>
 </section>
-<section id="download-validation-files" class="level2">
-<h2 class="anchored" data-anchor-id="download-validation-files">Download validation files</h2>
+<section id="unclear" class="level3">
+<h3 class="anchored" data-anchor-id="unclear"><code>unclear</code></h3>
 <ul>
-<li><a href="outputs/barcelona/barcelona_validation_sample.xlsx">Barcelona</a></li>
-<li><a href="outputs/milan/milan_validation_sample.xlsx">Milan</a></li>
+<li><code>yes</code> = there is not enough temporal evidence to determine confidently whether the change occurred within the period of interest</li>
 </ul>
+</section>
+<section id="comments" class="level3">
+<h3 class="anchored" data-anchor-id="comments"><code>comments</code></h3>
+<p>Use <code>comments</code> to note anything relevant, especially when:</p>
+<ul>
+<li>a change is visible <strong>but happened outside the period of interest</strong></li>
+</ul>
+<p>Suggested format when a change happened outside the target period:</p>
+<ul>
+<li><code>Yes change, but in Month Year</code></li>
+</ul>
+<p>For example:</p>
+<ul>
+<li><code>Yes change, but in March 2024</code></li>
+</ul>
+</section>
+</section>
+<section id="validation-files" class="level2">
+<h2 class="anchored" data-anchor-id="validation-files">Validation files</h2>
+<p>Validation workbooks are shared privately with collaborators during the review phase. They will be made publicly available upon publication.</p>
 </section>
 <section id="interactive-maps" class="level2">
 <h2 class="anchored" data-anchor-id="interactive-maps">Interactive maps</h2>
