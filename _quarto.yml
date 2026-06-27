@@ -1,0 +1,34 @@
+resources:
+  - slides/**
+
+project:
+  type: website
+  output-dir: .
+
+website:
+  title: ""
+  navbar:
+    pinned: false
+    background: white
+    foreground: black
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: resources.qmd
+        text: Resources
+      # - href: notebook.qmd
+      #   text: Notebook
+      - href: cv.qmd
+        text: CV
+  page-footer:
+    center: "Site by Eugeni Vidal Tortosa 🛠️ | Built with Quarto"
+
+format:
+  html:
+    css: styles.css
+    theme: cosmo
+    toc: false
+    page-layout: article
+    title-block-banner: false

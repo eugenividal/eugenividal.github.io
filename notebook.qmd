@@ -1,0 +1,17 @@
+---
+title: "Notebook"
+---
+
+# Notebook
+
+::: {.lead}
+
+Observations, photographs and reflections from the places I explore through research and travel.
+
+## 2026
+
+### Beijing, China
+
+Observations on bike sharing, metro integration, street design and digital mobility platforms following a visit to Beijing during WSTLUR 2026.
+
+:::

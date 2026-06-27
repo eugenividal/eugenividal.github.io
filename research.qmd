@@ -1,0 +1,56 @@
+---
+title: "Research"
+format: html
+editor: visual
+---
+
+# Research
+
+::: lead
+My research focuses on active travel, cycling, spatial data, and inequalities in mobility. I am particularly interested in how the built environment shapes travel behaviour and how data can help us better understand transport systems.
+:::
+
+## Current research
+
+### [ATRAPA](https://webs.uab.cat/atrapa/)
+
+*The Active Travel Backlash Paradox*
+
+Research on the public acceptability of sustainable active-travel interventions and their social, political, and spatial implications.
+
+- Validating OpenStreetMap for detecting cycling-infrastructure change (Barcelona, 2015–2023) *(paper in preparation, WP1)*
+
+### [Active commuting to school among Spanish adolescents](https://github.com/eugenividal/acs_inequalities)
+
+Research on social inequalities, neighbourhood context, and active commuting to and from school.
+
+### [spanishoddata](https://github.com/rOpenSpain/spanishoddata)
+
+Contribution to an R package for accessing and analysing large Spanish mobility datasets. 
+
+## Previous postdoctoral research
+
+### [SATURN](https://github.com/saturnlighting)
+
+Supporting Active Travel Using Road-lighting at Night.
+
+### [CRUSE](https://www.cruse.bike/)
+
+Cycle Route Uptake & Scenario Estimation tool for Transport Infrastructure Ireland.
+
+## PhD research
+
+My PhD thesis, *Cycling and Socioeconomic Disadvantage*, examined inequalities in cycling participation, infrastructure access, travel behaviour, and safety.
+
+- [Cycling and socioeconomic (dis)advantage](https://doi.org/10.1016/bs.atpp.2022.04.009)
+- [Cycling behaviour and socioeconomic disadvantage](https://doi.org/10.1016/j.tra.2021.08.004)
+- [Infrastructure is not enough](https://doi.org/10.5198/jtlu.2021.1781)
+- [Socioeconomic inequalities in cycling safety](https://doi.org/10.1016/j.jth.2021.101291)
+
+## Early research
+
+During my MSc studies, I developed several projects on active travel, cycling, spatial analysis, and inequalities.
+
+- [Cycling rates, cycle-friendly infrastructure and deprivation in the SLP area](docs/CyclingDeprivedAreasSLP-Report.pdf)
+- [Inequalities in active travel in England](docs/Dissertation.pdf)
+- [Walking and cycling in the Upper Calder Valley](docs/201081646_TRAN5911M1.pdf)

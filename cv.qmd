@@ -1,0 +1,143 @@
+---
+title: "CV"
+format: html
+editor: visual
+---
+
+# Curriculum Vitae
+
+::: lead
+Postdoctoral researcher working on active travel, cycling, spatial data, urban planning and mobility inequalities.
+
+[Download full CV as PDF](docs/cv.pdf)
+:::
+
+## Profile
+
+I am a mobility researcher with a background in transport planning, environmental management, data analytics and law. My work focuses on active travel, cycling, spatial data, urban interventions and social inequalities in mobility.
+
+## Current position
+
+### Postdoctoral Researcher in Urban Planning and Mobility
+
+**Department of Geography, Universitat Autònoma de Barcelona**\
+Barcelona, Spain · December 2024–present
+
+- Working on the **ATRAPA** (*The Active Travel Backlash Paradox*) project.
+- Developing spatial analysis of urban interventions and public response.
+- Supporting the development of datasets linking active-travel interventions with electoral outcomes.
+- Contributing to publications and collaborative work within GEMOTT.
+
+## Previous employment
+
+### Research Fellow in Active Travel and Road Safety Data Science
+
+**Institute for Transport Studies, University of Leeds**\
+Leeds, United Kingdom · April 2022–March 2024
+
+- SATURN project: active travel, road lighting and safety.
+- CRUSE project: national cycling uptake model for Ireland.
+- Co-supervision of MSc students.
+
+### Postgraduate Researcher
+
+**Leeds Institute for Data Analytics, University of Leeds**\
+Leeds, United Kingdom · October 2017–October 2021
+
+- PhD research on cycling and socioeconomic disadvantage.
+- Teaching support in predictive analytics and sustainable spatial planning.
+
+### Transport Planner
+
+**INTRA Ingeniería de Tráfico**\
+Barcelona, Spain · February 2005–February 2015
+
+- Sustainable transport plans.
+- Cycling master plans.
+- Road safety studies.
+- Active mobility planning.
+
+## Education
+
+### Integrated PhD and MSc in Data Analytics and Society
+
+**University of Leeds** · 2017–2021
+
+Thesis: *Cycling and socioeconomic disadvantage.*
+
+### MSc in Transport Planning
+
+**University of Leeds** · 2016–2017
+
+### Master's degree in Mobility Management
+
+**Technical University of Catalonia** · 2007–2008
+
+### Master's degree in Strategies and Environmental Management
+
+**University of Valencia** · 2002–2004
+
+### Bachelor of Laws
+
+**University of Valencia** · 1996–2002
+
+## Research interests
+
+::::: columns
+::: {.column width="50%"}
+- Active travel
+- Cycling
+- Urban planning
+- Mobility inequalities
+- Public acceptability
+:::
+
+::: {.column width="50%"}
+- Spatial data
+- GIS
+- OpenStreetMap
+- Transport data science
+- Data visualisation
+:::
+:::::
+
+## Selected publications
+
+- [Active commuting to and from school among Spanish adolescents *(2026)*](https://doi.org/10.1016/j.healthplace.2026.103686)
+- [Outdoor lighting and active travel *(2026)*](https://doi.org/10.1016/j.jth.2025.102224)
+- [Road lighting and cycling *(2024)*](https://doi.org/10.1016/j.jcmr.2023.100008)
+- [Cycling and socioeconomic (dis)advantage *(2022)*](https://doi.org/10.1016/bs.atpp.2022.04.009)
+- [Socioeconomic inequalities in cycling safety *(2021)*](https://doi.org/10.1016/j.jth.2021.101291)
+- [Cycling behaviour and socioeconomic disadvantage *(2021)*](https://doi.org/10.1016/j.tra.2021.08.004)
+- [Infrastructure is not enough *(2021)*](https://doi.org/10.5198/jtlu.2021.1781)
+
+## Skills
+
+::::: columns
+::: {.column width="50%"}
+### Software
+
+- R
+- Quarto
+- QGIS
+- GitHub
+- HTML/CSS
+- Python (basic)
+:::
+
+::: {.column width="50%"}
+### Research
+
+- Spatial analysis
+- Data visualisation
+- Transport planning
+- Active travel
+- Road safety
+:::
+:::::
+
+## Languages
+
+- Catalan (native)
+- Spanish (native)
+- English (professional proficiency)
