@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "A collection of presentations, interactive maps, methodological tools and other research resources developed throughout my work.\n\n\n\n\n\n\nCan We Trust OpenStreetMap to Measure Cycling-Infrastructure Change?\nActive commuting to school among Spanish adolescents\n\n\n\nInfrastructure is not enough\nDo disadvantaged people really cycle less?\nSocioeconomic inequalities in cycling safety\n\n\n\n\n\n\n\n\n\n\nInteractive maps and tract-level indicators of cycling infrastructure, pedestrianisation and tactical urbanism.\n\n\n\n\nInteractive map accompanying a comparative study of cycling infrastructure, cycling levels and gender inequality across European cities.\n\n\n\n\n\n\n\n\n\n\nStep-by-step workflow for extracting historical cycling infrastructure data from OpenStreetMap.\n\n\n\n\nInteractive guide describing the validation procedure used to assess detected street-space transformations."
+  },
+  {
+    "objectID": "resources.html#presentations",
+    "href": "resources.html#presentations",
+    "title": "Resources",
+    "section": "",
+    "text": "Can We Trust OpenStreetMap to Measure Cycling-Infrastructure Change?\nActive commuting to school among Spanish adolescents\n\n\n\nInfrastructure is not enough\nDo disadvantaged people really cycle less?\nSocioeconomic inequalities in cycling safety"
+  },
+  {
+    "objectID": "resources.html#interactive-maps",
+    "href": "resources.html#interactive-maps",
+    "title": "Resources",
+    "section": "",
+    "text": "Interactive maps and tract-level indicators of cycling infrastructure, pedestrianisation and tactical urbanism.\n\n\n\n\nInteractive map accompanying a comparative study of cycling infrastructure, cycling levels and gender inequality across European cities."
+  },
+  {
+    "objectID": "resources.html#methods-tools",
+    "href": "resources.html#methods-tools",
+    "title": "Resources",
+    "section": "",
+    "text": "Step-by-step workflow for extracting historical cycling infrastructure data from OpenStreetMap.\n\n\n\n\nInteractive guide describing the validation procedure used to assess detected street-space transformations."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "👋 Hi, I’m Eugeni!",
+    "section": "",
+    "text": "👋 Hi, I’m Eugeni!\n\nI’m a mobility researcher with a background in environmental management, transport planning, data analytics, and law. I’m passionate about cycling, data visualisation, and maps, which shape my research on how people move and how the built environment influences travel choices.\nI hold a PhD in Data Analytics and Society from the University of Leeds, where I researched cycling and socioeconomic disadvantage. I later worked there as a postdoctoral researcher in active travel and data science at the Institute for Transport Studies.\nNow, I’m based at the Universitat Autònoma de Barcelona, working with GEMOTT (the Research Group on Mobility, Transport and Territory), mainly on the ATRAPA project, which explores public acceptability of sustainable active-travel urban interventions. I’m also involved in research on active commuting to school and big data mobility projects.\nThis website brings together my research, publications, interactive resources, and field observations. I hope you find something of interest. If you’d like to get in touch, you can reach me at eugenividal [at] hotmail [dot] com."
+  },
+  {
+    "objectID": "notebook.html",
+    "href": "notebook.html",
+    "title": "Notebook",
+    "section": "",
+    "text": "Observations, photographs and reflections from the places I explore through research and travel.\n\n\n\n\nObservations on bike sharing, metro integration, street design and digital mobility platforms following a visit to Beijing during WSTLUR 2026."
+  },
+  {
+    "objectID": "notebook.html#section",
+    "href": "notebook.html#section",
+    "title": "Notebook",
+    "section": "",
+    "text": "Observations on bike sharing, metro integration, street design and digital mobility platforms following a visit to Beijing during WSTLUR 2026."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on active travel, cycling, spatial data, and inequalities in mobility. I am particularly interested in how the built environment shapes travel behaviour and how data can help us better understand transport systems.\n\n\n\n\n\nThe Active Travel Backlash Paradox\nResearch on the public acceptability of sustainable active-travel interventions and their social, political, and spatial implications.\n\nValidating OpenStreetMap for detecting cycling-infrastructure change (Barcelona, 2015–2023) (paper in preparation, WP1)\n\n\n\n\nResearch on social inequalities, neighbourhood context, and active commuting to and from school.\n\n\n\nContribution to an R package for accessing and analysing large Spanish mobility datasets.\n\n\n\n\n\n\nSupporting Active Travel Using Road-lighting at Night.\n\n\n\nCycle Route Uptake & Scenario Estimation tool for Transport Infrastructure Ireland.\n\n\n\n\nMy PhD thesis, Cycling and Socioeconomic Disadvantage, examined inequalities in cycling participation, infrastructure access, travel behaviour, and safety.\n\nCycling and socioeconomic (dis)advantage\nCycling behaviour and socioeconomic disadvantage\nInfrastructure is not enough\nSocioeconomic inequalities in cycling safety\n\n\n\n\nDuring my MSc studies, I developed several projects on active travel, cycling, spatial analysis, and inequalities.\n\nCycling rates, cycle-friendly infrastructure and deprivation in the SLP area\nInequalities in active travel in England\nWalking and cycling in the Upper Calder Valley"
+  },
+  {
+    "objectID": "research.html#current-research",
+    "href": "research.html#current-research",
+    "title": "Research",
+    "section": "",
+    "text": "The Active Travel Backlash Paradox\nResearch on the public acceptability of sustainable active-travel interventions and their social, political, and spatial implications.\n\nValidating OpenStreetMap for detecting cycling-infrastructure change (Barcelona, 2015–2023) (paper in preparation, WP1)\n\n\n\n\nResearch on social inequalities, neighbourhood context, and active commuting to and from school.\n\n\n\nContribution to an R package for accessing and analysing large Spanish mobility datasets."
+  },
+  {
+    "objectID": "research.html#previous-postdoctoral-research",
+    "href": "research.html#previous-postdoctoral-research",
+    "title": "Research",
+    "section": "",
+    "text": "Supporting Active Travel Using Road-lighting at Night.\n\n\n\nCycle Route Uptake & Scenario Estimation tool for Transport Infrastructure Ireland."
+  },
+  {
+    "objectID": "research.html#phd-research",
+    "href": "research.html#phd-research",
+    "title": "Research",
+    "section": "",
+    "text": "My PhD thesis, Cycling and Socioeconomic Disadvantage, examined inequalities in cycling participation, infrastructure access, travel behaviour, and safety.\n\nCycling and socioeconomic (dis)advantage\nCycling behaviour and socioeconomic disadvantage\nInfrastructure is not enough\nSocioeconomic inequalities in cycling safety"
+  },
+  {
+    "objectID": "research.html#early-research",
+    "href": "research.html#early-research",
+    "title": "Research",
+    "section": "",
+    "text": "During my MSc studies, I developed several projects on active travel, cycling, spatial analysis, and inequalities.\n\nCycling rates, cycle-friendly infrastructure and deprivation in the SLP area\nInequalities in active travel in England\nWalking and cycling in the Upper Calder Valley"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Postdoctoral researcher working on active travel, cycling, spatial data, urban planning and mobility inequalities.\nDownload full CV as PDF\n\n\n\nI am a mobility researcher with a background in transport planning, environmental management, data analytics and law. My work focuses on active travel, cycling, spatial data, urban interventions and social inequalities in mobility.\n\n\n\n\n\nDepartment of Geography, Universitat Autònoma de Barcelona\nBarcelona, Spain · December 2024–present\n\nWorking on the ATRAPA (The Active Travel Backlash Paradox) project.\nDeveloping spatial analysis of urban interventions and public response.\nSupporting the development of datasets linking active-travel interventions with electoral outcomes.\nContributing to publications and collaborative work within GEMOTT.\n\n\n\n\n\n\n\nInstitute for Transport Studies, University of Leeds\nLeeds, United Kingdom · April 2022–March 2024\n\nSATURN project: active travel, road lighting and safety.\nCRUSE project: national cycling uptake model for Ireland.\nCo-supervision of MSc students.\n\n\n\n\nLeeds Institute for Data Analytics, University of Leeds\nLeeds, United Kingdom · October 2017–October 2021\n\nPhD research on cycling and socioeconomic disadvantage.\nTeaching support in predictive analytics and sustainable spatial planning.\n\n\n\n\nINTRA Ingeniería de Tráfico\nBarcelona, Spain · February 2005–February 2015\n\nSustainable transport plans.\nCycling master plans.\nRoad safety studies.\nActive mobility planning.\n\n\n\n\n\n\n\nUniversity of Leeds · 2017–2021\nThesis: Cycling and socioeconomic disadvantage.\n\n\n\nUniversity of Leeds · 2016–2017\n\n\n\nTechnical University of Catalonia · 2007–2008\n\n\n\nUniversity of Valencia · 2002–2004\n\n\n\nUniversity of Valencia · 1996–2002\n\n\n\n\n\n\n\nActive travel\nCycling\nUrban planning\nMobility inequalities\nPublic acceptability\n\n\n\nSpatial data\nGIS\nOpenStreetMap\nTransport data science\nData visualisation\n\n\n\n\n\n\n\nActive commuting to and from school among Spanish adolescents (2026)\nOutdoor lighting and active travel (2026)\nRoad lighting and cycling (2024)\nCycling and socioeconomic (dis)advantage (2022)\nSocioeconomic inequalities in cycling safety (2021)\nCycling behaviour and socioeconomic disadvantage (2021)\nInfrastructure is not enough (2021)\n\n\n\n\n\n\n\n\n\nR\nQuarto\nQGIS\nGitHub\nHTML/CSS\nPython (basic)\n\n\n\n\n\n\nSpatial analysis\nData visualisation\nTransport planning\nActive travel\nRoad safety\n\n\n\n\n\n\n\n\nCatalan (native)\nSpanish (native)\nEnglish (professional proficiency)"
+  },
+  {
+    "objectID": "cv.html#profile",
+    "href": "cv.html#profile",
+    "title": "CV",
+    "section": "",
+    "text": "I am a mobility researcher with a background in transport planning, environmental management, data analytics and law. My work focuses on active travel, cycling, spatial data, urban interventions and social inequalities in mobility."
+  },
+  {
+    "objectID": "cv.html#current-position",
+    "href": "cv.html#current-position",
+    "title": "CV",
+    "section": "",
+    "text": "Department of Geography, Universitat Autònoma de Barcelona\nBarcelona, Spain · December 2024–present\n\nWorking on the ATRAPA (The Active Travel Backlash Paradox) project.\nDeveloping spatial analysis of urban interventions and public response.\nSupporting the development of datasets linking active-travel interventions with electoral outcomes.\nContributing to publications and collaborative work within GEMOTT."
+  },
+  {
+    "objectID": "cv.html#previous-employment",
+    "href": "cv.html#previous-employment",
+    "title": "CV",
+    "section": "",
+    "text": "Institute for Transport Studies, University of Leeds\nLeeds, United Kingdom · April 2022–March 2024\n\nSATURN project: active travel, road lighting and safety.\nCRUSE project: national cycling uptake model for Ireland.\nCo-supervision of MSc students.\n\n\n\n\nLeeds Institute for Data Analytics, University of Leeds\nLeeds, United Kingdom · October 2017–October 2021\n\nPhD research on cycling and socioeconomic disadvantage.\nTeaching support in predictive analytics and sustainable spatial planning.\n\n\n\n\nINTRA Ingeniería de Tráfico\nBarcelona, Spain · February 2005–February 2015\n\nSustainable transport plans.\nCycling master plans.\nRoad safety studies.\nActive mobility planning."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "",
+    "text": "University of Leeds · 2017–2021\nThesis: Cycling and socioeconomic disadvantage.\n\n\n\nUniversity of Leeds · 2016–2017\n\n\n\nTechnical University of Catalonia · 2007–2008\n\n\n\nUniversity of Valencia · 2002–2004\n\n\n\nUniversity of Valencia · 1996–2002"
+  },
+  {
+    "objectID": "cv.html#research-interests",
+    "href": "cv.html#research-interests",
+    "title": "CV",
+    "section": "",
+    "text": "Active travel\nCycling\nUrban planning\nMobility inequalities\nPublic acceptability\n\n\n\nSpatial data\nGIS\nOpenStreetMap\nTransport data science\nData visualisation"
+  },
+  {
+    "objectID": "cv.html#selected-publications",
+    "href": "cv.html#selected-publications",
+    "title": "CV",
+    "section": "",
+    "text": "Active commuting to and from school among Spanish adolescents (2026)\nOutdoor lighting and active travel (2026)\nRoad lighting and cycling (2024)\nCycling and socioeconomic (dis)advantage (2022)\nSocioeconomic inequalities in cycling safety (2021)\nCycling behaviour and socioeconomic disadvantage (2021)\nInfrastructure is not enough (2021)"
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "CV",
+    "section": "",
+    "text": "R\nQuarto\nQGIS\nGitHub\nHTML/CSS\nPython (basic)\n\n\n\n\n\n\nSpatial analysis\nData visualisation\nTransport planning\nActive travel\nRoad safety"
+  },
+  {
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
+    "title": "CV",
+    "section": "",
+    "text": "Catalan (native)\nSpanish (native)\nEnglish (professional proficiency)"
+  }
+]

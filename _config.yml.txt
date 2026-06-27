@@ -1,5 +1,0 @@
-markdown: redcarpet
-baseurl: eugenividal.github.io
-exclude: ['README.md']
-plugins:
-  - jekyll-seo-tag
