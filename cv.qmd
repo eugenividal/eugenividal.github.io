@@ -16,8 +16,9 @@ Mobility researcher specialising in active travel, spatial analysis and urban pl
 
 ### Postdoctoral Researcher in Urban Planning and Mobility
 
-<span class="cv-institution">Department of Geography, Universitat Autònoma de Barcelona</span>  
-<span class="cv-date">Barcelona, Spain · December 2024–present</span>
+[GEMOTT (Research Group on Mobility, Transport and Territory)]{.cv-institution}\
+[Department of Geography, Universitat Autònoma de Barcelona]{.cv-institution}\
+[Barcelona, Spain · December 2024–present]{.cv-date}
 
 - Researcher in the **ATRAPA** (*The Active Travel Backlash Paradox*) project.
 - Spatial analysis of active-travel interventions and public response.
@@ -28,8 +29,8 @@ Mobility researcher specialising in active travel, spatial analysis and urban pl
 
 ### Research Fellow in Active Travel and Road Safety Data Science
 
-<span class="cv-institution">Institute for Transport Studies, University of Leeds</span>  
-<span class="cv-date">Leeds, United Kingdom · April 2022–March 2024</span>
+[Institute for Transport Studies, University of Leeds]{.cv-institution}\
+[Leeds, United Kingdom · April 2022–March 2024]{.cv-date}
 
 - Research on the **SATURN** and **CRUSE** projects in active travel and cycling planning.
 - Road lighting, cycling demand modelling and spatial analysis.
@@ -37,16 +38,16 @@ Mobility researcher specialising in active travel, spatial analysis and urban pl
 
 ### Postgraduate Researcher
 
-<span class="cv-institution">Leeds Institute for Data Analytics, University of Leeds</span>  
-<span class="cv-date">Leeds, United Kingdom · October 2017–October 2021</span>
+[Leeds Institute for Data Analytics, University of Leeds]{.cv-institution}\
+[Leeds, United Kingdom · October 2017–October 2021]{.cv-date}
 
 - PhD research on cycling and socioeconomic disadvantage.
 - Teaching support in predictive analytics and sustainable spatial planning.
 
 ### Transport Planner
 
-<span class="cv-institution">INTRA Ingeniería de Tráfico</span>  
-<span class="cv-date">Barcelona, Spain · February 2005–February 2015</span>
+[INTRA Ingeniería de Tráfico]{.cv-institution}\
+[Barcelona, Spain · February 2005–February 2015]{.cv-date}
 
 - Sustainable transport planning.
 - Cycling master plans.
@@ -56,44 +57,43 @@ Mobility researcher specialising in active travel, spatial analysis and urban pl
 
 ### Integrated PhD and MSc in Data Analytics and Society
 
-<span class="cv-institution">University of Leeds</span>  
-<span class="cv-date">2017–2021</span>
+[University of Leeds]{.cv-institution}\
+[2017–2021]{.cv-date}
 
 **Thesis:** *Cycling and Socioeconomic Disadvantage*
 
 ### MSc in Transport Planning
 
-<span class="cv-institution">University of Leeds</span>  
-<span class="cv-date">2016–2017</span>
+[University of Leeds]{.cv-institution}\
+[2016–2017]{.cv-date}
 
 ### Master's Degree in Mobility Management
 
-<span class="cv-institution">Technical University of Catalonia</span>  
-<span class="cv-date">2007–2008</span>
+[Technical University of Catalonia]{.cv-institution}\
+[2007–2008]{.cv-date}
 
 ### Master's Degree in Strategies and Environmental Management
 
-<span class="cv-institution">University of Valencia</span>  
-<span class="cv-date">2002–2004</span>
+[University of Valencia]{.cv-institution}\
+[2002–2004]{.cv-date}
 
 ### Bachelor of Laws
 
-<span class="cv-institution">University of Valencia</span>  
-<span class="cv-date">1996–2002</span>
+[University of Valencia]{.cv-institution}\
+[1996–2002]{.cv-date}
 
 ## Research areas
 
 ::: {.cv-pills}
-<span>Active travel</span>
-<span>Cycling</span>
-<span>Urban planning</span>
-<span>Mobility inequalities</span>
-<span>Public acceptability</span>
-<span>Spatial analysis</span>
-<span>GIS</span>
-<span>OpenStreetMap</span>
-<span>Transport data science</span>
-<span>Data visualisation</span>
+- Active travel
+- Cycling
+- Urban planning
+- Transport planning
+- Mobility inequalities
+- Public acceptability
+- Built environment
+- Sustainable mobility
+- Open Spatial Data
 :::
 
 ## Publications
@@ -104,7 +104,6 @@ A complete list of publications, software and accompanying research resources is
 
 ::::: columns
 ::: {.column width="50%"}
-
 ### Software
 
 - R
@@ -113,19 +112,16 @@ A complete list of publications, software and accompanying research resources is
 - Git
 - HTML/CSS
 - Python (basic)
-
 :::
 
 ::: {.column width="50%"}
-
 ### Methods
 
 - Spatial analysis
+- Geographic Information Systems (GIS)
 - Data visualisation
 - Reproducible research
-- Transport planning
-- Active travel
-
+- Statistical analysis
 :::
 :::::
 

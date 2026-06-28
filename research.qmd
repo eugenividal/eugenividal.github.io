@@ -7,12 +7,12 @@ editor: visual
 # Research
 
 ::: lead
-My research focuses on active travel, transport planning, spatial analysis and mobility inequalities. I am interested in how urban environments shape mobility, using GIS, OpenStreetMap, remote sensing and other spatial datasets to study cycling, active commuting and urban change.
+My research focuses on active travel, cycling, urban planning and mobility inequalities. Using GIS, OpenStreetMap and other spatial datasets, I study how the built environment shapes travel behaviour and urban change.
 :::
 
 ## Current research
 
-<span class="tag tag-blue">Urban interventions</span>
+[Urban interventions]{.tag .tag-blue}
 
 ### [ATRAPA](https://webs.uab.cat/atrapa/)
 
@@ -24,7 +24,7 @@ My research focuses on active travel, transport planning, spatial analysis and m
 
 The **ATRAPA** project (*The Active Travel Backlash Paradox*) investigates the public acceptability of sustainable active-travel interventions and their social, political and spatial impacts. My work focuses on spatial data, cycling-infrastructure change, OpenStreetMap validation and the relationship between active-travel interventions and public response.
 
-<span class="tag tag-orange">Mobility inequalities</span>
+[Mobility inequalities]{.tag .tag-orange}
 
 ### [PACO](https://profith.ugr.es/en/resources/paco-project) / [CiudActiva](https://profith.ugr.es/ciudactiva-influencia-del-entorno-sobre-la-actividad-fisica)
 
@@ -37,7 +37,7 @@ The **PACO** and **CiudActiva** projects examine physical activity, neighbourhoo
 
 ## Previous research
 
-<span class="tag tag-purple">Open-source software</span>
+[Open-source software]{.tag .tag-purple}
 
 ### [spanishoddata](https://github.com/rOpenSpain/spanishoddata)
 
@@ -48,7 +48,7 @@ The **PACO** and **CiudActiva** projects examine physical activity, neighbourhoo
 
 **spanishoddata** is an open-source R package for accessing and analysing Spanish Origin–Destination mobility data. As a collaborator, I contributed a case study demonstrating the package's application to transport planning and co-authored the accompanying methodological publication.
 
-<span class="tag tag-green">Urban environment</span>
+[Urban environment]{.tag .tag-green}
 
 ### [SATURN](https://github.com/saturnlighting)
 
@@ -59,7 +59,7 @@ The **PACO** and **CiudActiva** projects examine physical activity, neighbourhoo
 
 The **SATURN** project (*Supporting Active Travel Using Road-lighting at Night*) explored how street lighting can support safer and more attractive active travel after dark. My work contributed to research on active travel, urban environments and night-time mobility.
 
-<span class="tag tag-brown">Transport modelling</span>
+[Transport modelling]{.tag .tag-brown}
 
 ### [CRUSE](https://www.cruse.bike/)
 
@@ -72,7 +72,7 @@ The **CRUSE** project (*Cycle Route Uptake & Scenario Estimation*) developed a d
 
 ## PhD research
 
-<span class="tag tag-orange">Mobility inequalities</span>
+[Mobility inequalities]{.tag .tag-orange}
 
 ### Cycling and Socioeconomic Disadvantage
 

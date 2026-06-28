@@ -62,10 +62,6 @@ h3 {
   display: none;
 }
 
-.columns {
-  gap: 9rem;
-}
-
 /* ==========================================================================
    2. Navigation Bar
    ========================================================================== */
@@ -282,7 +278,6 @@ h3 {
   background: #fbfbfb;
 }
 
-```css
 .project-tag {
   display: inline-block;
   margin: 22px 0 8px;
@@ -334,14 +329,18 @@ h3 {
   font-size: 14.5px;
 }
 
-.cv-pills {
+.cv-pills ul,
+.theme-pills {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  list-style: none;
+  padding-left: 0;
   margin: 12px 0 28px 0;
 }
 
-.cv-pills span {
+.cv-pills li,
+.theme-pills span {
   border: 1px solid #d7e6eb;
   border-radius: 999px;
   padding: 4px 10px;
