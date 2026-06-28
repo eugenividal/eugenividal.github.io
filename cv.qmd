@@ -7,132 +7,125 @@ editor: visual
 # Curriculum Vitae
 
 ::: lead
-Postdoctoral researcher working on active travel, cycling, spatial data, urban planning and mobility inequalities.
+Mobility researcher specialising in active travel, spatial analysis and urban planning.
 
 [Download full CV as PDF](docs/cv.pdf)
 :::
-
-## Profile
-
-I am a mobility researcher with a background in transport planning, environmental management, data analytics and law. My work focuses on active travel, cycling, spatial data, urban interventions and social inequalities in mobility.
 
 ## Current position
 
 ### Postdoctoral Researcher in Urban Planning and Mobility
 
-**Department of Geography, Universitat Autònoma de Barcelona**\
-Barcelona, Spain · December 2024–present
+<span class="cv-institution">Department of Geography, Universitat Autònoma de Barcelona</span>  
+<span class="cv-date">Barcelona, Spain · December 2024–present</span>
 
-- Working on the **ATRAPA** (*The Active Travel Backlash Paradox*) project.
-- Developing spatial analysis of urban interventions and public response.
-- Supporting the development of datasets linking active-travel interventions with electoral outcomes.
-- Contributing to publications and collaborative work within GEMOTT.
+- Researcher in the **ATRAPA** (*The Active Travel Backlash Paradox*) project.
+- Spatial analysis of active-travel interventions and public response.
+- Development and validation of spatial datasets.
+- Collaborative research within GEMOTT.
 
 ## Previous employment
 
 ### Research Fellow in Active Travel and Road Safety Data Science
 
-**Institute for Transport Studies, University of Leeds**\
-Leeds, United Kingdom · April 2022–March 2024
+<span class="cv-institution">Institute for Transport Studies, University of Leeds</span>  
+<span class="cv-date">Leeds, United Kingdom · April 2022–March 2024</span>
 
-- SATURN project: active travel, road lighting and safety.
-- CRUSE project: national cycling uptake model for Ireland.
+- Research on the **SATURN** and **CRUSE** projects in active travel and cycling planning.
+- Road lighting, cycling demand modelling and spatial analysis.
 - Co-supervision of MSc students.
 
 ### Postgraduate Researcher
 
-**Leeds Institute for Data Analytics, University of Leeds**\
-Leeds, United Kingdom · October 2017–October 2021
+<span class="cv-institution">Leeds Institute for Data Analytics, University of Leeds</span>  
+<span class="cv-date">Leeds, United Kingdom · October 2017–October 2021</span>
 
 - PhD research on cycling and socioeconomic disadvantage.
 - Teaching support in predictive analytics and sustainable spatial planning.
 
 ### Transport Planner
 
-**INTRA Ingeniería de Tráfico**\
-Barcelona, Spain · February 2005–February 2015
+<span class="cv-institution">INTRA Ingeniería de Tráfico</span>  
+<span class="cv-date">Barcelona, Spain · February 2005–February 2015</span>
 
-- Sustainable transport plans.
+- Sustainable transport planning.
 - Cycling master plans.
-- Road safety studies.
-- Active mobility planning.
+- Road safety and active mobility studies.
 
 ## Education
 
 ### Integrated PhD and MSc in Data Analytics and Society
 
-**University of Leeds** · 2017–2021
+<span class="cv-institution">University of Leeds</span>  
+<span class="cv-date">2017–2021</span>
 
-Thesis: *Cycling and socioeconomic disadvantage.*
+**Thesis:** *Cycling and Socioeconomic Disadvantage*
 
 ### MSc in Transport Planning
 
-**University of Leeds** · 2016–2017
+<span class="cv-institution">University of Leeds</span>  
+<span class="cv-date">2016–2017</span>
 
-### Master's degree in Mobility Management
+### Master's Degree in Mobility Management
 
-**Technical University of Catalonia** · 2007–2008
+<span class="cv-institution">Technical University of Catalonia</span>  
+<span class="cv-date">2007–2008</span>
 
-### Master's degree in Strategies and Environmental Management
+### Master's Degree in Strategies and Environmental Management
 
-**University of Valencia** · 2002–2004
+<span class="cv-institution">University of Valencia</span>  
+<span class="cv-date">2002–2004</span>
 
 ### Bachelor of Laws
 
-**University of Valencia** · 1996–2002
+<span class="cv-institution">University of Valencia</span>  
+<span class="cv-date">1996–2002</span>
 
-## Research interests
+## Research areas
 
-::::: columns
-::: {.column width="50%"}
-- Active travel
-- Cycling
-- Urban planning
-- Mobility inequalities
-- Public acceptability
+::: {.cv-pills}
+<span>Active travel</span>
+<span>Cycling</span>
+<span>Urban planning</span>
+<span>Mobility inequalities</span>
+<span>Public acceptability</span>
+<span>Spatial analysis</span>
+<span>GIS</span>
+<span>OpenStreetMap</span>
+<span>Transport data science</span>
+<span>Data visualisation</span>
 :::
 
-::: {.column width="50%"}
-- Spatial data
-- GIS
-- OpenStreetMap
-- Transport data science
-- Data visualisation
-:::
-:::::
+## Publications
 
-## Selected publications
-
-- [Active commuting to and from school among Spanish adolescents *(2026)*](https://doi.org/10.1016/j.healthplace.2026.103686)
-- [Outdoor lighting and active travel *(2026)*](https://doi.org/10.1016/j.jth.2025.102224)
-- [Road lighting and cycling *(2024)*](https://doi.org/10.1016/j.jcmr.2023.100008)
-- [Cycling and socioeconomic (dis)advantage *(2022)*](https://doi.org/10.1016/bs.atpp.2022.04.009)
-- [Socioeconomic inequalities in cycling safety *(2021)*](https://doi.org/10.1016/j.jth.2021.101291)
-- [Cycling behaviour and socioeconomic disadvantage *(2021)*](https://doi.org/10.1016/j.tra.2021.08.004)
-- [Infrastructure is not enough *(2021)*](https://doi.org/10.5198/jtlu.2021.1781)
+A complete list of publications, software and accompanying research resources is available on the [Publications](publications.qmd) page.
 
 ## Skills
 
 ::::: columns
 ::: {.column width="50%"}
+
 ### Software
 
 - R
-- Quarto
 - QGIS
-- GitHub
+- Quarto
+- Git
 - HTML/CSS
 - Python (basic)
+
 :::
 
 ::: {.column width="50%"}
-### Research
+
+### Methods
 
 - Spatial analysis
 - Data visualisation
+- Reproducible research
 - Transport planning
 - Active travel
-- Road safety
+
 :::
 :::::
 

@@ -7,50 +7,78 @@ editor: visual
 # Research
 
 ::: lead
-My research focuses on active travel, cycling, spatial data, and inequalities in mobility. I am particularly interested in how the built environment shapes travel behaviour and how data can help us better understand transport systems.
+My research focuses on active travel, transport planning, spatial analysis and mobility inequalities. I am interested in how urban environments shape mobility, using GIS, OpenStreetMap, remote sensing and other spatial datasets to study cycling, active commuting and urban change.
 :::
 
 ## Current research
 
+<span class="tag tag-blue">Urban interventions</span>
+
 ### [ATRAPA](https://webs.uab.cat/atrapa/)
 
-*The Active Travel Backlash Paradox*
+*Public acceptability, urban interventions and active-travel change.*
 
-Research on the public acceptability of sustainable active-travel interventions and their social, political, and spatial implications.
+**Period:** 2024–present\
+**Institution:** Universitat Autònoma de Barcelona\
+**Role:** Postdoctoral researcher
 
-- Validating OpenStreetMap for detecting cycling-infrastructure change (Barcelona, 2015–2023) *(paper in preparation, WP1)*
+The **ATRAPA** project (*The Active Travel Backlash Paradox*) investigates the public acceptability of sustainable active-travel interventions and their social, political and spatial impacts. My work focuses on spatial data, cycling-infrastructure change, OpenStreetMap validation and the relationship between active-travel interventions and public response.
 
-### [Active commuting to school among Spanish adolescents](https://github.com/eugenividal/acs_inequalities)
+<span class="tag tag-orange">Mobility inequalities</span>
 
-Research on social inequalities, neighbourhood context, and active commuting to and from school.
+### [PACO](https://profith.ugr.es/en/resources/paco-project) / [CiudActiva](https://profith.ugr.es/ciudactiva-influencia-del-entorno-sobre-la-actividad-fisica)
+
+*Neighbourhood environments, social inequalities and active commuting to school.*
+
+**Period:** 2024–present\
+**Collaboration:** University of Granada and collaborating institutions
+
+The **PACO** and **CiudActiva** projects examine physical activity, neighbourhood environments and active commuting among Spanish adolescents. My contribution focuses on analysing social inequalities, environmental characteristics and active commuting to and from school.
+
+## Previous research
+
+<span class="tag tag-purple">Open-source software</span>
 
 ### [spanishoddata](https://github.com/rOpenSpain/spanishoddata)
 
-Contribution to an R package for accessing and analysing large Spanish mobility datasets. 
+*Open-source tools for working with Spanish Origin-Destination mobility data.*
 
-## Previous postdoctoral research
+**Period:** 2024–January 2026\
+**Collaboration:** rOpenSpain
+
+**spanishoddata** is an open-source R package for accessing and analysing Spanish Origin–Destination mobility data. As a collaborator, I contributed a case study demonstrating the package's application to transport planning and co-authored the accompanying methodological publication.
+
+<span class="tag tag-green">Urban environment</span>
 
 ### [SATURN](https://github.com/saturnlighting)
 
-Supporting Active Travel Using Road-lighting at Night.
+*Street lighting, night-time mobility and active travel.*
+
+**Period:** 2022–2024\
+**Institution:** University of Leeds
+
+The **SATURN** project (*Supporting Active Travel Using Road-lighting at Night*) explored how street lighting can support safer and more attractive active travel after dark. My work contributed to research on active travel, urban environments and night-time mobility.
+
+<span class="tag tag-brown">Transport modelling</span>
 
 ### [CRUSE](https://www.cruse.bike/)
 
-Cycle Route Uptake & Scenario Estimation tool for Transport Infrastructure Ireland.
+*Strategic modelling for cycling uptake and route planning.*
+
+**Period:** 2022–2024\
+**Institution:** University of Leeds
+
+The **CRUSE** project (*Cycle Route Uptake & Scenario Estimation*) developed a decision-support tool to estimate cycling-route uptake for Transport Infrastructure Ireland. My work contributed to the development and application of spatial methods for cycling infrastructure planning.
 
 ## PhD research
 
-My PhD thesis, *Cycling and Socioeconomic Disadvantage*, examined inequalities in cycling participation, infrastructure access, travel behaviour, and safety.
+<span class="tag tag-orange">Mobility inequalities</span>
 
-- [Cycling and socioeconomic (dis)advantage](https://doi.org/10.1016/bs.atpp.2022.04.009)
-- [Cycling behaviour and socioeconomic disadvantage](https://doi.org/10.1016/j.tra.2021.08.004)
-- [Infrastructure is not enough](https://doi.org/10.5198/jtlu.2021.1781)
-- [Socioeconomic inequalities in cycling safety](https://doi.org/10.1016/j.jth.2021.101291)
+### Cycling and Socioeconomic Disadvantage
 
-## Early research
+*Cycling participation, infrastructure provision and safety inequalities.*
 
-During my MSc studies, I developed several projects on active travel, cycling, spatial analysis, and inequalities.
+**Period:** 2017–2021\
+**Institution:** University of Leeds
 
-- [Cycling rates, cycle-friendly infrastructure and deprivation in the SLP area](docs/CyclingDeprivedAreasSLP-Report.pdf)
-- [Inequalities in active travel in England](docs/Dissertation.pdf)
-- [Walking and cycling in the Upper Calder Valley](docs/201081646_TRAN5911M1.pdf)
+My PhD thesis, *Cycling and Socioeconomic Disadvantage*, examined socioeconomic inequalities in cycling participation, infrastructure provision and cycling safety. The research combined spatial analysis, transport data and quantitative methods to better understand how cycling opportunities and risks vary across social groups and places.

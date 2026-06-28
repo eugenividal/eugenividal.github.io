@@ -16,18 +16,20 @@ website:
         text: Home
       - href: research.qmd
         text: Research
-      - href: resources.qmd
-        text: Resources
+      - href: publications.qmd
+        text: Publications
+      - href: materials.qmd
+        text: Materials
       # - href: notebook.qmd
       #   text: Notebook
       - href: cv.qmd
         text: CV
   page-footer:
-    center: "Site by Eugeni Vidal Tortosa 🛠️ | Built with Quarto"
+    center: "© 2026 Eugeni Vidal-Tortosa • Built with Quarto"
 
 format:
   html:
-    css: styles.css
+    css: styles2.css
     theme: cosmo
     toc: false
     page-layout: article

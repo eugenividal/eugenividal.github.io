@@ -1,58 +1,72 @@
 ---
-title: "Resources"
+title: "Materials"
 format: html
 editor: visual
 ---
 
-# Resources
+# Materials
 
 ::: lead
-A collection of presentations, interactive maps, methodological tools and other research resources developed throughout my work.
+A collection of presentations, interactive maps, software, methods and other materials developed throughout my research.
 :::
 
-## Presentations
+## 🎤 Presentations
 
 ::::: columns
-::: {.column width="50%"}
+::: {.column width="48%"}
 - [Can We Trust OpenStreetMap to Measure Cycling-Infrastructure Change?](slides/osm-cycling-change-framework/osm-cycling-change-framework.html)
 - [Active commuting to school among Spanish adolescents](slides/acs-inequalities-slides/acs-inequalities-slides.html)
+
 :::
 
-::: {.column width="50%"}
+::: {.column width="2%"}
+:::
+
+
+::: {.column width="48%"}
 - [Infrastructure is not enough](slides/infrastructure-is-not-enough/Presentationv2.html)
 - [Do disadvantaged people really cycle less?](slides/do-disadvantaged-people-really-cycle-less/Presentation_paper2.html)
 - [Socioeconomic inequalities in cycling safety](slides/socioeconomic-inequalities-in-cycling-safety/Presentation_paper3.html)
 :::
-:::::
 
-## Interactive maps
+
+## 🗺 Interactive maps
 
 ::::: columns
-::: {.column width="50%"}
+::: {.column width="48%"}
 ### [Milan active-travel transformations (2016–2021)](slides/atrapa-milan/at-changes-data.html)
 
 Interactive maps and tract-level indicators of cycling infrastructure, pedestrianisation and tactical urbanism.
 :::
 
-::: {.column width="50%"}
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="48%"}
 ### [Cycling infrastructure, cycling levels and gender inequality in 67 European cities](slides/metrics-paper/fig_s1_validation_map.html)
 
 Interactive map accompanying a comparative study of cycling infrastructure, cycling levels and gender inequality across European cities.
 :::
 :::::
 
-## Methods & tools
+## 💻 Software & methods
 
 ::::: columns
-::: {.column width="50%"}
+::: {.column width="48%"}
 ### [Getting historical OSM cycling infrastructure data](slides/getting-historical-visible-cycling-infra-from-osm-main/README.html)
 
 Step-by-step workflow for extracting historical cycling infrastructure data from OpenStreetMap.
 :::
 
-::: {.column width="50%"}
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="48%"}
 ### [Manual validation of street-space transformations using Google Street View](slides/ibesti-index-framework/validation-report.html)
 
 Interactive guide describing the validation procedure used to assess detected street-space transformations.
 :::
-:::::
