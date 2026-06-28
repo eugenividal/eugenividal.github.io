@@ -11,6 +11,7 @@ title: ""
 ::: {.social-container}
 
 <a href="mailto:eugenividal@hotmail.com" class="social-button">
+<img src="images/email.png" class="social-icons" alt="">
 <span>Email</span>
 </a>
 
@@ -60,8 +61,6 @@ This website brings together my research, publications, materials and field obse
 **June 2026** — Presentation at WSTLUR (Beijing): *Can We Trust OpenStreetMap to Measure Cycling Infrastructure Change?* [[Slides]](slides/osm-cycling-change-framework/osm-cycling-change-framework.html)
 
 **May 2026** — Paper published in Health & Place: *Active commuting to and from school among Spanish adolescents: social inequalities and environmental characteristics*. [[Paper]](https://doi.org/10.1016/j.healthplace.2026.103686)
-
-:::
 
 :::
 

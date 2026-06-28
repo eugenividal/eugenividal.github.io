@@ -1,54 +1,53 @@
+/* ==========================================================================
+   1. Core Layout & Typography
+   ========================================================================== */
 
 body {
-font-family: 'Roboto Flex', sans-serif;
-color: #000;
-background: #fff;
-font-size: 16px;
-line-height: 1.6;
-}
-
-.navbar .navbar-nav {
-margin: 0 auto;
-}
-
-.navbar .nav-link {
-color: #000 !important;
-text-decoration: underline;
-text-decoration-color: #bdbdbd;
-text-underline-offset: 3px;
-margin: 0 28px;
-font-weight: 500;
-}
-
-.navbar .nav-link:hover,
-.navbar .nav-link.active {
-color: #3B9AB2 !important;
-text-decoration-color: #3B9AB2;
-}
-
-.quarto-title-block {
-display: none;
+  font-family: 'Roboto Flex', sans-serif;
+  color: #000;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 p {
-font-weight: 300;
-margin-bottom: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
 }
 
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #bdbdbd;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-color: #000;
+}
+
+/* Headings */
+
 h1 {
-color: #3B9AB2;
-opacity: 0.75;
-font-size: 22px;
-font-weight: 700;
-margin-bottom: 20px;
+  color: #3B9AB2;
+  opacity: 0.78;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.main-content h1:first-child {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 h2 {
-color: #3B9AB2;
-opacity: 0.8;
-font-size: 18px;
-font-weight: 700;
-margin: 0 0 18px 0;
+  color: #3B9AB2;
+  opacity: 0.85;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 18px 0;
 }
 
 h3 {
@@ -59,71 +58,294 @@ h3 {
   margin: 0 0 6px 0;
 }
 
-.research-item h3 {
-  margin-bottom: 6px;
+.quarto-title-block {
+  display: none;
+}
+
+.columns {
+  gap: 9rem;
+}
+
+/* ==========================================================================
+   2. Navigation Bar
+   ========================================================================== */
+
+.navbar .navbar-nav {
+  margin: 0 auto;
+}
+
+.navbar .nav-link {
+  color: #000 !important;
+  text-decoration: underline;
+  text-decoration-color: #bdbdbd;
+  text-underline-offset: 3px;
+  margin: 0 28px;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #3B9AB2 !important;
+  text-decoration-color: #3B9AB2;
+}
+
+/* ==========================================================================
+   3. Homepage Two-Column Layout
+   ========================================================================== */
+
+.homepage-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  max-width: 1050px;
+  margin: 25px auto 40px auto;
+  padding: 0 24px;
+  align-items: start;
+}
+
+/* Left sidebar */
+
+.sidebar-profile {
+  text-align: center;
+}
+
+.sidebar-profile p {
+  margin: 0;
+}
+
+.profile-pic {
+  display: block;
+  width: 230px;
+  height: 230px;
+  margin: 0 auto 22px auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 26px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+/* Right main column */
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 680px;
+}
+
+.lead {
+  font-size: 17px;
+  line-height: 1.65;
+  margin-bottom: 30px;
+}
+
+/* Desktop layout */
+
+@media (min-width: 768px) {
+  .homepage-container {
+    grid-template-columns: 260px minmax(0, 680px);
+    gap: 40px;
+  }
+
+  .sidebar-profile {
+    position: sticky;
+    top: 30px;
+    text-align: center;
+  }
+
+  .profile-pic {
+    margin: 0 auto 22px auto;
+  }
+}
+
+/* ==========================================================================
+   4. Academic Content Blocks
+   ========================================================================== */
+
+.callout-box {
+  background-color: #fafafa;
+  border-left: 3px solid #3B9AB2;
+  padding: 14px 18px;
+  margin: 28px 0;
+  border-radius: 0 4px 4px 0;
+  font-size: 14.5px;
+}
+
+.callout-box p:last-child {
+  margin-bottom: 0;
+}
+
+.research-section {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 20px;
+  margin-top: 30px;
 }
 
 .research-item {
   margin-bottom: 26px;
 }
 
-.research-section {
-  border-top: 1px solid #e5e5e5;
-  padding-top: 14px;
-  margin-top: 18px;
+.research-item h3 {
+  margin-bottom: 6px;
 }
 
-.lead {
-  font-size: 17px;
-  line-height: 1.65;
-  margin-bottom: 38px;
+/* Software & CRAN badges */
+
+.software-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
 }
 
-a {
-color: inherit;
-text-decoration: underline;
-text-decoration-color: #bdbdbd;
-text-underline-offset: 3px;
+.software-badges img {
+  height: 20px;
+  width: auto;
 }
 
-a:hover {
-text-decoration-color: #000;
-}
-
-.profile-pic {
-display: block;
-width: 200px;
-height: 200px;
-margin: 20px auto 35px auto;
-border-radius: 50%;
-object-fit: cover;
-}
+/* ==========================================================================
+   5. Social Media Icons & Footer
+   ========================================================================== */
 
 .social-container {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 14px;
-margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.social-button {
+  padding: 6px 11px;
+  font-size: 13px;
+  border-radius: 5px;
+  color: #555;
+  border: 1px solid #c9d8df;
+}
+
+.social-button:hover {
+  color: white;
+  background: #3B9AB2;
+  border-color: #3B9AB2;
+}
+
+.social-button:hover .social-icons {
+  filter: brightness(0) invert(1);
 }
 
 .social-icons {
-width: 25px;
-height: 25px;
-filter: grayscale(100%) brightness(55%);
-opacity: 0.7;
-}
-
-.social-icons:hover {
-filter: grayscale(0%) brightness(100%);
-opacity: 1;
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  opacity: 1;
+  filter: grayscale(100%) brightness(35%);
+  transition: all .2s ease;
 }
 
 .nav-footer {
-border-top: 1px solid #ddd;
-margin-top: 35px;
-padding-top: 12px;
-color: #aaa;
-font-size: 10px;
+  border-top: 1px solid #ddd;
+  margin-top: 50px;
+  padding-top: 12px;
+  color: #aaa;
+  font-size: 10px;
+  text-align: center;
 }
 
+.news-list {
+  border-left: 3px solid #3B9AB2;
+  padding-left: 18px;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.news-list p {
+  margin-bottom: 12px;
+}
+
+.theme-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 22px 0 34px 0;
+}
+
+.theme-pills span {
+  border: 1px solid #d7e6eb;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 13px;
+  color: #555;
+  background: #fbfbfb;
+}
+
+```css
+.project-tag {
+  display: inline-block;
+  margin: 22px 0 8px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Urban interventions */
+.tag-blue {
+  background: #e8f5f8;
+  color: #3B9AB2;
+}
+
+/* Urban environment */
+.tag-green {
+  background: #edf7ef;
+  color: #5f8f62;
+}
+
+/* Mobility data / software */
+.tag-purple {
+  background: #f2eef9;
+  color: #7562a8;
+}
+
+/* Transport modelling */
+.tag-brown {
+  background: #f8efe5;
+  color: #8a6338;
+}
+
+/* Mobility inequalities */
+.tag-orange {
+  background: #fdf2e6;
+  color: #c27a1f;
+}
+
+.cv-institution {
+  color: #3B9AB2;
+  font-weight: 500;
+}
+
+.cv-date {
+  color: #777;
+  font-size: 14.5px;
+}
+
+.cv-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 28px 0;
+}
+
+.cv-pills span {
+  border: 1px solid #d7e6eb;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 13px;
+  color: #555;
+  background: #fbfbfb;
+}

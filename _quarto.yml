@@ -29,7 +29,7 @@ website:
 
 format:
   html:
-    css: styles2.css
+    css: styles.css
     theme: cosmo
     toc: false
     page-layout: article
