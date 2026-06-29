@@ -44,7 +44,7 @@ title: "Eugeni Vidal-Tortosa"
 # Hi, I'm Eugeni!
 
 ::: {.lead}
-I’m a mobility researcher with a background in environmental management, transport planning and data analytics — oh, and I studied law too. I'm passionate about cycling, maps and data visualisation, which inspire my research on how changes to the built environment affect the way people move, how those changes are received, and who benefits from them.
+I’m a mobility researcher with a background in environmental management, transport planning and data analytics — oh, and I studied law too. I'm passionate about cycling, maps and data visualisation. My research looks at how changes to the built environment affect the way people move, how those changes are received, and who benefits from them.
 
 I'm currently based at [GEMOTT](https://gemott-uab.cat/en/) (*Research Group on Mobility, Transport and Territory*), within the [Department of Geography](https://www.uab.cat/en/geography) at the [Universitat Autònoma de Barcelona](https://www.uab.cat/).
 
