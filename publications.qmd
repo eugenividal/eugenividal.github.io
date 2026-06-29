@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Eugeni Vidal-Tortosa"
 format: html
 editor: visual
 ---
