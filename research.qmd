@@ -7,7 +7,7 @@ editor: visual
 # Research
 
 ::: lead
-I'm a mobility researcher working at the intersection of active travel, urban planning and spatial data. Over the past decade my research has moved from PhD work on cycling and socioeconomic disadvantage, through transport modelling and night-time mobility projects at Leeds, to my current postdoctoral work at UAB on public acceptability of active-travel interventions and mobility inequalities among adolescents. Across these projects, the common thread is using GIS, OpenStreetMap and other spatial datasets to understand how the built environment shapes travel behaviour — and how changes to it are received by the people affected.
+My research sits at the intersection of active travel, urban planning and spatial data. Over the past decade it has moved from PhD work on cycling and socioeconomic disadvantage, through transport modelling and night-time mobility projects at Leeds, to my current postdoctoral work at UAB on public acceptability of active-travel interventions and mobility inequalities among adolescents. Across these projects, the common thread is using GIS, OpenStreetMap and other spatial datasets to understand how the built environment shapes travel behaviour — and how changes to it are received by the people affected.
 :::
 
 ## Current research
