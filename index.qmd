@@ -10,11 +10,6 @@ title: ""
 
 ::: {.social-container}
 
-<a href="mailto:eugenividal@hotmail.com" class="social-button">
-<img src="images/email.png" class="social-icons" alt="">
-<span>Email</span>
-</a>
-
 <a href="https://portalrecerca.uab.cat/es/persons/eugeni-vidal-tortosa" target="_blank" class="social-button">
 <img src="images/uni-trans2.png" class="social-icons" alt="">
 <span>UAB</span>
@@ -49,11 +44,11 @@ title: ""
 # Hi, I'm Eugeni!
 
 ::: {.lead}
-I’m a mobility researcher with a background in environmental management, transport planning and data analytics — oh, and I studied law too. I’m passionate about cycling, data visualisation and maps, which shape my research on how people move through cities and how the built environment influences travel choices. 
+I’m a mobility researcher with a background in environmental management, transport planning and data analytics — oh, and I studied law too. I’m passionate about cycling, maps and data visualisation, which shape my research on how the built environment influences the way people move through cities and respond to urban change.
 
 I'm currently based at [GEMOTT](https://gemott-uab.cat/en/) (*Research Group on Mobility, Transport and Territory*), within the [Department of Geography](https://www.uab.cat/en/geography) at the [Universitat Autònoma de Barcelona](https://www.uab.cat/).
 
-This website brings together my research, publications, materials and field observations — feel free to explore, or get in touch.
+This website brings together my research, publications, and materials. Feel free to explore, or <a href="mailto:eugenividal@hotmail.com">get in touch</a>. ✉️
 :::
 
 ## Latest updates

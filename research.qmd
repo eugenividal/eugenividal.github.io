@@ -7,7 +7,7 @@ editor: visual
 # Research
 
 ::: lead
-My research focuses on active travel, cycling, urban planning and mobility inequalities. Using GIS, OpenStreetMap and other spatial datasets, I study how the built environment shapes travel behaviour and urban change.
+My research focuses on active travel, cycling, urban planning and mobility inequalities. Using GIS, OpenStreetMap and other spatial datasets, I study how changes to the built environment influence travel behaviour and public responses to urban interventions.
 :::
 
 ## Current research

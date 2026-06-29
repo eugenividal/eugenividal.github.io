@@ -7,7 +7,7 @@ editor: visual
 # Curriculum Vitae
 
 ::: lead
-Mobility researcher specialising in active travel, spatial analysis and urban planning.
+Mobility researcher specialising in active travel, the built environment and spatial analysis.
 
 [Download full CV as PDF](docs/cv.pdf)
 :::
@@ -83,7 +83,7 @@ Mobility researcher specialising in active travel, spatial analysis and urban pl
 
 ## Research areas
 
-::: {.cv-pills}
+::: cv-pills
 - Active travel
 - Cycling
 - Urban planning
@@ -118,9 +118,9 @@ A complete list of publications, software and accompanying research resources is
 
 - Spatial analysis
 - Geographic Information Systems (GIS)
-- Data visualisation
-- Reproducible research
 - Statistical analysis
+- Reproducible research
+- Data visualisation
 :::
 :::::
 
