@@ -36,3 +36,6 @@ format:
     toc: false
     page-layout: article
     title-block-banner: false
+    include-in-header:
+      text: |
+        <meta name="google-site-verification" content="ddPZrTz8TuaEweUTnEQgxnHoVmd_y_unirRTl_BbVFE" />
