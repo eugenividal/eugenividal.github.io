@@ -6,9 +6,10 @@ project:
   output-dir: .
 
 website:
-  title: ""
+  title: "Eugeni Vidal-Tortosa"
   favicon: images/favicon.png
   navbar:
+ #   logo: images/favicon.png
     pinned: false
     background: white
     foreground: black

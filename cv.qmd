@@ -1,5 +1,5 @@
 ---
-title: "Eugeni Vidal-Tortosa"
+title: "CV"
 format: html
 editor: visual
 ---

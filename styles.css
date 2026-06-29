@@ -348,3 +348,7 @@ h3 {
   color: #555;
   background: #fbfbfb;
 }
+
+.navbar-brand .navbar-title {
+  display: none !important;
+}
