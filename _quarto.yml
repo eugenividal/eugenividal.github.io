@@ -6,8 +6,8 @@ project:
   output-dir: .
 
 website:
+  favicon: images/favicon.png
   navbar:
-    logo: images/jo.4.jpg 
     pinned: false
     background: white
     foreground: black
@@ -28,11 +28,12 @@ website:
       - text: CV
         href: cv.qmd
     right:
-      - text: "🌐"
-        menu:
+     - id: language-menu
+       icon: globe
+       menu:
           - text: "English"
             href: index.html
-          - text: "Català"
+          - text: "Catalan"
             href: ca/index.html
 
   page-footer:
