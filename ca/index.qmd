@@ -44,7 +44,7 @@ title: "Eugeni Vidal-Tortosa"
 # 👋 Benvinguda!
 
 ::: {.lead}
-Soc l’Eugeni Vidal-Tortosa, investigador en mobilitat, i estudie com l’entorn urbà influeix en la manera com ens desplacem.
+Soc l'Eugeni Vidal-Tortosa, investigador en mobilitat. Estudie com l'entorn urbà influeix en la manera com ens desplacem i contribueix a generar desigualtats socials.
 
 <!-- Soc l’Eugeni Vidal-Tortosa, investigador en mobilitat, i estudie com l’entorn urbà influeix en la manera com ens desplacem i en les desigualtats en mobilitat. -->
 
