@@ -10,7 +10,7 @@ Una selecció de presentacions, mapes interactius, programari, metodologies i al
 
 ## 🎤 Presentacions
 
-:::: columns
+:::::: columns
 ::: {.column width="48%"}
 - [Podem confiar en OpenStreetMap per mesurar els canvis en la infraestructura ciclista?](slides/osm-cycling-change-framework/osm-cycling-change-framework.html)
 - [Desplaçaments actius a l'escola entre adolescents espanyols](slides/acs-inequalities-slides/acs-inequalities-slides.html)
@@ -24,7 +24,7 @@ Una selecció de presentacions, mapes interactius, programari, metodologies i al
 - [Realment les persones més desafavorides utilitzen menys la bicicleta?](slides/do-disadvantaged-people-really-cycle-less/Presentation_paper2.html)
 - [Desigualtats socioeconòmiques en la seguretat ciclista](slides/socioeconomic-inequalities-in-cycling-safety/Presentation_paper3.html)
 :::
-::::
+::::::
 
 ## 🗺 Mapes interactius
 
