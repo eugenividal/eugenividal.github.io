@@ -144,9 +144,9 @@ h3 {
 
 .profile-pic {
   display: block;
-  width: 230px;
-  height: 230px;
-  margin: 0 auto 22px auto;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto 18px auto;
   border-radius: 50%;
   object-fit: cover;
 }
