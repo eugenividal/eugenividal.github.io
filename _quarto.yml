@@ -7,6 +7,7 @@ project:
 
 website:
   navbar:
+    logo: images/jo.4.jpg 
     pinned: false
     background: white
     foreground: black
