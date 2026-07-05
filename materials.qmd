@@ -18,9 +18,6 @@ A collection of presentations, interactive maps, software, methods and other mat
 - [Active commuting to school among Spanish adolescents](slides/acs-inequalities-slides/acs-inequalities-slides.html)
 :::
 
-::: {.column width="2%"}
-:::
-
 ::: {.column width="48%"}
 - [Infrastructure is not enough](slides/infrastructure-is-not-enough/Presentationv2.html)
 - [Do disadvantaged people really cycle less?](slides/do-disadvantaged-people-really-cycle-less/Presentation_paper2.html)
@@ -36,16 +33,13 @@ A collection of presentations, interactive maps, software, methods and other mat
 
 Interactive maps and tract-level indicators of cycling infrastructure, pedestrianisation and tactical urbanism.
 :::
-::::
-
-::: {.column width="2%"}
-:::
 
 ::: {.column width="48%"}
 ### [Cycling infrastructure, cycling levels and gender inequality in 67 European cities](slides/metrics-paper/fig_s1_validation_map.html)
 
 Interactive map accompanying a comparative study of cycling infrastructure, cycling levels and gender inequality across European cities.
 :::
+::::
 
 ## 💻 Software & methods
 
@@ -55,13 +49,10 @@ Interactive map accompanying a comparative study of cycling infrastructure, cycl
 
 Step-by-step workflow for extracting historical cycling infrastructure data from OpenStreetMap.
 :::
-::::
-
-::: {.column width="2%"}
-:::
 
 ::: {.column width="48%"}
 ### [Manual validation of street-space transformations using Google Street View](slides/ibesti-index-framework/validation-report.html)
 
 Interactive guide describing the validation procedure used to assess detected street-space transformations.
 :::
+::::
