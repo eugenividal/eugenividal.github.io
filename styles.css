@@ -66,23 +66,56 @@ h3 {
    2. Navigation Bar
    ========================================================================== */
 
-.navbar .navbar-nav {
-  margin: 0 auto;
+.navbar {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #f2f2f2;
+  box-shadow: none;
 }
 
+.navbar .container-fluid {
+  justify-content: center !important;
+}
+
+/* Center the whole navigation */
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar .navbar-nav {
+  margin: 0 auto;
+  align-items: center;
+}
+
+/* Navigation links */
 .navbar .nav-link {
-  color: #000 !important;
-  text-decoration: underline;
-  text-decoration-color: #bdbdbd;
-  text-underline-offset: 3px;
-  margin: 0 28px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
+  color: #222 !important;
+  text-decoration: none !important;
+  padding: 0.4rem 0;
+  margin: 0 18px;     /* <-- this is the important bit */
+  transition: color .2s ease;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link.active {
   color: #3B9AB2 !important;
-  text-decoration-color: #3B9AB2;
+}
+
+/* Your name */
+.navbar .nav-item:first-child .nav-link {
+  font-weight: 700;
+  margin-right: 34px;   /* slightly more separation */
+}
+
+/* Remove underlines */
+.navbar a {
+  text-decoration: none !important;
+}
+
+/* Hide Quarto's empty brand */
+.navbar-brand {
+  display: none;
 }
 
 /* ==========================================================================
@@ -216,30 +249,37 @@ h3 {
 }
 
 .social-button {
-  padding: 6px 11px;
-  font-size: 13px;
-  border-radius: 5px;
-  color: #555;
-  border: 1px solid #c9d8df;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border-radius: 50%;
+  color: #666;
+  border: 1px solid #d7e2e6;
+  background: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none !important;
+}
+
+.social-button span {
+  display: none;
+}
+
+.social-icons {
+  width: 17px;
+  height: 17px;
+  object-fit: contain;
+  filter: grayscale(100%) brightness(45%);
 }
 
 .social-button:hover {
-  color: white;
   background: #3B9AB2;
   border-color: #3B9AB2;
 }
 
 .social-button:hover .social-icons {
   filter: brightness(0) invert(1);
-}
-
-.social-icons {
-  width: 16px;
-  height: 16px;
-  object-fit: contain;
-  opacity: 1;
-  filter: grayscale(100%) brightness(35%);
-  transition: all .2s ease;
 }
 
 .nav-footer {

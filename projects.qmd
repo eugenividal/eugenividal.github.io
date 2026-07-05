@@ -1,18 +1,16 @@
 ---
-title: "Research"
+title: "Projects"
 format: html
 editor: visual
 ---
 
-# Research
+# Projects
 
 ::: lead
-My research focuses on active travel and the built environment. I study how changes to streets and cities shape how people move — how those changes are received, and who benefits from them.
-Over time, my work has moved from PhD research on cycling and socioeconomic disadvantage, to transport modelling and night-time mobility projects at Leeds, and now to postdoctoral research at UAB on public acceptability and mobility inequalities.
-Across all of this, I work with GIS, OpenStreetMap and other spatial data to understand how urban change affects everyday mobility.
+Here you'll find the main research projects I've been involved in, from my PhD through to the present day. Although they cover a range of topics, they all share a common interest in understanding how the built environment shapes active travel and social inequalities.
 :::
 
-## Current research
+## Current projects
 
 [Urban interventions]{.tag .tag-blue}
 
@@ -28,7 +26,7 @@ The **ATRAPA** project (*The Active Travel Backlash Paradox*) investigates the p
 
 [Mobility inequalities]{.tag .tag-orange}
 
-### [PACO](https://profith.ugr.es/en/resources/paco-project) / [CiudActiva](https://profith.ugr.es/ciudactiva-influencia-del-entorno-sobre-la-actividad-fisica)
+### [PACO](https://profith.ugr.es/en/resources/paco-project) / [CiudActiva](https://profith.ugr.es/ciudactiva-influencia-del-entorno-sobre-la-activity-fisica)
 
 *Neighbourhood environments, social inequalities and active commuting to school.*
 
@@ -37,13 +35,13 @@ The **ATRAPA** project (*The Active Travel Backlash Paradox*) investigates the p
 
 The **PACO** and **CiudActiva** projects examine physical activity, neighbourhood environments and active commuting among Spanish adolescents. My contribution focuses on analysing social inequalities, environmental characteristics and active commuting to and from school.
 
-## Previous research
+## Previous projects
 
 [Open-source software]{.tag .tag-purple}
 
 ### [spanishoddata](https://github.com/rOpenSpain/spanishoddata)
 
-*Open-source tools for working with Spanish Origin-Destination mobility data.*
+*Open-source tools for working with Spanish Origin–Destination mobility data.*
 
 **Period:** 2024–January 2026\
 **Collaboration:** rOpenSpain
@@ -72,7 +70,7 @@ The **SATURN** project (*Supporting Active Travel Using Road-lighting at Night*)
 
 The **CRUSE** project (*Cycle Route Uptake & Scenario Estimation*) developed a decision-support tool to estimate cycling-route uptake for Transport Infrastructure Ireland. My work contributed to the development and application of spatial methods for cycling infrastructure planning.
 
-## PhD research
+## PhD
 
 [Mobility inequalities]{.tag .tag-orange}
 

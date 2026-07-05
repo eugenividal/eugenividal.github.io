@@ -1,0 +1,128 @@
+---
+title: "Publicacions"
+format: html
+editor: visual
+---
+
+::: lead
+Les meues publicacions i altres resultats de recerca. Sempre que és possible, també hi incloc el codi, les dades, les presentacions i altres recursos relacionats.
+:::
+
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(bib2df)
+library(dplyr)
+library(stringr)
+library(knitr)
+library(yaml)
+library(purrr)
+
+pubs <- bib2df("../data/publications.bib")
+extra <- yaml::read_yaml("../data/publications.yml")
+
+# Standardise column names to lowercase
+names(pubs) <- tolower(names(pubs))
+
+# Add missing columns if needed
+if (!"doi" %in% names(pubs)) pubs$doi <- NA_character_
+if (!"url" %in% names(pubs)) pubs$url <- NA_character_
+if (!"journal" %in% names(pubs)) pubs$journal <- NA_character_
+if (!"booktitle" %in% names(pubs)) pubs$booktitle <- NA_character_
+
+clean_text <- function(x) {
+  x |>
+    str_replace_all("[{}]", "") |>
+    str_replace_all("\\s+", " ") |>
+    str_trim()
+}
+
+format_authors <- function(authors) {
+  a <- unlist(str_split(authors, "\\s+and\\s+"))
+
+  # Remove braces
+  a <- str_replace_all(a, "[{}]", "")
+
+  # Convert "Surname, Name" to "Surname"
+  a <- ifelse(
+    str_detect(a, ","),
+    str_trim(str_extract(a, "^[^,]+")),
+    str_trim(a)
+  )
+
+  # Clean specific Zotero oddities
+  a <- str_replace(a, "^Richard P Mann$", "Mann")
+  a <- str_replace(a, "^Vidal Tortosa$", "Vidal-Tortosa")
+
+  # Bold your name
+  a <- ifelse(
+    a %in% c("Vidal-Tortosa", "Vidal Tortosa"),
+    "**Vidal-Tortosa**",
+    a
+  )
+
+  if (length(a) > 4) {
+    paste0(paste(a[1:3], collapse = ", "), ", *et al.*")
+  } else {
+    paste(a, collapse = ", ")
+  }
+}
+
+make_link <- function(label, url) {
+  if (is.null(url) || length(url) == 0 || is.na(url) || url == "") return(NULL)
+  paste0("[", label, "](", url, ")")
+}
+
+get_extra <- function(key, field) {
+  if (is.null(extra[[key]])) return(NULL)
+  if (is.null(extra[[key]][[field]])) return(NULL)
+  extra[[key]][[field]]
+}
+
+make_resources <- function(key, doi, url) {
+  links <- c()
+
+  if (!is.na(doi) && doi != "") {
+    links <- c(links, make_link("📄", paste0("https://doi.org/", doi)))
+  } else if (!is.na(url) && url != "") {
+    links <- c(links, make_link("📄", url))
+  }
+
+  links <- c(
+    links,
+    make_link("💻", get_extra(key, "github")),
+    make_link("🎤", get_extra(key, "slides")),
+    make_link("📊", get_extra(key, "data")),
+    make_link("🗺️", get_extra(key, "map")),
+    make_link("PDF", get_extra(key, "pdf")),
+    make_link("📎", get_extra(key, "supplement"))
+  )
+
+  if (length(links) == 0) return("")
+  paste(links, collapse = " · ")
+}
+
+pubs_table <- pubs |>
+  mutate(
+    key = as.character(bibtexkey),
+    Any = year,
+    Publicació = clean_text(title),
+    Autoria = sapply(author, format_authors),
+    Revista = case_when(
+      !is.na(journal) & journal != "" ~ paste0("*", clean_text(journal), "*"),
+      !is.na(booktitle) & booktitle != "" ~ paste0("*", clean_text(booktitle), "*"),
+      TRUE ~ ""
+    ),
+    Materials = pmap_chr(
+      list(key, doi, url),
+      function(key, doi, url) make_resources(key, doi, url)
+    )
+  ) |>
+  arrange(desc(Any)) |>
+  select(Any, Publicació, Autoria, Revista, Materials)
+
+kable(pubs_table, escape = FALSE)
+```

@@ -1,0 +1,129 @@
+---
+title: "CV"
+format: html
+editor: visual
+---
+
+::: lead
+Investigador en mobilitat especialitzat en mobilitat activa, entorn urbà i anàlisi espacial.
+
+[Descarrega el CV complet en PDF](../docs/cv.pdf)
+:::
+
+## Posició actual
+
+### Investigador postdoctoral en planificació urbana i mobilitat
+
+[Departament de Geografia, Universitat Autònoma de Barcelona]{.cv-institution}\
+[Barcelona · Desembre de 2024 – actualitat]{.cv-date}
+
+- Investigador del projecte **ATRAPA** (*The Active Travel Backlash Paradox*).
+- Anàlisi espacial d'intervencions de mobilitat activa i resposta ciutadana.
+- Desenvolupament i validació de bases de dades espacials.
+- Recerca col·laborativa dins de **GEMOTT**.
+
+## Experiència professional
+
+### Research Fellow en mobilitat activa i ciència de dades aplicada a la seguretat viària
+
+[Institute for Transport Studies, University of Leeds]{.cv-institution}\
+[Leeds (Regne Unit) · Abril de 2022 – març de 2024]{.cv-date}
+
+- Recerca en els projectes **SATURN** i **CRUSE** sobre mobilitat activa i planificació ciclista.
+- Enllumenat públic, modelatge de la demanda ciclista i anàlisi espacial.
+- Codirecció d'estudiants de màster.
+
+### Investigador predoctoral
+
+[Leeds Institute for Data Analytics, University of Leeds]{.cv-institution}\
+[Leeds (Regne Unit) · Octubre de 2017 – octubre de 2021]{.cv-date}
+
+- Recerca doctoral sobre ciclisme i desigualtat socioeconòmica.
+- Suport docent en anàlisi predictiva i planificació territorial sostenible.
+
+### Planificador del transport
+
+[INTRA Ingeniería de Tráfico]{.cv-institution}\
+[Barcelona · Febrer de 2005 – febrer de 2015]{.cv-date}
+
+- Planificació del transport sostenible.
+- Plans directors de la bicicleta.
+- Estudis de seguretat viària i mobilitat activa.
+
+## Formació
+
+### Doctorat i Màster Integrat en Data Analytics and Society
+
+[University of Leeds]{.cv-institution}\
+[2017–2021]{.cv-date}
+
+**Tesi:** *Cycling and Socioeconomic Disadvantage*
+
+### Màster en Transport Planning
+
+[University of Leeds]{.cv-institution}\
+[2016–2017]{.cv-date}
+
+### Màster en Gestió de la Mobilitat
+
+[Universitat Politècnica de Catalunya]{.cv-institution}\
+[2007–2008]{.cv-date}
+
+### Màster en Estratègies i Gestió Ambiental
+
+[Universitat de València]{.cv-institution}\
+[2002–2004]{.cv-date}
+
+### Llicenciatura en Dret
+
+[Universitat de València]{.cv-institution}\
+[1996–2002]{.cv-date}
+
+## Àrees de recerca
+
+::: cv-pills
+- Mobilitat activa
+- Ciclisme
+- Planificació urbana
+- Planificació del transport
+- Desigualtats en mobilitat
+- Acceptabilitat pública
+- Entorn urbà
+- Mobilitat sostenible
+- Dades geoespacials obertes
+:::
+
+## Publicacions
+
+Pots consultar la llista completa de publicacions, programari i altres recursos de recerca a la pàgina de [Publicacions](publicacions.qmd).
+
+## Competències
+
+::::: columns
+::: {.column width="50%"}
+### Programari
+
+- R
+- QGIS
+- Quarto
+- Git
+- HTML/CSS
+- Python (bàsic)
+:::
+
+::: {.column width="50%"}
+### Metodologies
+
+- Anàlisi espacial
+- Sistemes d'Informació Geogràfica (SIG)
+- Anàlisi estadística
+- Recerca reproduïble
+- Visualització de dades
+:::
+:::::
+
+## Idiomes
+
+- Català (llengua materna)
+- Castellà (llengua materna)
+- Anglès (nivell professional)

@@ -1,0 +1,82 @@
+---
+title: "Projectes"
+format: html
+editor: visual
+---
+
+::: lead
+Ací trobaràs els principals projectes de recerca en què he participat, des del doctorat fins a l'actualitat. Tot i que aborden temes diversos, tots comparteixen un interès comú per entendre com l'entorn urbà influeix en la mobilitat activa i les desigualtats socials.
+:::
+
+## En curs
+
+[Intervencions urbanes]{.tag .tag-blue}
+
+### [ATRAPA](https://webs.uab.cat/atrapa/)
+
+*Acceptabilitat pública, intervencions urbanes i mobilitat activa.*
+
+**Període:** 2024–actualitat\
+**Institució:** Universitat Autònoma de Barcelona\
+**Rol:** Investigador postdoctoral
+
+El projecte **ATRAPA** (*The Active Travel Backlash Paradox*) estudia l'acceptabilitat pública de les intervencions orientades a fomentar la mobilitat activa i els seus impactes socials, polítics i territorials. La meua recerca se centra en l'anàlisi de dades espacials, la reconstrucció dels canvis en la infraestructura ciclista, la validació d'OpenStreetMap i la relació entre les intervencions de mobilitat activa i la resposta ciutadana.
+
+[Desigualtats en mobilitat]{.tag .tag-orange}
+
+### [PACO](https://profith.ugr.es/en/resources/paco-project) / [CiudActiva](https://profith.ugr.es/ciudactiva-influencia-del-entorno-sobre-la-actividad-fisica)
+
+*Entorn urbà, desigualtats socials i desplaçaments actius a l'escola.*
+
+**Període:** 2024–actualitat\
+**Col·laboració:** Universitat de Granada i institucions col·laboradores
+
+Els projectes **PACO** i **CiudActiva** analitzen la relació entre l'activitat física, l'entorn urbà i els desplaçaments actius entre adolescents a Espanya. La meua contribució se centra en l'estudi de les desigualtats socials, les característiques de l'entorn i els desplaçaments actius d'anada i tornada a l'escola.
+
+## Projectes previs
+
+[Eines de codi obert]{.tag .tag-purple}
+
+### [spanishoddata](https://github.com/rOpenSpain/spanishoddata)
+
+*Eines de codi obert per treballar amb dades espanyoles d'origen-destinació.*
+
+**Període:** 2024 – gener de 2026\
+**Col·laboració:** rOpenSpain
+
+**spanishoddata** és un paquet d'R de codi obert per accedir i analitzar dades espanyoles de mobilitat origen-destinació. Com a col·laborador, vaig contribuir amb un cas d'estudi que demostrava la seua aplicació en la planificació del transport i vaig coautoritzar la publicació metodològica associada.
+
+[Entorn urbà]{.tag .tag-green}
+
+### [SATURN](https://github.com/saturnlighting)
+
+*Enllumenat públic, mobilitat nocturna i mobilitat activa.*
+
+**Període:** 2022–2024\
+**Institució:** Universitat de Leeds
+
+El projecte **SATURN** (*Supporting Active Travel Using Road-lighting at Night*) va estudiar com l'enllumenat públic pot afavorir una mobilitat activa més segura i atractiva durant la nit. La meua contribució es va centrar en la relació entre la mobilitat activa, l'entorn urbà i la mobilitat nocturna.
+
+[Modelatge del transport]{.tag .tag-brown}
+
+### [CRUSE](https://www.cruse.bike/)
+
+*Modelatge estratègic de la demanda ciclista i la planificació de rutes.*
+
+**Període:** 2022–2024\
+**Institució:** Universitat de Leeds
+
+El projecte **CRUSE** (*Cycle Route Uptake & Scenario Estimation*) va desenvolupar una eina de suport a la decisió per estimar la demanda potencial de rutes ciclistes per a Transport Infrastructure Ireland. La meua contribució es va centrar en el desenvolupament i l'aplicació de mètodes espacials per a la planificació de la infraestructura ciclista.
+
+## Doctorat
+
+[Desigualtats en mobilitat]{.tag .tag-orange}
+
+### Ciclisme i desigualtat socioeconòmica
+
+*Participació en el ciclisme, infraestructura ciclista i desigualtats en seguretat viària.*
+
+**Període:** 2017–2021\
+**Institució:** Universitat de Leeds
+
+La meua tesi doctoral, *Cycling and Socioeconomic Disadvantage*, va analitzar les desigualtats socioeconòmiques en la participació en el ciclisme, la disponibilitat d'infraestructura ciclista i la seguretat viària. La recerca va combinar anàlisi espacial, dades de transport i mètodes quantitatius per entendre millor com les oportunitats i els riscos associats al ciclisme varien entre grups socials i territoris.

@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Materials",
+    "section": "",
+    "text": "Una selecció de presentacions, mapes interactius, programari, metodologies i altres materials desenvolupats al llarg de la meua recerca."
+  },
+  {
+    "objectID": "materials.html#presentacions",
+    "href": "materials.html#presentacions",
+    "title": "Materials",
+    "section": "🎤 Presentacions",
+    "text": "🎤 Presentacions\n\n\n\nPodem confiar en OpenStreetMap per mesurar els canvis en la infraestructura ciclista?\nDesplaçaments actius a l’escola entre adolescents espanyols\n\n\n\n\n\nLa infraestructura no és suficient\nRealment les persones més desafavorides utilitzen menys la bicicleta?\nDesigualtats socioeconòmiques en la seguretat ciclista"
+  },
+  {
+    "objectID": "materials.html#mapes-interactius",
+    "href": "materials.html#mapes-interactius",
+    "title": "Materials",
+    "section": "🗺 Mapes interactius",
+    "text": "🗺 Mapes interactius\n\n\n\nTransformacions de la mobilitat activa a Milà (2016–2021)\nMapes interactius i indicadors per secció censal sobre infraestructura ciclista, zones de vianants i urbanisme tàctic.\n\n\n\n\n\n\n\n\nInfraestructura ciclista, ús de la bicicleta i desigualtat de gènere en 67 ciutats europees\nMapa interactiu que acompanya un estudi comparatiu sobre infraestructura ciclista, ús de la bicicleta i desigualtat de gènere en ciutats europees."
+  },
+  {
+    "objectID": "materials.html#programari-i-metodologies",
+    "href": "materials.html#programari-i-metodologies",
+    "title": "Materials",
+    "section": "💻 Programari i metodologies",
+    "text": "💻 Programari i metodologies\n\n\n\nObtenció de dades històriques d’infraestructura ciclista a OpenStreetMap\nGuia pas a pas per extreure dades històriques d’infraestructura ciclista a partir d’OpenStreetMap.\n\n\n\n\n\n\n\n\nValidació manual de transformacions de l’espai viari amb Google Street View\nGuia interactiva que descriu el procediment de validació utilitzat per avaluar les transformacions detectades de l’espai viari."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Eugeni Vidal-Tortosa",
+    "section": "",
+    "text": "UAB \n  GitHub \n  ORCID \n  LinkedIn \n  Scholar \n\n\n\n👋 Benvinguda!\n\nSoc l’Eugeni Vidal-Tortosa, investigador en mobilitat, i estudie com l’entorn urbà influeix en la manera com ens desplacem i en les desigualtats en mobilitat.\nLa meua formació combina la planificació del transport, l’anàlisi de dades i la gestió ambiental. Ah, i també he estudiat dret.\nActualment forme part del GEMOTT (Grup d’Estudis de Mobilitat, Transport i Territori), dins del Departament de Geografia de la Universitat Autònoma de Barcelona.\nEn aquest espai trobaràs els diferents projectes i publicacions en què he participat, així com altres materials. Si vols saber-ne més,  pots contactar amb mi . ✉️"
+  },
+  {
+    "objectID": "publicacions.html",
+    "href": "publicacions.html",
+    "title": "Publicacions",
+    "section": "",
+    "text": "Les meues publicacions i altres resultats de recerca. Sempre que és possible, també hi incloc el codi, les dades, les presentacions i altres recursos relacionats.\n\n\n\n\n\n\nAny\nPublicació\nAutoria\nRevista\nMaterials\n\n\n\n\n2026\nActive commuting to and from school among Spanish adolescents: social inequalities and environmental characteristics\nVidal-Tortosa, Campos-Garzón, Ruiz-Alarcón, et al.\nHealth & Place\n📄 · 💻 · 🎤\n\n\n2026\nOutdoor lighting and active travel: A high-resolution analysis using satellite imagery and Strava data in Glasgow\nVidal-Tortosa, Heinen, Uttley, et al.\nJournal of Transport & Health\n📄\n\n\n2026\nspanishoddata: A package for accessing and working with Spanish Open Mobility Big Data\nKotov, Vidal-Tortosa, Cantú-Ros, et al.\nEnvironment and Planning B: Urban Analytics and City Science\n📄 · 💻 · 📎\n\n\n2024\nRoad lighting and cycling: A review of the academic literature and policy guidelines\nVidal-Tortosa, Lovelace\nJournal of Cycling and Micromobility Research\n📄 · 💻\n\n\n2024\nCycle route uptake and scenario estimation (CRUSE): an approach for developing strategic cycle network planning tools\nLovelace, Talbot, Vidal-Tortosa, et al.\nEuropean Transport Research Review\n📄\n\n\n2022\nCycling and socioeconomic (dis)advantage\nVidal-Tortosa, Heinen, Lovelace\nAdvances in Transport Policy and Planning\n📄 · 💻\n\n\n2021\nCycling behaviour and socioeconomic disadvantage: An investigation based on the English National Travel Survey\nVidal-Tortosa, Lovelace, Heinen, Mann\nTransportation Research Part A: Policy and Practice\n📄 · 💻 · 🎤\n\n\n2021\nSocioeconomic inequalities in cycling safety: An analysis of cycling injury risk by residential deprivation level in England\nVidal-Tortosa, Lovelace, Heinen, Mann\nJournal of Transport & Health\n📄 · 💻 · 🎤\n\n\n2021\nInfrastructure is not enough: Interactions between the environment, socioeconomic disadvantage, and cycling participation in England\nVidal-Tortosa, Lovelace, Heinen, Mann\nJournal of Transport and Land Use\n📄 · 💻 · 🎤\n\n\n2020\nIs the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips\nLovelace, Beecham, Heinen, et al.\nTransportation Research Part A: Policy and Practice\n📄"
+  },
+  {
+    "objectID": "projectes.html",
+    "href": "projectes.html",
+    "title": "Projectes",
+    "section": "",
+    "text": "Ací trobaràs els principals projectes de recerca en què he participat, des del doctorat fins a l’actualitat. Tot i que aborden temes diversos, tots comparteixen un interès comú per entendre com l’entorn urbà influeix en la mobilitat activa i les desigualtats socials."
+  },
+  {
+    "objectID": "projectes.html#en-curs",
+    "href": "projectes.html#en-curs",
+    "title": "Projectes",
+    "section": "En curs",
+    "text": "En curs\nIntervencions urbanes\n\nATRAPA\nAcceptabilitat pública, intervencions urbanes i mobilitat activa.\nPeríode: 2024–actualitat\nInstitució: Universitat Autònoma de Barcelona\nRol: Investigador postdoctoral\nEl projecte ATRAPA (The Active Travel Backlash Paradox) estudia l’acceptabilitat pública de les intervencions orientades a fomentar la mobilitat activa i els seus impactes socials, polítics i territorials. La meua recerca se centra en l’anàlisi de dades espacials, la reconstrucció dels canvis en la infraestructura ciclista, la validació d’OpenStreetMap i la relació entre les intervencions de mobilitat activa i la resposta ciutadana.\nDesigualtats en mobilitat\n\n\nPACO / CiudActiva\nEntorn urbà, desigualtats socials i desplaçaments actius a l’escola.\nPeríode: 2024–actualitat\nCol·laboració: Universitat de Granada i institucions col·laboradores\nEls projectes PACO i CiudActiva analitzen la relació entre l’activitat física, l’entorn urbà i els desplaçaments actius entre adolescents a Espanya. La meua contribució se centra en l’estudi de les desigualtats socials, les característiques de l’entorn i els desplaçaments actius d’anada i tornada a l’escola."
+  },
+  {
+    "objectID": "projectes.html#projectes-previs",
+    "href": "projectes.html#projectes-previs",
+    "title": "Projectes",
+    "section": "Projectes previs",
+    "text": "Projectes previs\nEines de codi obert\n\nspanishoddata\nEines de codi obert per treballar amb dades espanyoles d’origen-destinació.\nPeríode: 2024 – gener de 2026\nCol·laboració: rOpenSpain\nspanishoddata és un paquet d’R de codi obert per accedir i analitzar dades espanyoles de mobilitat origen-destinació. Com a col·laborador, vaig contribuir amb un cas d’estudi que demostrava la seua aplicació en la planificació del transport i vaig coautoritzar la publicació metodològica associada.\nEntorn urbà\n\n\nSATURN\nEnllumenat públic, mobilitat nocturna i mobilitat activa.\nPeríode: 2022–2024\nInstitució: Universitat de Leeds\nEl projecte SATURN (Supporting Active Travel Using Road-lighting at Night) va estudiar com l’enllumenat públic pot afavorir una mobilitat activa més segura i atractiva durant la nit. La meua contribució es va centrar en la relació entre la mobilitat activa, l’entorn urbà i la mobilitat nocturna.\nModelatge del transport\n\n\nCRUSE\nModelatge estratègic de la demanda ciclista i la planificació de rutes.\nPeríode: 2022–2024\nInstitució: Universitat de Leeds\nEl projecte CRUSE (Cycle Route Uptake & Scenario Estimation) va desenvolupar una eina de suport a la decisió per estimar la demanda potencial de rutes ciclistes per a Transport Infrastructure Ireland. La meua contribució es va centrar en el desenvolupament i l’aplicació de mètodes espacials per a la planificació de la infraestructura ciclista."
+  },
+  {
+    "objectID": "projectes.html#doctorat",
+    "href": "projectes.html#doctorat",
+    "title": "Projectes",
+    "section": "Doctorat",
+    "text": "Doctorat\nDesigualtats en mobilitat\n\nCiclisme i desigualtat socioeconòmica\nParticipació en el ciclisme, infraestructura ciclista i desigualtats en seguretat viària.\nPeríode: 2017–2021\nInstitució: Universitat de Leeds\nLa meua tesi doctoral, Cycling and Socioeconomic Disadvantage, va analitzar les desigualtats socioeconòmiques en la participació en el ciclisme, la disponibilitat d’infraestructura ciclista i la seguretat viària. La recerca va combinar anàlisi espacial, dades de transport i mètodes quantitatius per entendre millor com les oportunitats i els riscos associats al ciclisme varien entre grups socials i territoris."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Investigador en mobilitat especialitzat en mobilitat activa, entorn urbà i anàlisi espacial.\nDescarrega el CV complet en PDF"
+  },
+  {
+    "objectID": "cv.html#posició-actual",
+    "href": "cv.html#posició-actual",
+    "title": "CV",
+    "section": "Posició actual",
+    "text": "Posició actual\n\nInvestigador postdoctoral en planificació urbana i mobilitat\nDepartament de Geografia, Universitat Autònoma de Barcelona\nBarcelona · Desembre de 2024 – actualitat\n\nInvestigador del projecte ATRAPA (The Active Travel Backlash Paradox).\nAnàlisi espacial d’intervencions de mobilitat activa i resposta ciutadana.\nDesenvolupament i validació de bases de dades espacials.\nRecerca col·laborativa dins de GEMOTT."
+  },
+  {
+    "objectID": "cv.html#experiència-professional",
+    "href": "cv.html#experiència-professional",
+    "title": "CV",
+    "section": "Experiència professional",
+    "text": "Experiència professional\n\nResearch Fellow en mobilitat activa i ciència de dades aplicada a la seguretat viària\nInstitute for Transport Studies, University of Leeds\nLeeds (Regne Unit) · Abril de 2022 – març de 2024\n\nRecerca en els projectes SATURN i CRUSE sobre mobilitat activa i planificació ciclista.\nEnllumenat públic, modelatge de la demanda ciclista i anàlisi espacial.\nCodirecció d’estudiants de màster.\n\n\n\nInvestigador predoctoral\nLeeds Institute for Data Analytics, University of Leeds\nLeeds (Regne Unit) · Octubre de 2017 – octubre de 2021\n\nRecerca doctoral sobre ciclisme i desigualtat socioeconòmica.\nSuport docent en anàlisi predictiva i planificació territorial sostenible.\n\n\n\nPlanificador del transport\nINTRA Ingeniería de Tráfico\nBarcelona · Febrer de 2005 – febrer de 2015\n\nPlanificació del transport sostenible.\nPlans directors de la bicicleta.\nEstudis de seguretat viària i mobilitat activa."
+  },
+  {
+    "objectID": "cv.html#formació",
+    "href": "cv.html#formació",
+    "title": "CV",
+    "section": "Formació",
+    "text": "Formació\n\nDoctorat i Màster Integrat en Data Analytics and Society\nUniversity of Leeds\n2017–2021\nTesi: Cycling and Socioeconomic Disadvantage\n\n\nMàster en Transport Planning\nUniversity of Leeds\n2016–2017\n\n\nMàster en Gestió de la Mobilitat\nUniversitat Politècnica de Catalunya\n2007–2008\n\n\nMàster en Estratègies i Gestió Ambiental\nUniversitat de València\n2002–2004\n\n\nLlicenciatura en Dret\nUniversitat de València\n1996–2002"
+  },
+  {
+    "objectID": "cv.html#àrees-de-recerca",
+    "href": "cv.html#àrees-de-recerca",
+    "title": "CV",
+    "section": "Àrees de recerca",
+    "text": "Àrees de recerca\n\n\nMobilitat activa\nCiclisme\nPlanificació urbana\nPlanificació del transport\nDesigualtats en mobilitat\nAcceptabilitat pública\nEntorn urbà\nMobilitat sostenible\nDades geoespacials obertes"
+  },
+  {
+    "objectID": "cv.html#publicacions",
+    "href": "cv.html#publicacions",
+    "title": "CV",
+    "section": "Publicacions",
+    "text": "Publicacions\nPots consultar la llista completa de publicacions, programari i altres recursos de recerca a la pàgina de Publicacions."
+  },
+  {
+    "objectID": "cv.html#competències",
+    "href": "cv.html#competències",
+    "title": "CV",
+    "section": "Competències",
+    "text": "Competències\n\n\n\nProgramari\n\nR\nQGIS\nQuarto\nGit\nHTML/CSS\nPython (bàsic)\n\n\n\n\nMetodologies\n\nAnàlisi espacial\nSistemes d’Informació Geogràfica (SIG)\nAnàlisi estadística\nRecerca reproduïble\nVisualització de dades"
+  },
+  {
+    "objectID": "cv.html#idiomes",
+    "href": "cv.html#idiomes",
+    "title": "CV",
+    "section": "Idiomes",
+    "text": "Idiomes\n\nCatalà (llengua materna)\nCastellà (llengua materna)\nAnglès (nivell professional)"
+  }
+]

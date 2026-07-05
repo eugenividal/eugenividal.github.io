@@ -41,25 +41,16 @@ title: "Eugeni Vidal-Tortosa"
 
 ::: {.main-content}
 
-# Hi, I'm Eugeni!
+# 👋 Welcome!
 
 ::: {.lead}
-I’m a mobility researcher studying how changes to the built environment shape how people move, how those changes are received, and who benefits from them.
-My background is in environmental management, transport planning and data analytics — oh, and I studied law too.
+I'm Eugeni Vidal-Tortosa, a mobility researcher studying how the built environment shapes travel behaviour and mobility inequalities.
+
+My background is in transport planning, data analytics and environmental management — oh, and I studied law too.
 
 I'm currently based at [GEMOTT](https://gemott-uab.cat/en/) (*Research Group on Mobility, Transport and Territory*), within the [Department of Geography](https://www.uab.cat/en/geography) at the [Universitat Autònoma de Barcelona](https://www.uab.cat/).
 
-This is where I share research, publications and materials. Feel free to explore, or <a href="mailto:eugenividal@hotmail.com">get in touch</a>. ✉️
-:::
-
-## Latest updates
-
-::: {.news-list}
-
-**June 2026** — Presentation at WSTLUR (Beijing): *Can We Trust OpenStreetMap to Measure Cycling Infrastructure Change?* [[Slides]](slides/osm-cycling-change-framework/osm-cycling-change-framework.html)
-
-**May 2026** — Paper published in Health & Place: *Active commuting to and from school among Spanish adolescents: social inequalities and environmental characteristics*. [[Paper]](https://doi.org/10.1016/j.healthplace.2026.103686)
-
+This is where I share my research projects, publications and other materials. If you'd like to know more,<a href="mailto:eugenividal@hotmail.com"> feel free to get in touch</a>. ✉️
 :::
 
 :::

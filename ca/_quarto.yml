@@ -1,5 +1,5 @@
 resources:
-  - slides/**
+  - ../slides/**
 
 project:
   type: website
@@ -10,36 +10,32 @@ website:
     pinned: false
     background: white
     foreground: black
-    
+
     left:
       - text: "Eugeni Vidal-Tortosa"
         href: index.qmd
-      # - text: Home
-      #   href: index.qmd  
-      - text: Projects
-        href: projects.qmd
-      - text: Publications
-        href: publications.qmd
+      - text: Projectes
+        href: projectes.qmd
+      - text: Publicacions
+        href: publicacions.qmd
       - text: Materials
         href: materials.qmd
-      # - text: Notebook
-      #   href: notebook.qmd
       - text: CV
         href: cv.qmd
     right:
-      - text: "🌐"
-        menu:
-          - text: "English"
-            href: index.html
-          - text: "Català"
-            href: ca/index.html
+    - text: "🌐"
+      menu:
+        - text: "English"
+          href: ../index.html
+        - text: "Català"
+          href: index.html
 
   page-footer:
-    center: "© 2026 Eugeni Vidal-Tortosa • Built with Quarto"
+    center: "© 2026 Eugeni Vidal-Tortosa • Fet amb Quarto"
 
 format:
   html:
-    css: styles.css
+    css: ../styles.css
     theme: cosmo
     toc: false
     page-layout: article

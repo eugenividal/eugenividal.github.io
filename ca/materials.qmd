@@ -1,0 +1,65 @@
+---
+title: "Materials"
+format: html
+editor: visual
+---
+
+::: lead
+Una selecció de presentacions, mapes interactius, programari, metodologies i altres materials desenvolupats al llarg de la meua recerca.
+:::
+
+## 🎤 Presentacions
+
+:::: columns
+::: {.column width="48%"}
+- [Podem confiar en OpenStreetMap per mesurar els canvis en la infraestructura ciclista?](slides/osm-cycling-change-framework/osm-cycling-change-framework.html)
+- [Desplaçaments actius a l'escola entre adolescents espanyols](slides/acs-inequalities-slides/acs-inequalities-slides.html)
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="48%"}
+- [La infraestructura no és suficient](slides/infrastructure-is-not-enough/Presentationv2.html)
+- [Realment les persones més desafavorides utilitzen menys la bicicleta?](slides/do-disadvantaged-people-really-cycle-less/Presentation_paper2.html)
+- [Desigualtats socioeconòmiques en la seguretat ciclista](slides/socioeconomic-inequalities-in-cycling-safety/Presentation_paper3.html)
+:::
+::::
+
+## 🗺 Mapes interactius
+
+:::: columns
+::: {.column width="48%"}
+### [Transformacions de la mobilitat activa a Milà (2016–2021)](slides/atrapa-milan/at-changes-data.html)
+
+Mapes interactius i indicadors per secció censal sobre infraestructura ciclista, zones de vianants i urbanisme tàctic.
+:::
+::::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="48%"}
+### [Infraestructura ciclista, ús de la bicicleta i desigualtat de gènere en 67 ciutats europees](slides/metrics-paper/fig_s1_validation_map.html)
+
+Mapa interactiu que acompanya un estudi comparatiu sobre infraestructura ciclista, ús de la bicicleta i desigualtat de gènere en ciutats europees.
+:::
+
+## 💻 Programari i metodologies
+
+:::: columns
+::: {.column width="48%"}
+### [Obtenció de dades històriques d'infraestructura ciclista a OpenStreetMap](slides/getting-historical-visible-cycling-infra-from-osm-main/README.html)
+
+Guia pas a pas per extreure dades històriques d'infraestructura ciclista a partir d'OpenStreetMap.
+:::
+::::
+
+::: {.column width="2%"}
+:::
+
+::: {.column width="48%"}
+### [Validació manual de transformacions de l'espai viari amb Google Street View](slides/ibesti-index-framework/validation-report.html)
+
+Guia interactiva que descriu el procediment de validació utilitzat per avaluar les transformacions detectades de l'espai viari.
+:::

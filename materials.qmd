@@ -12,7 +12,7 @@ A collection of presentations, interactive maps, software, methods and other mat
 
 ## 🎤 Presentations
 
-:::::::::: columns
+:::: columns
 ::: {.column width="48%"}
 - [Can We Trust OpenStreetMap to Measure Cycling-Infrastructure Change?](slides/osm-cycling-change-framework/osm-cycling-change-framework.html)
 - [Active commuting to school among Spanish adolescents](slides/acs-inequalities-slides/acs-inequalities-slides.html)
@@ -26,6 +26,7 @@ A collection of presentations, interactive maps, software, methods and other mat
 - [Do disadvantaged people really cycle less?](slides/do-disadvantaged-people-really-cycle-less/Presentation_paper2.html)
 - [Socioeconomic inequalities in cycling safety](slides/socioeconomic-inequalities-in-cycling-safety/Presentation_paper3.html)
 :::
+::::
 
 ## 🗺 Interactive maps
 
@@ -45,7 +46,6 @@ Interactive maps and tract-level indicators of cycling infrastructure, pedestria
 
 Interactive map accompanying a comparative study of cycling infrastructure, cycling levels and gender inequality across European cities.
 :::
-::::::::::
 
 ## 💻 Software & methods
 
