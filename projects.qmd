@@ -7,7 +7,7 @@ editor: visual
 # Projects
 
 ::: lead
-Here you'll find the main research projects I've been involved in, from my PhD through to the present day. Although they cover a range of topics, they all share a common interest in understanding how the built environment shapes active travel and social inequalities.
+Research projects carried out from my PhD to the present. While they cover different topics, they share a common interest in understanding how the urban environment shapes active travel and social inequalities.
 :::
 
 ## Current projects

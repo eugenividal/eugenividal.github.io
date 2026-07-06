@@ -5,9 +5,8 @@ editor: visual
 ---
 
 ::: lead
-Les meues publicacions i altres resultats de recerca. Sempre que és possible, també hi incloc el codi, les dades, les presentacions i altres recursos relacionats.
+Publicacions científiques i altres resultats de recerca. Sempre que és possible, també hi incloc el codi, les dades, les presentacions i altres recursos relacionats.
 :::
-
 
 ```{r}
 #| echo: false

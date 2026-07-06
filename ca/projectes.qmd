@@ -5,7 +5,7 @@ editor: visual
 ---
 
 ::: lead
-Ací trobaràs els principals projectes de recerca en què he participat, des del doctorat fins a l'actualitat. Tot i que aborden temes diversos, tots comparteixen un interès comú per entendre com l'entorn urbà influeix en la mobilitat activa i les desigualtats socials.
+Projectes de recerca desenvolupats des del doctorat fins a l'actualitat. Tot i abordar temes diversos, comparteixen un interès comú per entendre com l'entorn urbà influeix en la mobilitat activa i les desigualtats socials.
 :::
 
 ## En curs

@@ -7,12 +7,12 @@ editor: visual
 # Materials
 
 ::: lead
-A collection of presentations, interactive maps, software, methods and other materials developed throughout my research.
+A selection of presentations, interactive maps, software, methodologies and other materials developed throughout my research.
 :::
 
 ## 🎤 Presentations
 
-:::: columns
+::::: columns
 ::: {.column width="48%"}
 - [Can We Trust OpenStreetMap to Measure Cycling-Infrastructure Change?](slides/osm-cycling-change-framework/osm-cycling-change-framework.html)
 - [Active commuting to school among Spanish adolescents](slides/acs-inequalities-slides/acs-inequalities-slides.html)
@@ -23,11 +23,11 @@ A collection of presentations, interactive maps, software, methods and other mat
 - [Do disadvantaged people really cycle less?](slides/do-disadvantaged-people-really-cycle-less/Presentation_paper2.html)
 - [Socioeconomic inequalities in cycling safety](slides/socioeconomic-inequalities-in-cycling-safety/Presentation_paper3.html)
 :::
-::::
+:::::
 
 ## 🗺 Interactive maps
 
-:::: columns
+::::: columns
 ::: {.column width="48%"}
 ### [Milan active-travel transformations (2016–2021)](slides/atrapa-milan/at-changes-data.html)
 
@@ -39,11 +39,11 @@ Interactive maps and tract-level indicators of cycling infrastructure, pedestria
 
 Interactive map accompanying a comparative study of cycling infrastructure, cycling levels and gender inequality across European cities.
 :::
-::::
+:::::
 
 ## 💻 Software & methods
 
-:::: columns
+::::: columns
 ::: {.column width="48%"}
 ### [Getting historical OSM cycling infrastructure data](slides/getting-historical-visible-cycling-infra-from-osm-main/README.html)
 
@@ -55,4 +55,4 @@ Step-by-step workflow for extracting historical cycling infrastructure data from
 
 Interactive guide describing the validation procedure used to assess detected street-space transformations.
 :::
-::::
+:::::

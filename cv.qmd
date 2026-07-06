@@ -7,9 +7,9 @@ editor: visual
 # Curriculum Vitae
 
 ::: lead
-Mobility researcher specialising in active travel, the built environment and spatial analysis.
+A summary of my academic career, professional experience and teaching activities.
 
-[Download full CV as PDF](docs/cv.pdf)
+[Download full CV as PDF](docs/evt_cv.pdf)
 :::
 
 ## Current position

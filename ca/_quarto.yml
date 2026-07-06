@@ -33,7 +33,7 @@ website:
           href: index.html
 
   page-footer:
-    center: "© 2026 Eugeni Vidal-Tortosa • Fet amb Quarto"
+    center: "© 2026 Eugeni Vidal-Tortosa • Dissenyat i creat amb Quarto"
 
 format:
   html:

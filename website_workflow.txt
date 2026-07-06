@@ -1,0 +1,45 @@
+Website update workflow
+
+Current setup
+
+The website consists of two separate Quarto projects: - English site
+(root folder) - Catalan site (/ca)
+
+Whenever you modify any .qmd file, render BOTH projects before pushing.
+
+Commands
+
+cd ~/Documents/eugenividal.github.io
+
+quarto render
+
+cd ca quarto render cd ..
+
+git status
+
+git add . git commit -m “Describe your changes” git push
+
+Optional improvement
+
+Create a file called build.sh:
+
+#!/bin/bash
+
+echo “Rendering English…” quarto render
+
+echo “Rendering Catalan…” (cd ca && quarto render)
+
+echo “Done!”
+
+Then make it executable once:
+
+chmod +x build.sh
+
+From then on, update the website with:
+
+./build.sh
+
+Long-term
+
+Eventually you could convert the repository into a single multilingual
+Quarto project, so only one ‘quarto render’ would be needed.

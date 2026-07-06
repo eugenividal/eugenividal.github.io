@@ -7,7 +7,7 @@ editor: visual
 # Publications
 
 ::: lead
-Peer-reviewed publications, book chapters and software outputs. Where available, companion materials such as code, data, presentations and interactive visualisations are provided.
+Publications and other research outputs. Whenever possible, I also include the code, data, presentations and other related resources.
 :::
 
 ```{r}

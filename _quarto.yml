@@ -37,7 +37,7 @@ website:
             href: ca/index.html
 
   page-footer:
-    center: "© 2026 Eugeni Vidal-Tortosa • Built with Quarto"
+    center: "© 2026 Eugeni Vidal-Tortosa • Designed and built with Quarto"
 
 format:
   html:

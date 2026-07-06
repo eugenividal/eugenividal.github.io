@@ -5,9 +5,9 @@ editor: visual
 ---
 
 ::: lead
-Investigador en mobilitat especialitzat en mobilitat activa, entorn urbà i anàlisi espacial.
+Resum de la meua trajectòria acadèmica, experiència professional i activitats de docència i supervisió.
 
-[Descarrega el CV complet en PDF](../docs/cv.pdf)
+[Descarrega el CV complet en PDF](../docs/evt_cv.pdf)
 :::
 
 ## Posició actual
