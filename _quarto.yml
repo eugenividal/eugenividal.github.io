@@ -1,6 +1,8 @@
 resources:
   - slides/**
 
+author: "Eugeni Vidal-Tortosa"
+
 project:
   type: website
   output-dir: .
@@ -27,6 +29,8 @@ website:
       #   href: notebook.qmd
       - text: CV
         href: cv.qmd
+      - text: News
+        href: updates.qmd
     right:
      - id: language-menu
        icon: globe

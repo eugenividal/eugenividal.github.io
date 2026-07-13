@@ -35,88 +35,39 @@
     "text": "UAB \n  GitHub \n  ORCID \n  LinkedIn \n  Scholar \n\n\n\n👋 Welcome!\n\nI’m Eugeni Vidal-Tortosa, a mobility researcher studying how the built environment shapes travel behaviour and contributes to social inequalities.\n\nMy background is in transport planning, data analytics and environmental management — oh, and I studied law too.\nI’m currently based at GEMOTT (Research Group on Mobility, Transport and Territory), within the Department of Geography at the Universitat Autònoma de Barcelona.\nThis is where I share my research projects, publications and other materials. If you’d like to know more, feel free to get in touch. ✉️"
   },
   {
-    "objectID": "notebook.html",
-    "href": "notebook.html",
-    "title": "Notebook",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "Observations, photographs and reflections from the places I explore through research and travel.\n\n\n\n\nObservations on bike sharing, metro integration, street design and digital mobility platforms following a visit to Beijing during WSTLUR 2026."
+    "text": "Publications\n\nPublications and other research outputs. Whenever possible, I also include the code, data, presentations and other related resources.\n\n\n\n\n\n\nYear\nPublication\nAuthors\nVenue\nResources\n\n\n\n\n2026\nActive commuting to and from school among Spanish adolescents: social inequalities and environmental characteristics\nVidal-Tortosa, Campos-Garzón, Ruiz-Alarcón, et al.\nHealth & Place\n📄 · 💻 · 🎤\n\n\n2026\nOutdoor lighting and active travel: A high-resolution analysis using satellite imagery and Strava data in Glasgow\nVidal-Tortosa, Heinen, Uttley, et al.\nJournal of Transport & Health\n📄\n\n\n2026\nspanishoddata: A package for accessing and working with Spanish Open Mobility Big Data\nKotov, Vidal-Tortosa, Cantú-Ros, et al.\nEnvironment and Planning B: Urban Analytics and City Science\n📄 · 💻 · 📎\n\n\n2024\nRoad lighting and cycling: A review of the academic literature and policy guidelines\nVidal-Tortosa, Lovelace\nJournal of Cycling and Micromobility Research\n📄 · 💻\n\n\n2024\nCycle route uptake and scenario estimation (CRUSE): an approach for developing strategic cycle network planning tools\nLovelace, Talbot, Vidal-Tortosa, et al.\nEuropean Transport Research Review\n📄\n\n\n2022\nCycling and socioeconomic (dis)advantage\nVidal-Tortosa, Heinen, Lovelace\nAdvances in Transport Policy and Planning\n📄 · 💻\n\n\n2021\nCycling behaviour and socioeconomic disadvantage: An investigation based on the English National Travel Survey\nVidal-Tortosa, Lovelace, Heinen, Mann\nTransportation Research Part A: Policy and Practice\n📄 · 💻 · 🎤\n\n\n2021\nSocioeconomic inequalities in cycling safety: An analysis of cycling injury risk by residential deprivation level in England\nVidal-Tortosa, Lovelace, Heinen, Mann\nJournal of Transport & Health\n📄 · 💻 · 🎤\n\n\n2021\nInfrastructure is not enough: Interactions between the environment, socioeconomic disadvantage, and cycling participation in England\nVidal-Tortosa, Lovelace, Heinen, Mann\nJournal of Transport and Land Use\n📄 · 💻 · 🎤\n\n\n2020\nIs the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips\nLovelace, Beecham, Heinen, et al.\nTransportation Research Part A: Policy and Practice\n📄"
   },
   {
-    "objectID": "notebook.html#section",
-    "href": "notebook.html#section",
-    "title": "Notebook",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Observations on bike sharing, metro integration, street design and digital mobility platforms following a visit to Beijing during WSTLUR 2026."
+    "text": "Research projects carried out from my PhD to the present. While they cover different topics, they share a common interest in understanding how the urban environment shapes active travel and social inequalities.\n\n\n\nUrban interventions\n\n\nPublic acceptability, urban interventions and active-travel change.\nPeriod: 2024–present\nInstitution: Universitat Autònoma de Barcelona\nRole: Postdoctoral researcher\nThe ATRAPA project (The Active Travel Backlash Paradox) investigates the public acceptability of sustainable active-travel interventions and their social, political and spatial impacts. My work focuses on spatial data, cycling-infrastructure change, OpenStreetMap validation and the relationship between active-travel interventions and public response.\nMobility inequalities\n\n\n\nNeighbourhood environments, social inequalities and active commuting to school.\nPeriod: 2024–present\nCollaboration: University of Granada and collaborating institutions\nThe PACO and CiudActiva projects examine physical activity, neighbourhood environments and active commuting among Spanish adolescents. My contribution focuses on analysing social inequalities, environmental characteristics and active commuting to and from school.\n\n\n\n\nOpen-source software\n\n\nOpen-source tools for working with Spanish Origin–Destination mobility data.\nPeriod: 2024–January 2026\nCollaboration: rOpenSpain\nspanishoddata is an open-source R package for accessing and analysing Spanish Origin–Destination mobility data. As a collaborator, I contributed a case study demonstrating the package’s application to transport planning and co-authored the accompanying methodological publication.\nUrban environment\n\n\n\nStreet lighting, night-time mobility and active travel.\nPeriod: 2022–2024\nInstitution: University of Leeds\nThe SATURN project (Supporting Active Travel Using Road-lighting at Night) explored how street lighting can support safer and more attractive active travel after dark. My work contributed to research on active travel, urban environments and night-time mobility.\nTransport modelling\n\n\n\nStrategic modelling for cycling uptake and route planning.\nPeriod: 2022–2024\nInstitution: University of Leeds\nThe CRUSE project (Cycle Route Uptake & Scenario Estimation) developed a decision-support tool to estimate cycling-route uptake for Transport Infrastructure Ireland. My work contributed to the development and application of spatial methods for cycling infrastructure planning.\n\n\n\n\nMobility inequalities\n\n\nCycling participation, infrastructure provision and safety inequalities.\nPeriod: 2017–2021\nInstitution: University of Leeds\nMy PhD thesis, Cycling and Socioeconomic Disadvantage, examined socioeconomic inequalities in cycling participation, infrastructure provision and cycling safety. The research combined spatial analysis, transport data and quantitative methods to better understand how cycling opportunities and risks vary across social groups and places."
   },
   {
-    "objectID": "ca/materials.html",
-    "href": "ca/materials.html",
-    "title": "Materials",
+    "objectID": "projects.html#current-projects",
+    "href": "projects.html#current-projects",
+    "title": "Projects",
     "section": "",
-    "text": "Selecció de presentacions, mapes interactius, programari, metodologies i altres materials desenvolupats al llarg de la meua recerca."
+    "text": "Urban interventions\n\n\nPublic acceptability, urban interventions and active-travel change.\nPeriod: 2024–present\nInstitution: Universitat Autònoma de Barcelona\nRole: Postdoctoral researcher\nThe ATRAPA project (The Active Travel Backlash Paradox) investigates the public acceptability of sustainable active-travel interventions and their social, political and spatial impacts. My work focuses on spatial data, cycling-infrastructure change, OpenStreetMap validation and the relationship between active-travel interventions and public response.\nMobility inequalities\n\n\n\nNeighbourhood environments, social inequalities and active commuting to school.\nPeriod: 2024–present\nCollaboration: University of Granada and collaborating institutions\nThe PACO and CiudActiva projects examine physical activity, neighbourhood environments and active commuting among Spanish adolescents. My contribution focuses on analysing social inequalities, environmental characteristics and active commuting to and from school."
   },
   {
-    "objectID": "ca/materials.html#presentacions",
-    "href": "ca/materials.html#presentacions",
-    "title": "Materials",
-    "section": "🎤 Presentacions",
-    "text": "🎤 Presentacions\n\n\n\nPodem confiar en OpenStreetMap per mesurar els canvis en la infraestructura ciclista?\nDesplaçaments actius a l’escola entre adolescents espanyols\n\n\n\nLa infraestructura no és suficient\nRealment les persones més desafavorides utilitzen menys la bicicleta?\nDesigualtats socioeconòmiques en la seguretat ciclista"
-  },
-  {
-    "objectID": "ca/materials.html#mapes-interactius",
-    "href": "ca/materials.html#mapes-interactius",
-    "title": "Materials",
-    "section": "🗺 Mapes interactius",
-    "text": "🗺 Mapes interactius\n\n\n\nTransformacions de la mobilitat activa a Milà (2016–2021)\nMapes interactius i indicadors per secció censal sobre infraestructura ciclista, zones de vianants i urbanisme tàctic.\n\n\n\nInfraestructura ciclista, ús de la bicicleta i desigualtat de gènere en 67 ciutats europees\nMapa interactiu que acompanya un estudi comparatiu sobre infraestructura ciclista, ús de la bicicleta i desigualtat de gènere en ciutats europees."
-  },
-  {
-    "objectID": "ca/materials.html#programari-i-metodologies",
-    "href": "ca/materials.html#programari-i-metodologies",
-    "title": "Materials",
-    "section": "💻 Programari i metodologies",
-    "text": "💻 Programari i metodologies\n\n\n\nObtenció de dades històriques d’infraestructura ciclista a OpenStreetMap\nGuia pas a pas per extreure dades històriques d’infraestructura ciclista a partir d’OpenStreetMap.\n\n\n\nValidació manual de transformacions de l’espai viari amb Google Street View\nGuia interactiva que descriu el procediment de validació utilitzat per avaluar les transformacions detectades de l’espai viari."
-  },
-  {
-    "objectID": "ca/index.html",
-    "href": "ca/index.html",
-    "title": "Eugeni Vidal-Tortosa",
+    "objectID": "projects.html#previous-projects",
+    "href": "projects.html#previous-projects",
+    "title": "Projects",
     "section": "",
-    "text": "UAB \n  GitHub \n  ORCID \n  LinkedIn \n  Scholar \n\n\n\n👋 Benvinguda!\n\nSoc l’Eugeni Vidal-Tortosa, investigador en mobilitat. Estudie com l’entorn urbà influeix en la manera com ens desplacem i contribueix a generar desigualtats socials.\n\nLa meua formació combina la planificació del transport, l’anàlisi de dades i la gestió ambiental. Ah, i també he estudiat dret.\nActualment forme part del GEMOTT (Grup d’Estudis de Mobilitat, Transport i Territori), dins del Departament de Geografia de la Universitat Autònoma de Barcelona.\nEn aquest espai trobaràs els diferents projectes i publicacions en què he participat, així com altres materials. Si vols saber-ne més,  pots contactar amb mi. ✉️"
+    "text": "Open-source software\n\n\nOpen-source tools for working with Spanish Origin–Destination mobility data.\nPeriod: 2024–January 2026\nCollaboration: rOpenSpain\nspanishoddata is an open-source R package for accessing and analysing Spanish Origin–Destination mobility data. As a collaborator, I contributed a case study demonstrating the package’s application to transport planning and co-authored the accompanying methodological publication.\nUrban environment\n\n\n\nStreet lighting, night-time mobility and active travel.\nPeriod: 2022–2024\nInstitution: University of Leeds\nThe SATURN project (Supporting Active Travel Using Road-lighting at Night) explored how street lighting can support safer and more attractive active travel after dark. My work contributed to research on active travel, urban environments and night-time mobility.\nTransport modelling\n\n\n\nStrategic modelling for cycling uptake and route planning.\nPeriod: 2022–2024\nInstitution: University of Leeds\nThe CRUSE project (Cycle Route Uptake & Scenario Estimation) developed a decision-support tool to estimate cycling-route uptake for Transport Infrastructure Ireland. My work contributed to the development and application of spatial methods for cycling infrastructure planning."
   },
   {
-    "objectID": "ca/publicacions.html",
-    "href": "ca/publicacions.html",
-    "title": "Publicacions",
+    "objectID": "projects.html#phd",
+    "href": "projects.html#phd",
+    "title": "Projects",
     "section": "",
-    "text": "Publicacions científiques i altres resultats de recerca. Sempre que és possible, també hi incloc el codi, les dades, les presentacions i altres recursos relacionats.\n\n\n\n\n\n\nAny\nPublicació\nAutoria\nRevista\nMaterials\n\n\n\n\n2026\nActive commuting to and from school among Spanish adolescents: social inequalities and environmental characteristics\nVidal-Tortosa, Campos-Garzón, Ruiz-Alarcón, et al.\nHealth & Place\n📄 · 💻 · 🎤\n\n\n2026\nOutdoor lighting and active travel: A high-resolution analysis using satellite imagery and Strava data in Glasgow\nVidal-Tortosa, Heinen, Uttley, et al.\nJournal of Transport & Health\n📄\n\n\n2026\nspanishoddata: A package for accessing and working with Spanish Open Mobility Big Data\nKotov, Vidal-Tortosa, Cantú-Ros, et al.\nEnvironment and Planning B: Urban Analytics and City Science\n📄 · 💻 · 📎\n\n\n2024\nRoad lighting and cycling: A review of the academic literature and policy guidelines\nVidal-Tortosa, Lovelace\nJournal of Cycling and Micromobility Research\n📄 · 💻\n\n\n2024\nCycle route uptake and scenario estimation (CRUSE): an approach for developing strategic cycle network planning tools\nLovelace, Talbot, Vidal-Tortosa, et al.\nEuropean Transport Research Review\n📄\n\n\n2022\nCycling and socioeconomic (dis)advantage\nVidal-Tortosa, Heinen, Lovelace\nAdvances in Transport Policy and Planning\n📄 · 💻\n\n\n2021\nCycling behaviour and socioeconomic disadvantage: An investigation based on the English National Travel Survey\nVidal-Tortosa, Lovelace, Heinen, Mann\nTransportation Research Part A: Policy and Practice\n📄 · 💻 · 🎤\n\n\n2021\nSocioeconomic inequalities in cycling safety: An analysis of cycling injury risk by residential deprivation level in England\nVidal-Tortosa, Lovelace, Heinen, Mann\nJournal of Transport & Health\n📄 · 💻 · 🎤\n\n\n2021\nInfrastructure is not enough: Interactions between the environment, socioeconomic disadvantage, and cycling participation in England\nVidal-Tortosa, Lovelace, Heinen, Mann\nJournal of Transport and Land Use\n📄 · 💻 · 🎤\n\n\n2020\nIs the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips\nLovelace, Beecham, Heinen, et al.\nTransportation Research Part A: Policy and Practice\n📄"
-  },
-  {
-    "objectID": "ca/projectes.html",
-    "href": "ca/projectes.html",
-    "title": "Projectes",
-    "section": "",
-    "text": "Projectes de recerca desenvolupats des del doctorat fins a l’actualitat. Tot i abordar temes diversos, comparteixen un interès comú per entendre com l’entorn urbà influeix en la mobilitat activa i les desigualtats socials."
-  },
-  {
-    "objectID": "ca/projectes.html#en-curs",
-    "href": "ca/projectes.html#en-curs",
-    "title": "Projectes",
-    "section": "En curs",
-    "text": "En curs\nIntervencions urbanes\n\nATRAPA\nAcceptabilitat pública, intervencions urbanes i mobilitat activa.\nPeríode: 2024–actualitat\nInstitució: Universitat Autònoma de Barcelona\nRol: Investigador postdoctoral\nEl projecte ATRAPA (The Active Travel Backlash Paradox) estudia l’acceptabilitat pública de les intervencions orientades a fomentar la mobilitat activa i els seus impactes socials, polítics i territorials. La meua recerca se centra en l’anàlisi de dades espacials, la reconstrucció dels canvis en la infraestructura ciclista, la validació d’OpenStreetMap i la relació entre les intervencions de mobilitat activa i la resposta ciutadana.\nDesigualtats en mobilitat\n\n\nPACO / CiudActiva\nEntorn urbà, desigualtats socials i desplaçaments actius a l’escola.\nPeríode: 2024–actualitat\nCol·laboració: Universitat de Granada i institucions col·laboradores\nEls projectes PACO i CiudActiva analitzen la relació entre l’activitat física, l’entorn urbà i els desplaçaments actius entre adolescents a Espanya. La meua contribució se centra en l’estudi de les desigualtats socials, les característiques de l’entorn i els desplaçaments actius d’anada i tornada a l’escola."
-  },
-  {
-    "objectID": "ca/projectes.html#projectes-previs",
-    "href": "ca/projectes.html#projectes-previs",
-    "title": "Projectes",
-    "section": "Projectes previs",
-    "text": "Projectes previs\nEines de codi obert\n\nspanishoddata\nEines de codi obert per treballar amb dades espanyoles d’origen-destinació.\nPeríode: 2024 – gener de 2026\nCol·laboració: rOpenSpain\nspanishoddata és un paquet d’R de codi obert per accedir i analitzar dades espanyoles de mobilitat origen-destinació. Com a col·laborador, vaig contribuir amb un cas d’estudi que demostrava la seua aplicació en la planificació del transport i vaig coautoritzar la publicació metodològica associada.\nEntorn urbà\n\n\nSATURN\nEnllumenat públic, mobilitat nocturna i mobilitat activa.\nPeríode: 2022–2024\nInstitució: Universitat de Leeds\nEl projecte SATURN (Supporting Active Travel Using Road-lighting at Night) va estudiar com l’enllumenat públic pot afavorir una mobilitat activa més segura i atractiva durant la nit. La meua contribució es va centrar en la relació entre la mobilitat activa, l’entorn urbà i la mobilitat nocturna.\nModelatge del transport\n\n\nCRUSE\nModelatge estratègic de la demanda ciclista i la planificació de rutes.\nPeríode: 2022–2024\nInstitució: Universitat de Leeds\nEl projecte CRUSE (Cycle Route Uptake & Scenario Estimation) va desenvolupar una eina de suport a la decisió per estimar la demanda potencial de rutes ciclistes per a Transport Infrastructure Ireland. La meua contribució es va centrar en el desenvolupament i l’aplicació de mètodes espacials per a la planificació de la infraestructura ciclista."
-  },
-  {
-    "objectID": "ca/projectes.html#doctorat",
-    "href": "ca/projectes.html#doctorat",
-    "title": "Projectes",
-    "section": "Doctorat",
-    "text": "Doctorat\nDesigualtats en mobilitat\n\nCiclisme i desigualtat socioeconòmica\nParticipació en el ciclisme, infraestructura ciclista i desigualtats en seguretat viària.\nPeríode: 2017–2021\nInstitució: Universitat de Leeds\nLa meua tesi doctoral, Cycling and Socioeconomic Disadvantage, va analitzar les desigualtats socioeconòmiques en la participació en el ciclisme, la disponibilitat d’infraestructura ciclista i la seguretat viària. La recerca va combinar anàlisi espacial, dades de transport i mètodes quantitatius per entendre millor com les oportunitats i els riscos associats al ciclisme varien entre grups socials i territoris."
+    "text": "Mobility inequalities\n\n\nCycling participation, infrastructure provision and safety inequalities.\nPeriod: 2017–2021\nInstitution: University of Leeds\nMy PhD thesis, Cycling and Socioeconomic Disadvantage, examined socioeconomic inequalities in cycling participation, infrastructure provision and cycling safety. The research combined spatial analysis, transport data and quantitative methods to better understand how cycling opportunities and risks vary across social groups and places."
   },
   {
     "objectID": "ca/cv.html",
@@ -175,39 +126,109 @@
     "text": "Idiomes\n\nCatalà (llengua materna)\nCastellà (llengua materna)\nAnglès (nivell professional)"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "ca/projectes.html",
+    "href": "ca/projectes.html",
+    "title": "Projectes",
     "section": "",
-    "text": "Research projects carried out from my PhD to the present. While they cover different topics, they share a common interest in understanding how the urban environment shapes active travel and social inequalities.\n\n\n\nUrban interventions\n\n\nPublic acceptability, urban interventions and active-travel change.\nPeriod: 2024–present\nInstitution: Universitat Autònoma de Barcelona\nRole: Postdoctoral researcher\nThe ATRAPA project (The Active Travel Backlash Paradox) investigates the public acceptability of sustainable active-travel interventions and their social, political and spatial impacts. My work focuses on spatial data, cycling-infrastructure change, OpenStreetMap validation and the relationship between active-travel interventions and public response.\nMobility inequalities\n\n\n\nNeighbourhood environments, social inequalities and active commuting to school.\nPeriod: 2024–present\nCollaboration: University of Granada and collaborating institutions\nThe PACO and CiudActiva projects examine physical activity, neighbourhood environments and active commuting among Spanish adolescents. My contribution focuses on analysing social inequalities, environmental characteristics and active commuting to and from school.\n\n\n\n\nOpen-source software\n\n\nOpen-source tools for working with Spanish Origin–Destination mobility data.\nPeriod: 2024–January 2026\nCollaboration: rOpenSpain\nspanishoddata is an open-source R package for accessing and analysing Spanish Origin–Destination mobility data. As a collaborator, I contributed a case study demonstrating the package’s application to transport planning and co-authored the accompanying methodological publication.\nUrban environment\n\n\n\nStreet lighting, night-time mobility and active travel.\nPeriod: 2022–2024\nInstitution: University of Leeds\nThe SATURN project (Supporting Active Travel Using Road-lighting at Night) explored how street lighting can support safer and more attractive active travel after dark. My work contributed to research on active travel, urban environments and night-time mobility.\nTransport modelling\n\n\n\nStrategic modelling for cycling uptake and route planning.\nPeriod: 2022–2024\nInstitution: University of Leeds\nThe CRUSE project (Cycle Route Uptake & Scenario Estimation) developed a decision-support tool to estimate cycling-route uptake for Transport Infrastructure Ireland. My work contributed to the development and application of spatial methods for cycling infrastructure planning.\n\n\n\n\nMobility inequalities\n\n\nCycling participation, infrastructure provision and safety inequalities.\nPeriod: 2017–2021\nInstitution: University of Leeds\nMy PhD thesis, Cycling and Socioeconomic Disadvantage, examined socioeconomic inequalities in cycling participation, infrastructure provision and cycling safety. The research combined spatial analysis, transport data and quantitative methods to better understand how cycling opportunities and risks vary across social groups and places."
+    "text": "Projectes de recerca desenvolupats des del doctorat fins a l’actualitat. Tot i abordar temes diversos, comparteixen un interès comú per entendre com l’entorn urbà influeix en la mobilitat activa i les desigualtats socials."
   },
   {
-    "objectID": "projects.html#current-projects",
-    "href": "projects.html#current-projects",
-    "title": "Projects",
-    "section": "",
-    "text": "Urban interventions\n\n\nPublic acceptability, urban interventions and active-travel change.\nPeriod: 2024–present\nInstitution: Universitat Autònoma de Barcelona\nRole: Postdoctoral researcher\nThe ATRAPA project (The Active Travel Backlash Paradox) investigates the public acceptability of sustainable active-travel interventions and their social, political and spatial impacts. My work focuses on spatial data, cycling-infrastructure change, OpenStreetMap validation and the relationship between active-travel interventions and public response.\nMobility inequalities\n\n\n\nNeighbourhood environments, social inequalities and active commuting to school.\nPeriod: 2024–present\nCollaboration: University of Granada and collaborating institutions\nThe PACO and CiudActiva projects examine physical activity, neighbourhood environments and active commuting among Spanish adolescents. My contribution focuses on analysing social inequalities, environmental characteristics and active commuting to and from school."
+    "objectID": "ca/projectes.html#en-curs",
+    "href": "ca/projectes.html#en-curs",
+    "title": "Projectes",
+    "section": "En curs",
+    "text": "En curs\nIntervencions urbanes\n\nATRAPA\nAcceptabilitat pública, intervencions urbanes i mobilitat activa.\nPeríode: 2024–actualitat\nInstitució: Universitat Autònoma de Barcelona\nRol: Investigador postdoctoral\nEl projecte ATRAPA (The Active Travel Backlash Paradox) estudia l’acceptabilitat pública de les intervencions orientades a fomentar la mobilitat activa i els seus impactes socials, polítics i territorials. La meua recerca se centra en l’anàlisi de dades espacials, la reconstrucció dels canvis en la infraestructura ciclista, la validació d’OpenStreetMap i la relació entre les intervencions de mobilitat activa i la resposta ciutadana.\nDesigualtats en mobilitat\n\n\nPACO / CiudActiva\nEntorn urbà, desigualtats socials i desplaçaments actius a l’escola.\nPeríode: 2024–actualitat\nCol·laboració: Universitat de Granada i institucions col·laboradores\nEls projectes PACO i CiudActiva analitzen la relació entre l’activitat física, l’entorn urbà i els desplaçaments actius entre adolescents a Espanya. La meua contribució se centra en l’estudi de les desigualtats socials, les característiques de l’entorn i els desplaçaments actius d’anada i tornada a l’escola."
   },
   {
-    "objectID": "projects.html#previous-projects",
-    "href": "projects.html#previous-projects",
-    "title": "Projects",
-    "section": "",
-    "text": "Open-source software\n\n\nOpen-source tools for working with Spanish Origin–Destination mobility data.\nPeriod: 2024–January 2026\nCollaboration: rOpenSpain\nspanishoddata is an open-source R package for accessing and analysing Spanish Origin–Destination mobility data. As a collaborator, I contributed a case study demonstrating the package’s application to transport planning and co-authored the accompanying methodological publication.\nUrban environment\n\n\n\nStreet lighting, night-time mobility and active travel.\nPeriod: 2022–2024\nInstitution: University of Leeds\nThe SATURN project (Supporting Active Travel Using Road-lighting at Night) explored how street lighting can support safer and more attractive active travel after dark. My work contributed to research on active travel, urban environments and night-time mobility.\nTransport modelling\n\n\n\nStrategic modelling for cycling uptake and route planning.\nPeriod: 2022–2024\nInstitution: University of Leeds\nThe CRUSE project (Cycle Route Uptake & Scenario Estimation) developed a decision-support tool to estimate cycling-route uptake for Transport Infrastructure Ireland. My work contributed to the development and application of spatial methods for cycling infrastructure planning."
+    "objectID": "ca/projectes.html#projectes-previs",
+    "href": "ca/projectes.html#projectes-previs",
+    "title": "Projectes",
+    "section": "Projectes previs",
+    "text": "Projectes previs\nEines de codi obert\n\nspanishoddata\nEines de codi obert per treballar amb dades espanyoles d’origen-destinació.\nPeríode: 2024 – gener de 2026\nCol·laboració: rOpenSpain\nspanishoddata és un paquet d’R de codi obert per accedir i analitzar dades espanyoles de mobilitat origen-destinació. Com a col·laborador, vaig contribuir amb un cas d’estudi que demostrava la seua aplicació en la planificació del transport i vaig coautoritzar la publicació metodològica associada.\nEntorn urbà\n\n\nSATURN\nEnllumenat públic, mobilitat nocturna i mobilitat activa.\nPeríode: 2022–2024\nInstitució: Universitat de Leeds\nEl projecte SATURN (Supporting Active Travel Using Road-lighting at Night) va estudiar com l’enllumenat públic pot afavorir una mobilitat activa més segura i atractiva durant la nit. La meua contribució es va centrar en la relació entre la mobilitat activa, l’entorn urbà i la mobilitat nocturna.\nModelatge del transport\n\n\nCRUSE\nModelatge estratègic de la demanda ciclista i la planificació de rutes.\nPeríode: 2022–2024\nInstitució: Universitat de Leeds\nEl projecte CRUSE (Cycle Route Uptake & Scenario Estimation) va desenvolupar una eina de suport a la decisió per estimar la demanda potencial de rutes ciclistes per a Transport Infrastructure Ireland. La meua contribució es va centrar en el desenvolupament i l’aplicació de mètodes espacials per a la planificació de la infraestructura ciclista."
   },
   {
-    "objectID": "projects.html#phd",
-    "href": "projects.html#phd",
-    "title": "Projects",
-    "section": "",
-    "text": "Mobility inequalities\n\n\nCycling participation, infrastructure provision and safety inequalities.\nPeriod: 2017–2021\nInstitution: University of Leeds\nMy PhD thesis, Cycling and Socioeconomic Disadvantage, examined socioeconomic inequalities in cycling participation, infrastructure provision and cycling safety. The research combined spatial analysis, transport data and quantitative methods to better understand how cycling opportunities and risks vary across social groups and places."
+    "objectID": "ca/projectes.html#doctorat",
+    "href": "ca/projectes.html#doctorat",
+    "title": "Projectes",
+    "section": "Doctorat",
+    "text": "Doctorat\nDesigualtats en mobilitat\n\nCiclisme i desigualtat socioeconòmica\nParticipació en el ciclisme, infraestructura ciclista i desigualtats en seguretat viària.\nPeríode: 2017–2021\nInstitució: Universitat de Leeds\nLa meua tesi doctoral, Cycling and Socioeconomic Disadvantage, va analitzar les desigualtats socioeconòmiques en la participació en el ciclisme, la disponibilitat d’infraestructura ciclista i la seguretat viària. La recerca va combinar anàlisi espacial, dades de transport i mètodes quantitatius per entendre millor com les oportunitats i els riscos associats al ciclisme varien entre grups socials i territoris."
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "ca/publicacions.html",
+    "href": "ca/publicacions.html",
+    "title": "Publicacions",
     "section": "",
-    "text": "Publications\n\nPublications and other research outputs. Whenever possible, I also include the code, data, presentations and other related resources.\n\n\n\n\n\n\nYear\nPublication\nAuthors\nVenue\nResources\n\n\n\n\n2026\nActive commuting to and from school among Spanish adolescents: social inequalities and environmental characteristics\nVidal-Tortosa, Campos-Garzón, Ruiz-Alarcón, et al.\nHealth & Place\n📄 · 💻 · 🎤\n\n\n2026\nOutdoor lighting and active travel: A high-resolution analysis using satellite imagery and Strava data in Glasgow\nVidal-Tortosa, Heinen, Uttley, et al.\nJournal of Transport & Health\n📄\n\n\n2026\nspanishoddata: A package for accessing and working with Spanish Open Mobility Big Data\nKotov, Vidal-Tortosa, Cantú-Ros, et al.\nEnvironment and Planning B: Urban Analytics and City Science\n📄 · 💻 · 📎\n\n\n2024\nRoad lighting and cycling: A review of the academic literature and policy guidelines\nVidal-Tortosa, Lovelace\nJournal of Cycling and Micromobility Research\n📄 · 💻\n\n\n2024\nCycle route uptake and scenario estimation (CRUSE): an approach for developing strategic cycle network planning tools\nLovelace, Talbot, Vidal-Tortosa, et al.\nEuropean Transport Research Review\n📄\n\n\n2022\nCycling and socioeconomic (dis)advantage\nVidal-Tortosa, Heinen, Lovelace\nAdvances in Transport Policy and Planning\n📄 · 💻\n\n\n2021\nCycling behaviour and socioeconomic disadvantage: An investigation based on the English National Travel Survey\nVidal-Tortosa, Lovelace, Heinen, Mann\nTransportation Research Part A: Policy and Practice\n📄 · 💻 · 🎤\n\n\n2021\nSocioeconomic inequalities in cycling safety: An analysis of cycling injury risk by residential deprivation level in England\nVidal-Tortosa, Lovelace, Heinen, Mann\nJournal of Transport & Health\n📄 · 💻 · 🎤\n\n\n2021\nInfrastructure is not enough: Interactions between the environment, socioeconomic disadvantage, and cycling participation in England\nVidal-Tortosa, Lovelace, Heinen, Mann\nJournal of Transport and Land Use\n📄 · 💻 · 🎤\n\n\n2020\nIs the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips\nLovelace, Beecham, Heinen, et al.\nTransportation Research Part A: Policy and Practice\n📄"
+    "text": "Publicacions científiques i altres resultats de recerca. Sempre que és possible, també hi incloc el codi, les dades, les presentacions i altres recursos relacionats.\n\n\n\n\n\n\nAny\nPublicació\nAutoria\nRevista\nMaterials\n\n\n\n\n2026\nActive commuting to and from school among Spanish adolescents: social inequalities and environmental characteristics\nVidal-Tortosa, Campos-Garzón, Ruiz-Alarcón, et al.\nHealth & Place\n📄 · 💻 · 🎤\n\n\n2026\nOutdoor lighting and active travel: A high-resolution analysis using satellite imagery and Strava data in Glasgow\nVidal-Tortosa, Heinen, Uttley, et al.\nJournal of Transport & Health\n📄\n\n\n2026\nspanishoddata: A package for accessing and working with Spanish Open Mobility Big Data\nKotov, Vidal-Tortosa, Cantú-Ros, et al.\nEnvironment and Planning B: Urban Analytics and City Science\n📄 · 💻 · 📎\n\n\n2024\nRoad lighting and cycling: A review of the academic literature and policy guidelines\nVidal-Tortosa, Lovelace\nJournal of Cycling and Micromobility Research\n📄 · 💻\n\n\n2024\nCycle route uptake and scenario estimation (CRUSE): an approach for developing strategic cycle network planning tools\nLovelace, Talbot, Vidal-Tortosa, et al.\nEuropean Transport Research Review\n📄\n\n\n2022\nCycling and socioeconomic (dis)advantage\nVidal-Tortosa, Heinen, Lovelace\nAdvances in Transport Policy and Planning\n📄 · 💻\n\n\n2021\nCycling behaviour and socioeconomic disadvantage: An investigation based on the English National Travel Survey\nVidal-Tortosa, Lovelace, Heinen, Mann\nTransportation Research Part A: Policy and Practice\n📄 · 💻 · 🎤\n\n\n2021\nSocioeconomic inequalities in cycling safety: An analysis of cycling injury risk by residential deprivation level in England\nVidal-Tortosa, Lovelace, Heinen, Mann\nJournal of Transport & Health\n📄 · 💻 · 🎤\n\n\n2021\nInfrastructure is not enough: Interactions between the environment, socioeconomic disadvantage, and cycling participation in England\nVidal-Tortosa, Lovelace, Heinen, Mann\nJournal of Transport and Land Use\n📄 · 💻 · 🎤\n\n\n2020\nIs the London Cycle Hire Scheme becoming more inclusive? An evaluation of the shifting spatial distribution of uptake based on 70 million trips\nLovelace, Beecham, Heinen, et al.\nTransportation Research Part A: Policy and Practice\n📄"
+  },
+  {
+    "objectID": "ca/index.html",
+    "href": "ca/index.html",
+    "title": "Eugeni Vidal-Tortosa",
+    "section": "",
+    "text": "UAB \n  GitHub \n  ORCID \n  LinkedIn \n  Scholar \n\n\n\n👋 Benvinguda!\n\nSoc l’Eugeni Vidal-Tortosa, investigador en mobilitat. Estudie com l’entorn urbà influeix en la manera com ens desplacem i contribueix a generar desigualtats socials.\n\nLa meua formació combina la planificació del transport, l’anàlisi de dades i la gestió ambiental. Ah, i també he estudiat dret.\nActualment forme part del GEMOTT (Grup d’Estudis de Mobilitat, Transport i Territori), dins del Departament de Geografia de la Universitat Autònoma de Barcelona.\nEn aquest espai trobaràs els diferents projectes i publicacions en què he participat, així com altres materials. Si vols saber-ne més,  pots contactar amb mi. ✉️"
+  },
+  {
+    "objectID": "ca/materials.html",
+    "href": "ca/materials.html",
+    "title": "Materials",
+    "section": "",
+    "text": "Selecció de presentacions, mapes interactius, programari, metodologies i altres materials desenvolupats al llarg de la meua recerca."
+  },
+  {
+    "objectID": "ca/materials.html#presentacions",
+    "href": "ca/materials.html#presentacions",
+    "title": "Materials",
+    "section": "🎤 Presentacions",
+    "text": "🎤 Presentacions\n\n\n\nPodem confiar en OpenStreetMap per mesurar els canvis en la infraestructura ciclista?\nDesplaçaments actius a l’escola entre adolescents espanyols\n\n\n\nLa infraestructura no és suficient\nRealment les persones més desafavorides utilitzen menys la bicicleta?\nDesigualtats socioeconòmiques en la seguretat ciclista"
+  },
+  {
+    "objectID": "ca/materials.html#mapes-interactius",
+    "href": "ca/materials.html#mapes-interactius",
+    "title": "Materials",
+    "section": "🗺 Mapes interactius",
+    "text": "🗺 Mapes interactius\n\n\n\nTransformacions de la mobilitat activa a Milà (2016–2021)\nMapes interactius i indicadors per secció censal sobre infraestructura ciclista, zones de vianants i urbanisme tàctic.\n\n\n\nInfraestructura ciclista, ús de la bicicleta i desigualtat de gènere en 67 ciutats europees\nMapa interactiu que acompanya un estudi comparatiu sobre infraestructura ciclista, ús de la bicicleta i desigualtat de gènere en ciutats europees."
+  },
+  {
+    "objectID": "ca/materials.html#programari-i-metodologies",
+    "href": "ca/materials.html#programari-i-metodologies",
+    "title": "Materials",
+    "section": "💻 Programari i metodologies",
+    "text": "💻 Programari i metodologies\n\n\n\nObtenció de dades històriques d’infraestructura ciclista a OpenStreetMap\nGuia pas a pas per extreure dades històriques d’infraestructura ciclista a partir d’OpenStreetMap.\n\n\n\nValidació manual de transformacions de l’espai viari amb Google Street View\nGuia interactiva que descriu el procediment de validació utilitzat per avaluar les transformacions detectades de l’espai viari."
+  },
+  {
+    "objectID": "notebook.html",
+    "href": "notebook.html",
+    "title": "Notebook",
+    "section": "",
+    "text": "Observations, photographs and reflections from the places I explore through research and travel.\n\n\n\n\nObservations on bike sharing, metro integration, street design and digital mobility platforms following a visit to Beijing during WSTLUR 2026."
+  },
+  {
+    "objectID": "notebook.html#section",
+    "href": "notebook.html#section",
+    "title": "Notebook",
+    "section": "",
+    "text": "Observations on bike sharing, metro integration, street design and digital mobility platforms following a visit to Beijing during WSTLUR 2026."
+  },
+  {
+    "objectID": "updates.html",
+    "href": "updates.html",
+    "title": "News",
+    "section": "",
+    "text": "Here I share news about my research, publications, conference presentations and ongoing projects.\n\n\n\n\n\nLast week, I attended the 6th World Symposium on Transport and Land Use Research (WSTLUR 2026) in Beijing.\nI presented our work “Can We Trust OpenStreetMap to Measure Cycling Infrastructure Change? A Reproducible Validation Framework Using Google Street View”, developed with Oriol Marquet and Victor Gonzalez Parra as part of the ERC-funded ATRAPA (The Active Travel Backlash Paradox) project at GEMOTT, Universitat Autònoma de Barcelona. Our findings suggest that OpenStreetMap can provide a reliable source for measuring cycling infrastructure change over time, although validation remains essential, particularly when studying infrastructure removals.\nSlides available here: https://lnkd.in/gCgXjeJs\nBeyond the conference, my first visit to Asia also provided an opportunity to observe Beijing’s mobility system firsthand. I was particularly struck by the scale of cycling and micromobility use, the extensive infrastructure dedicated to these modes, the integration of services through platforms such as Alipay and WeChat, and the large presence of electric vehicles.\nOverall, it was a fascinating opportunity to learn, exchange ideas, and gain new perspectives on the opportunities and challenges of sustainable urban mobility.\n谢谢 (xièxie) to the organisers and volunteers for a wonderful conference!\n#WSTLUR2026 #OpenStreetMap #CyclingInfrastructure #ActiveTravel #UrbanMobility #TransportResearch #SustainableTransport #GIS #Research\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn our new open-access paper published in Health & Place, we examine how socioeconomic status and parental migration background relate to walking and cycling to school among Spanish youth. We found that adolescents from more disadvantaged backgrounds were more likely to walk or cycle to and from school, particularly on the journey back home.\nMuch of these social differences appeared to be linked to environmental characteristics, especially home–school distance, which emerged as the strongest predictor of commuting behaviour.\n🌍 These findings highlight the importance of proximity, walkable environments, and equitable urban planning in supporting active mobility where it is most needed.\n📖 Open-access paper: https://lnkd.in/duCNtKxF\nCo-authored with Pablo Campos Garzón, Ana Ruiz-Alarcón, Javier Molina-García, Jason Gilliland, and Palma Chillón Garzón.\n#ActiveTravel #UrbanPlanning #PublicHealth #TransportEquity #AdolescentHealth"
+  },
+  {
+    "objectID": "updates.html#june-2026",
+    "href": "updates.html#june-2026",
+    "title": "News",
+    "section": "",
+    "text": "Last week, I attended the 6th World Symposium on Transport and Land Use Research (WSTLUR 2026) in Beijing.\nI presented our work “Can We Trust OpenStreetMap to Measure Cycling Infrastructure Change? A Reproducible Validation Framework Using Google Street View”, developed with Oriol Marquet and Victor Gonzalez Parra as part of the ERC-funded ATRAPA (The Active Travel Backlash Paradox) project at GEMOTT, Universitat Autònoma de Barcelona. Our findings suggest that OpenStreetMap can provide a reliable source for measuring cycling infrastructure change over time, although validation remains essential, particularly when studying infrastructure removals.\nSlides available here: https://lnkd.in/gCgXjeJs\nBeyond the conference, my first visit to Asia also provided an opportunity to observe Beijing’s mobility system firsthand. I was particularly struck by the scale of cycling and micromobility use, the extensive infrastructure dedicated to these modes, the integration of services through platforms such as Alipay and WeChat, and the large presence of electric vehicles.\nOverall, it was a fascinating opportunity to learn, exchange ideas, and gain new perspectives on the opportunities and challenges of sustainable urban mobility.\n谢谢 (xièxie) to the organisers and volunteers for a wonderful conference!\n#WSTLUR2026 #OpenStreetMap #CyclingInfrastructure #ActiveTravel #UrbanMobility #TransportResearch #SustainableTransport #GIS #Research"
+  },
+  {
+    "objectID": "updates.html#may-2026",
+    "href": "updates.html#may-2026",
+    "title": "News",
+    "section": "",
+    "text": "In our new open-access paper published in Health & Place, we examine how socioeconomic status and parental migration background relate to walking and cycling to school among Spanish youth. We found that adolescents from more disadvantaged backgrounds were more likely to walk or cycle to and from school, particularly on the journey back home.\nMuch of these social differences appeared to be linked to environmental characteristics, especially home–school distance, which emerged as the strongest predictor of commuting behaviour.\n🌍 These findings highlight the importance of proximity, walkable environments, and equitable urban planning in supporting active mobility where it is most needed.\n📖 Open-access paper: https://lnkd.in/duCNtKxF\nCo-authored with Pablo Campos Garzón, Ana Ruiz-Alarcón, Javier Molina-García, Jason Gilliland, and Palma Chillón Garzón.\n#ActiveTravel #UrbanPlanning #PublicHealth #TransportEquity #AdolescentHealth"
   },
   {
     "objectID": "cv.html",
