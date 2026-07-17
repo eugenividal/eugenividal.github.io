@@ -29,8 +29,8 @@ website:
       #   href: notebook.qmd
       - text: CV
         href: cv.qmd
-      - text: News
-        href: updates.qmd
+      # - text: News
+      #   href: updates.qmd
     right:
      - id: language-menu
        icon: globe
