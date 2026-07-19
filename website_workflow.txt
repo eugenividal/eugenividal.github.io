@@ -1,45 +1,24 @@
-Website update workflow
+Website Update Workflow
 
-Current setup
+1.  Edit the website files (e.g. index.qmd and/or ca/index.qmd).
 
-The website consists of two separate Quarto projects: - English site
-(root folder) - Catalan site (/ca)
+2.  Save the files.
 
-Whenever you modify any .qmd file, render BOTH projects before pushing.
+3.  Preview the website:
 
-Commands
+    ./preview-site.sh
 
-cd ~/Documents/eugenividal.github.io
+4.  Check:
 
-quarto render
+    -   http://localhost:4200/
+    -   http://localhost:4200/ca/
 
-cd ca quarto render cd ..
+5.  If everything looks correct, stop the preview with Ctrl+C.
 
-git status
+6.  Publish the changes:
 
-git add . git commit -m “Describe your changes” git push
+    git status git add . git commit -m “Describe your changes” git push
 
-Optional improvement
-
-Create a file called build.sh:
-
-#!/bin/bash
-
-echo “Rendering English…” quarto render
-
-echo “Rendering Catalan…” (cd ca && quarto render)
-
-echo “Done!”
-
-Then make it executable once:
-
-chmod +x build.sh
-
-From then on, update the website with:
-
-./build.sh
-
-Long-term
-
-Eventually you could convert the repository into a single multilingual
-Quarto project, so only one ‘quarto render’ would be needed.
+Notes: - preview-site.sh renders and watches both the English and
+Catalan websites. - You do not need to run quarto render manually before
+pushing if you have already previewed the changes successfully.
