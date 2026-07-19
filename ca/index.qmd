@@ -43,6 +43,8 @@ title: "Eugeni Vidal-Tortosa"
 
 # 👋 Benvinguda!
 
+test.
+
 ::: {.lead}
 Soc l'Eugeni Vidal-Tortosa, investigador en mobilitat. Estudie com l'entorn urbà influeix en la manera com ens desplacem i contribueix a generar desigualtats socials.
 
