@@ -43,8 +43,6 @@ title: "Eugeni Vidal-Tortosa"
 
 # 👋 Welcome!
 
-test
-
 ::: {.lead}
 I'm Eugeni Vidal-Tortosa, a mobility researcher studying how the built environment shapes travel behaviour and contributes to social inequalities.
 
