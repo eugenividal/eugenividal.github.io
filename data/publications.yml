@@ -23,3 +23,7 @@ vidal-tortosa_cycling_2021:
 vidal_tortosa_socioeconomic_2021:
   github: "https://github.com/eugenividal/Paper-3"
   slides: "slides/socioeconomic-inequalities-in-cycling-safety/Presentation_paper3.html"
+  
+vidal-tortosa_quantifying_2026:
+  github: "https://github.com/GEMOTT/osm-cycling-change-framework"
+  slides: "slides/osm-cycling-change-framework/osm-cycling-change-framework.html"
