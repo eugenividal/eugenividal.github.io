@@ -44,9 +44,9 @@ title: "Eugeni Vidal-Tortosa"
 # 👋 Welcome!
 
 ::: {.lead}
-I'm Eugeni Vidal-Tortosa, a mobility researcher studying how the built environment shapes travel behaviour and contributes to social inequalities.
+I'm Eugeni Vidal-Tortosa, a mobility researcher studying how the built environment shapes travel behaviour and contributes to social inequalities. 
 
-<!-- I'm Eugeni Vidal-Tortosa, a mobility researcher studying how the built environment shapes travel behaviour and mobility inequalities. -->
+<!-- To do this, I use data to better understand these challenges and provide evidence that can help address them. -->
 
 My background is in transport planning, data analytics and environmental management — oh, and I studied law too.
 

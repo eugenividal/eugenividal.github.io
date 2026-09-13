@@ -33,7 +33,7 @@ Mapes interactius i indicadors per secció censal sobre infraestructura ciclista
 :::
 
 ::: {.column width="48%"}
-### [Infraestructura ciclista, ús de la bicicleta i desigualtat de gènere en 67 ciutats europees](slides/metrics-paper/fig_s1_validation_map.html)
+### [Infraestructura ciclista, ús de la bicicleta i desigualtat de gènere en 67 ciutats europees](slides/infra-composition-paper/fig_s1_validation_map.html)
 
 Mapa interactiu que acompanya un estudi comparatiu sobre infraestructura ciclista, ús de la bicicleta i desigualtat de gènere en ciutats europees.
 :::

@@ -35,7 +35,7 @@ Interactive maps and tract-level indicators of cycling infrastructure, pedestria
 :::
 
 ::: {.column width="48%"}
-### [Cycling infrastructure, cycling levels and gender inequality in 67 European cities](slides/metrics-paper/fig_s1_validation_map.html)
+### [Cycling infrastructure, cycling levels and gender inequality in 67 European cities](slides/infra-composition-paper/fig_s1_validation_map.html)
 
 Interactive map accompanying a comparative study of cycling infrastructure, cycling levels and gender inequality across European cities.
 :::
